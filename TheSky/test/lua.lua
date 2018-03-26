@@ -1354,107 +1354,87 @@ NS_CC_END
 
 
 
+local Player = class("Player", function ()
+    return display.newSprite("icon.png")
+end)
+
+function Player:ctor()
+    self:addStateMachine()
+end
+
+function Player:doEvent(event)
+    self.fsm:doEvent(event)
+end
+
+function Player:addStateMachine()
+    self.fsm = {}
+    cc.GameObject.extend(self.fsm):addComponent("components.behavior.StateMachine"):exportMethods()
+
+    self.fsm:setupState({
+        initial = "idle",
+
+        events = {
+            {name = "move", from = {"idle", "jump"}, to = "walk"},
+            {name = "attack", from = {"idle", "walk"}, to = "jump"},
+            {name = "normal", from = {"walk", "jump"}, to = "idle"},
+        },
+
+        callbacks = {
+            onenteridle = function ()
+                local scale = CCScaleBy:create(0.2, 1.2)
+                self:runAction(CCRepeat:create(transition.sequence({scale, scale:reverse()}), 2))
+            end,
+
+            onenterwalk = function ()
+                local move = CCMoveBy:create(0.2, ccp(100, 0))
+                self:runAction(CCRepeat:create(transition.sequence({move, move:reverse()}), 2))
+            end,
+
+            onenterjump = function ()
+                local jump = CCJumpBy:create(0.5, ccp(0, 0), 100, 2)
+                self:runAction(jump)
+            end,
+        },
+    })
+end
+
+return Player
 
 
 
 
+local Player = import("..views.Player")
+
+local MyScene = class("MyScene", function ()
+    return display.newScene("MyScene")
+end)
+
+function MyScene:ctor() 
+  
+    local player = Player.new()
+    player:setPosition(display.cx, display.cy)
+    self:addChild(player)
+
+    local function menuCallback(tag)
+        if tag == 1 then 
+            player:doEvent("normal")
+        elseif tag == 2 then
+            player:doEvent("move")
+        elseif tag == 3 then
+            player:doEvent("attack")
+        end
+    end
+
+    local mormalItem = ui.newTTFLabelMenuItem({text = "normal", x = display.width*0.3, y = display.height*0.2, listener = menuCallback, tag = 1})
+    local moveItem =  ui.newTTFLabelMenuItem({text = "move", x = display.width*0.5, y = display.height*0.2, listener = menuCallback, tag = 2})
+    local attackItem =  ui.newTTFLabelMenuItem({text = "attack", x = display.width*0.7, y = display.height*0.2, listener = menuCallback, tag = 3})
+    local menu = ui.newMenu({mormalItem, moveItem, attackItem})
+    self:addChild(menu)
+      
+end
+
+return MyScene
 
 
 
 
-
-
-
-
-
-
-05-23 12:08:29.279 951-1152/? E/MediaFocusControl: Error updating focussed RCC to RCD 
-                                                   java.util.EmptyStackException
-                                                       at java.util.Stack.peek(Stack.java:57)
-                                                       at android.media.MediaFocusControl.registerRemoteControlDisplay_int(MediaFocusControl.java:2221)
-                                                       at android.media.MediaFocusControl.registerRemoteController(MediaFocusControl.java:229)
-                                                       at android.media.AudioService.registerRemoteController(AudioService.java:4342)
-                                                       at android.media.IAudioService$Stub.onTransact(IAudioService.java:614)
-                                                       at android.os.Binder.execTransact(Binder.java:404)
-                                                       at dalvik.system.NativeStart.run(Native Method)
-05-23 12:08:29.849 22720-22720/? E/JIGUANG-JCore: [AndroidUtil] The permission should be defined - com.hoolai.tkfb.aligames.permission.JPUSH_MESSAGE
-05-23 12:08:35.099 22928-22928/? E/dalvikvm: ERROR: unrecognized magic number (50 4b 03 04)
-05-23 12:08:35.099 22928-22928/? E/dalvikvm: Error with header for /data/data/cn.ninegame.gamemanager/code_cache/lib/classes.dex
-05-23 12:08:35.739 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:08:35.919 22928-22968/? E/dalvikvm: Could not find class 'com.taobao.accs.utl.k$a', referenced from method com.taobao.accs.internal.ACCSManagerImpl.a
-05-23 12:08:36.189 214-738/? E/DnsProxyListener: block dns query from uid = 10100
-05-23 12:08:36.479 22928-22975/? E/dalvikvm: Could not find class 'android.app.usage.UsageStatsManager', referenced from method cn.ninegame.framework.monitor.a.c.b
-05-23 12:08:36.679 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:08:37.019 207-252/? E/cutils: Failed to mkdirat(/storage/sdcard1/Android): Read-only file system
-05-23 12:08:38.579 214-738/? E/DnsProxyListener: block dns query from uid = 10100
-05-23 12:08:45.529 214-738/? E/DnsProxyListener: block dns query from uid = 10100
-05-23 12:08:50.729 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:08:51.099 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:08:51.459 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:08:52.219 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:08:52.519 23133-23133/? E/dalvikvm: /system/app/SystemAdSolution.apk odex has stale dependencies
-05-23 12:08:52.869 22720-22926/? E/gzm_wa_WaNet: response string : retcode=0`retmsg=succ
-05-23 12:09:02.439 951-1302/? E/MediaFocusControl: Error updating focussed RCC to RCD 
-                                                   java.util.EmptyStackException
-                                                       at java.util.Stack.peek(Stack.java:57)
-                                                       at android.media.MediaFocusControl.registerRemoteControlDisplay_int(MediaFocusControl.java:2221)
-                                                       at android.media.MediaFocusControl.registerRemoteController(MediaFocusControl.java:229)
-                                                       at android.media.AudioService.registerRemoteController(AudioService.java:4342)
-                                                       at android.media.IAudioService$Stub.onTransact(IAudioService.java:614)
-                                                       at android.os.Binder.execTransact(Binder.java:404)
-                                                       at dalvik.system.NativeStart.run(Native Method)
-05-23 12:09:02.509 22720-23180/? E/chromium: [ERROR:ssl_client_socket_openssl.cc(202)] OpenSSL SYSCALL error, earliest error code in error queue: 0, errno: 0
-05-23 12:09:02.509 22720-23180/? E/chromium: [ERROR:ssl_client_socket_openssl.cc(855)] handshake failed; returned 0, SSL error code 5, net_error -107
-05-23 12:09:02.539 22720-23180/? E/chromium: [ERROR:ssl_client_socket_openssl.cc(855)] handshake failed; returned -1, SSL error code 1, net_error -157
-05-23 12:09:02.649 22720-22720/? E/ViewRootImpl: Attempting to destroy the window while drawing!
-                                                   window=android.view.ViewRootImpl@42322988, title=com.hoolai.tkfb.aligames/org.cocos2dx.lua.AppActivity
-05-23 12:09:04.419 951-1638/? E/MediaFocusControl: Error updating focussed RCC to RCD 
-                                                   java.util.EmptyStackException
-                                                       at java.util.Stack.peek(Stack.java:57)
-                                                       at android.media.MediaFocusControl.registerRemoteControlDisplay_int(MediaFocusControl.java:2221)
-                                                       at android.media.MediaFocusControl.registerRemoteController(MediaFocusControl.java:229)
-                                                       at android.media.AudioService.registerRemoteController(AudioService.java:4342)
-                                                       at android.media.IAudioService$Stub.onTransact(IAudioService.java:614)
-                                                       at android.os.Binder.execTransact(Binder.java:404)
-                                                       at dalvik.system.NativeStart.run(Native Method)
-05-23 12:09:05.999 22720-22720/? E/ViewRootImpl: Attempting to destroy the window while drawing!
-                                                   window=android.view.ViewRootImpl@4273d710, title=
-05-23 12:09:44.189 23336-23336/? E/dalvikvm: /system/app/FileExplorer.apk odex has stale dependencies
-05-23 12:09:44.409 23348-23348/? E/dalvikvm: /system/app/FileExplorer.apk odex has stale dependencies
-05-23 12:09:48.229 22720-22812/? E/MediaPlayer-JNI: QCMediaPlayer mediaplayer NOT present
-05-23 12:09:48.249 221-221/? E/MM_OSAL: FileSource::FileSource
-05-23 12:09:48.249 221-221/? E/MM_OSAL: FileSource::FileSource m_bEveryThingOK 1
-05-23 12:09:48.249 221-221/? E/MM_OSAL: MM_File_Create failed .Efs Error No -1 , File Name /data/mmosal_logmask.cfg , Mode 0
-05-23 12:09:48.249 22720-22720/? E/MediaPlayer: Should have subtitle controller already set
-05-23 12:09:49.029 221-979/? E/QComExtractorFactory: Sniff FAIL :: coundn't pull enough data for sniffing
-05-23 12:09:49.039 221-23386/? E/MP3Extractor: Unable to resync. Signalling end of stream.
-05-23 12:09:49.529 221-221/? E/QComExtractorFactory: Sniff FAIL :: coundn't pull enough data for sniffing
-05-23 12:09:49.549 221-23393/? E/MP3Extractor: Unable to resync. Signalling end of stream.
-05-23 12:09:57.859 221-979/? E/QComExtractorFactory: Sniff FAIL :: coundn't pull enough data for sniffing
-05-23 12:09:57.879 221-23408/? E/MP3Extractor: Unable to resync. Signalling end of stream.
-05-23 12:10:00.279 214-738/? E/DnsProxyListener: block dns query from uid = 10100
-05-23 12:10:05.659 221-980/? E/MMParserExtractor:  get Album failed 
-05-23 12:10:05.679 221-23429/? E/MM_OSAL: GetCurrentSample EOF reached
-05-23 12:10:05.679 221-23429/? E/MMParserExtractor: FileSource::FILE_SOURCE_DATA_END 
-05-23 12:10:11.439 221-4825/? E/QComExtractorFactory: Sniff FAIL :: coundn't pull enough data for sniffing
-05-23 12:10:11.459 221-23443/? E/MP3Extractor: Unable to resync. Signalling end of stream.
-05-23 12:10:13.829 22720-22720/? E/Cocos2dxEditBoxHelper: remove EditBox
-05-23 12:10:15.149 221-4825/? E/QComExtractorFactory: Sniff FAIL :: coundn't pull enough data for sniffing
-05-23 12:10:15.169 221-23458/? E/MP3Extractor: Unable to resync. Signalling end of stream.
-05-23 12:10:25.979 221-980/? E/QComExtractorFactory: Sniff FAIL :: coundn't pull enough data for sniffing
-05-23 12:10:25.999 221-23506/? E/MP3Extractor: Unable to resync. Signalling end of stream.
-05-23 12:10:34.399 22720-22720/? E/Cocos2dxEditBoxHelper: remove EditBox
-05-23 12:10:39.389 221-23382/? E/MM_OSAL: GetCurrentSample EOF reached
-05-23 12:10:39.389 221-23382/? E/MMParserExtractor: FileSource::FILE_SOURCE_DATA_END 
-05-23 12:10:39.599 221-23383/? E/AudioSink: received unknown event type: 1 inside CallbackWrapper !
-05-23 12:10:44.919 22720-22812/? A/libc: Fatal signal 11 (SIGSEGV) at 0xfffffff8 (code=1), thread 22812 (Thread-1532)
-05-23 12:10:45.679 214-738/? E/DnsProxyListener: block dns query from uid = 10100
-05-23 12:10:47.199 951-1358/? E/MediaFocusControl: Error updating focussed RCC to RCD 
-                                                   java.util.EmptyStackException
-                                                       at java.util.Stack.peek(Stack.java:57)
-                                                       at android.media.MediaFocusControl.registerRemoteControlDisplay_int(MediaFocusControl.java:2221)
-                                                       at android.media.MediaFocusControl.registerRemoteController(MediaFocusControl.java:229)
-                                                       at android.media.AudioService.registerRemoteController(AudioService.java:4342)
-                                                       at android.media.IAudioService$Stub.onTransact(IAudioService.java:614)
-                                                       at android.os.Binder.execTransact(Binder.java:404)
-                                                       at dalvik.system.NativeStart.run(Native Method)
