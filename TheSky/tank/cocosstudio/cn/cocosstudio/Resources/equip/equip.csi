@@ -1,0 +1,41 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="equip" ID="32ffa1b6-3ad2-4082-8683-38721d378e31" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/equip/suipian.png" />
+      <FilePathData Path="Resources/equip/suipian1.png" />
+      <FilePathData Path="Resources/equip/suit_title_0.png" />
+      <FilePathData Path="Resources/equip/zhuangbei.png" />
+      <FilePathData Path="Resources/equip/taozhuangxian.png" />
+      <FilePathData Path="Resources/equip/dangqian.png" />
+      <FilePathData Path="Resources/equip/baoshixiangqian.png" />
+      <FilePathData Path="Resources/equip/jiaobiao.png" />
+      <FilePathData Path="Resources/equip/suit_title_1.png" />
+      <FilePathData Path="Resources/equip/suit_title_2.png" />
+      <FilePathData Path="Resources/equip/suit_title_3.png" />
+      <FilePathData Path="Resources/equip/suit_title_4.png" />
+      <FilePathData Path="Resources/equip/suit_title_5.png" />
+      <FilePathData Path="Resources/equip/suit_title_6.png" />
+      <FilePathData Path="Resources/equip/suit_title_7.png" />
+      <FilePathData Path="Resources/equip/suit_title_8.png" />
+      <FilePathData Path="Resources/equip/suipian2.png" />
+      <FilePathData Path="Resources/equip/3.png" />
+      <FilePathData Path="Resources/equip/xiala.png" />
+      <FilePathData Path="Resources/equip/ps.png" />
+      <FilePathData Path="Resources/equip/ps_bg.png" />
+      <FilePathData Path="Resources/equip/333.png" />
+      <FilePathData Path="Resources/equip/cleartitle.png" />
+      <FilePathData Path="Resources/equip/cuiqu.png" />
+      <FilePathData Path="Resources/equip/hong.png" />
+      <FilePathData Path="Resources/equip/jiantou.png" />
+      <FilePathData Path="Resources/equip/lan.png" />
+      <FilePathData Path="Resources/equip/tiaobg.png" />
+      <FilePathData Path="Resources/equip/tihuan.png" />
+      <FilePathData Path="Resources/equip/tishi.png" />
+      <FilePathData Path="Resources/equip/tupo.png" />
+      <FilePathData Path="Resources/equip/xiliantext.png" />
+      <FilePathData Path="Resources/equip/xiufu.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="450" />
+  </Content>
+</PlistInfoProjectFile>

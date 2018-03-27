@@ -1,0 +1,29 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="main_vip_icon" ID="4ccf32d4-cf79-41c7-8f56-9f657a85e2ce" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/main_city/vip/v1.png" />
+      <FilePathData Path="Resources/main_city/vip/v10.png" />
+      <FilePathData Path="Resources/main_city/vip/v2.png" />
+      <FilePathData Path="Resources/main_city/vip/v3.png" />
+      <FilePathData Path="Resources/main_city/vip/v4.png" />
+      <FilePathData Path="Resources/main_city/vip/v5.png" />
+      <FilePathData Path="Resources/main_city/vip/v6.png" />
+      <FilePathData Path="Resources/main_city/vip/v7.png" />
+      <FilePathData Path="Resources/main_city/vip/v8.png" />
+      <FilePathData Path="Resources/main_city/vip/v9.png" />
+      <FilePathData Path="Resources/main_city/vip/v0.png" />
+      <FilePathData Path="Resources/main_city/vip/v11.png" />
+      <FilePathData Path="Resources/main_city/vip/v12.png" />
+      <FilePathData Path="Resources/main_city/vip/v13.png" />
+      <FilePathData Path="Resources/main_city/vip/v14.png" />
+      <FilePathData Path="Resources/main_city/vip/v15.png" />
+      <FilePathData Path="Resources/main_city/vip/v16.png" />
+      <FilePathData Path="Resources/main_city/vip/v17.png" />
+      <FilePathData Path="Resources/main_city/vip/v18.png" />
+      <FilePathData Path="Resources/main_city/vip/v19.png" />
+      <FilePathData Path="Resources/main_city/vip/v20.png" />
+    </ImageFiles>
+    <MaxSize Width="520" Height="200" />
+  </Content>
+</PlistInfoProjectFile>

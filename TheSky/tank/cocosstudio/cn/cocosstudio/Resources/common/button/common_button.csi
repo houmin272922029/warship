@@ -1,0 +1,66 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_button" ID="3e901f9e-7024-4dec-b77f-8a24409c3ae5" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/button/D_1.png" />
+      <FilePathData Path="Resources/common/button/diggings_icon_0033.png" />
+      <FilePathData Path="Resources/common/button/login_30.png" />
+      <FilePathData Path="Resources/common/button/login_31.png" />
+      <FilePathData Path="Resources/common/button/login_32.png" />
+      <FilePathData Path="Resources/common/button/login_33.png" />
+      <FilePathData Path="Resources/common/button/login_38.png" />
+      <FilePathData Path="Resources/common/button/login_39.png" />
+      <FilePathData Path="Resources/common/button/science_icon_00023.png" />
+      <FilePathData Path="Resources/common/button/BUT_11.png" />
+      <FilePathData Path="Resources/common/button/BUT_12.png" />
+      <FilePathData Path="Resources/common/button/anniu03_1.png" />
+      <FilePathData Path="Resources/common/button/anniu04.png" />
+      <FilePathData Path="Resources/common/button/anniu04-1.png" />
+      <FilePathData Path="Resources/common/button/anniu03.png" />
+      <FilePathData Path="Resources/common/button/anniu01.png" />
+      <FilePathData Path="Resources/common/button/anniu01_1.png" />
+      <FilePathData Path="Resources/common/button/card_0004.png" />
+      <FilePathData Path="Resources/common/button/card_0005.png" />
+      <FilePathData Path="Resources/common/button/dinganniu01.png" />
+      <FilePathData Path="Resources/common/button/dinganniu02.png" />
+      <FilePathData Path="Resources/common/button/guanbi.png" />
+      <FilePathData Path="Resources/common/button/guanbi01.png" />
+      <FilePathData Path="Resources/common/button/topup_rebate_0006.png" />
+      <FilePathData Path="Resources/common/button/VIP_tqcz_0002.png" />
+      <FilePathData Path="Resources/common/button/VIP_tqcz_0005.png" />
+      <FilePathData Path="Resources/common/button/zhuye.png" />
+      <FilePathData Path="Resources/common/button/anniuhong02.png" />
+      <FilePathData Path="Resources/common/button/anniuhui.png" />
+      <FilePathData Path="Resources/common/button/anniulan02.png" />
+      <FilePathData Path="Resources/common/button/btn_19.png" />
+      <FilePathData Path="Resources/common/button/btn_3.png" />
+      <FilePathData Path="Resources/common/button/btn_4.png" />
+      <FilePathData Path="Resources/common/button/j1.png" />
+      <FilePathData Path="Resources/common/button/j2.png" />
+      <FilePathData Path="Resources/common/button/j3.png" />
+      <FilePathData Path="Resources/common/button/j4.png" />
+      <FilePathData Path="Resources/common/button/deploy_0002.png" />
+      <FilePathData Path="Resources/common/button/deploy_0009.png" />
+      <FilePathData Path="Resources/common/button/guanbi02.png" />
+      <FilePathData Path="Resources/common/button/guanbi1.png" />
+      <FilePathData Path="Resources/common/button/btn_5.png" />
+      <FilePathData Path="Resources/common/button/btn_6.png" />
+      <FilePathData Path="Resources/common/button/q1.png" />
+      <FilePathData Path="Resources/common/button/q1_1.png" />
+      <FilePathData Path="Resources/common/button/q2.png" />
+      <FilePathData Path="Resources/common/button/q2_1.png" />
+      <FilePathData Path="Resources/common/button/q3.png" />
+      <FilePathData Path="Resources/common/button/q3_1.png" />
+      <FilePathData Path="Resources/common/button/biaoti3.png" />
+      <FilePathData Path="Resources/common/button/btn_8.png" />
+      <FilePathData Path="Resources/common/button/btn_7.png" />
+      <FilePathData Path="Resources/common/button/qq2.png" />
+      <FilePathData Path="Resources/common/button/sc1.png" />
+      <FilePathData Path="Resources/common/button/xgnkq01.jpg" />
+      <FilePathData Path="Resources/common/button/jiantou.png" />
+      <FilePathData Path="Resources/common/button/btn_13.png" />
+      <FilePathData Path="Resources/common/button/btn_14.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="800" />
+  </Content>
+</PlistInfoProjectFile>

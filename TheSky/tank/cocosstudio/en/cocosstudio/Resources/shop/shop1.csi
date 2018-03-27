@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="shop" ID="9126a978-bd83-4d0c-b0e6-28565e8757f3" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/shop/SD_8.png" />
+      <FilePathData Path="Resources/shop/zcgc_0005.png" />
+      <FilePathData Path="Resources/shop/zcgc_0006.png" />
+      <FilePathData Path="Resources/shop/zcgc_0007.png" />
+      <FilePathData Path="Resources/shop/zcgc_0008.png" />
+      <FilePathData Path="Resources/shop/Vbuy_icon_1.png" />
+      <FilePathData Path="Resources/shop/Vbuy_icon_4.png" />
+      <FilePathData Path="Resources/shop/Vbuy_icon_7.png" />
+      <FilePathData Path="Resources/shop/Vbuy_icon_8.png" />
+    </ImageFiles>
+    <MaxSize Width="194" Height="389" />
+  </Content>
+</PlistInfoProjectFile>

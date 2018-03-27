@@ -1,0 +1,32 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="guide" ID="f4c86616-0c81-4b66-94e4-73db58912f0a" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/guide/guide_1.png" />
+      <FilePathData Path="Resources/guide/guide_3.png" />
+      <FilePathData Path="Resources/guide/guide_4.png" />
+      <FilePathData Path="Resources/guide/lead_12.png" />
+      <FilePathData Path="Resources/guide/lead_23.png" />
+      <FilePathData Path="Resources/guide/lead_3.png" />
+      <FilePathData Path="Resources/guide/lead_4.png" />
+      <FilePathData Path="Resources/guide/lead_5.png" />
+      <FilePathData Path="Resources/guide/xsyd_0001.png" />
+      <FilePathData Path="Resources/guide/xsyd_00014.png" />
+      <FilePathData Path="Resources/guide/xsyd_0002.png" />
+      <FilePathData Path="Resources/guide/xsyd_0003.png" />
+      <FilePathData Path="Resources/guide/xsyd_0004.png" />
+      <FilePathData Path="Resources/guide/xsyd_0005.png" />
+      <FilePathData Path="Resources/guide/xsyd_0006.png" />
+      <FilePathData Path="Resources/guide/xsyd_0007.png" />
+      <FilePathData Path="Resources/guide/xsyd_0008.png" />
+      <FilePathData Path="Resources/guide/xsyd_0009.png" />
+      <FilePathData Path="Resources/guide/xsyd_0010.png" />
+      <FilePathData Path="Resources/guide/xsyd_0011.png" />
+      <FilePathData Path="Resources/guide/xsyd_0019.png" />
+      <FilePathData Path="Resources/guide/lead_24.png" />
+      <FilePathData Path="Resources/guide/xgnkq04.png" />
+      <FilePathData Path="Resources/guide/xgnkq05.png" />
+    </ImageFiles>
+    <MaxSize Width="924" Height="1300" />
+  </Content>
+</PlistInfoProjectFile>

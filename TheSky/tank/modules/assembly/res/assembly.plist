@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>assembly/res/jjh01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{143,201}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{144,202}</string>
+			</dict>
+			<key>assembly/res/jjh03_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{221,1},{1024,14}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1026,14}</string>
+			</dict>
+			<key>assembly/res/jjh03_02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,146},{15,602}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{15,602}</string>
+			</dict>
+			<key>assembly/res/jjh03_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{237,1},{12,587}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{12,587}</string>
+			</dict>
+			<key>assembly/res/jjh03_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,1},{1011,15}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1011,15}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>assembly.png</string>
+			<key>realTextureFileName</key>
+			<string>assembly.png</string>
+			<key>size</key>
+			<string>{250,1026}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>250</integer>
+			<key>height</key>
+			<integer>1026</integer>
+		</dict>
+	</dict>
+</plist>

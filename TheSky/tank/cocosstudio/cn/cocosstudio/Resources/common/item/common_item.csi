@@ -1,0 +1,27 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_item" ID="66dbed00-7996-4053-9969-eb0bcfb3eaea" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/item/bg1.png" />
+      <FilePathData Path="Resources/common/item/item_bg_1.png" />
+      <FilePathData Path="Resources/common/item/item_bg_2.png" />
+      <FilePathData Path="Resources/common/item/item_bg_3.png" />
+      <FilePathData Path="Resources/common/item/item_bg_4.png" />
+      <FilePathData Path="Resources/common/item/item_bg_5.png" />
+      <FilePathData Path="Resources/common/item/item_bg_6.png" />
+      <FilePathData Path="Resources/common/item/k1.png" />
+      <FilePathData Path="Resources/common/item/k2.png" />
+      <FilePathData Path="Resources/common/item/k3.png" />
+      <FilePathData Path="Resources/common/item/k4.png" />
+      <FilePathData Path="Resources/common/item/k5.png" />
+      <FilePathData Path="Resources/common/item/k6.png" />
+      <FilePathData Path="Resources/common/item/k7.png" />
+      <FilePathData Path="Resources/common/item/item_bg_7.png" />
+      <FilePathData Path="Resources/common/item/newcommon.png" />
+      <FilePathData Path="Resources/common/item/item_bg_8.png" />
+      <FilePathData Path="Resources/common/item/item_bg_9.png" />
+      <FilePathData Path="Resources/common/item/item_bg_11.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

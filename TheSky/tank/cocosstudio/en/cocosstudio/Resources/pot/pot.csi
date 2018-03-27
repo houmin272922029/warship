@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="pot" ID="1628386f-d4f8-4fcd-9b81-88342a7f02d3" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/pot/DG_2.png" />
+      <FilePathData Path="Resources/pot/DG_3.png" />
+      <FilePathData Path="Resources/pot/DG_4.png" />
+      <FilePathData Path="Resources/pot/DG_5.png" />
+    </ImageFiles>
+    <MaxSize Width="267" Height="532" />
+  </Content>
+</PlistInfoProjectFile>

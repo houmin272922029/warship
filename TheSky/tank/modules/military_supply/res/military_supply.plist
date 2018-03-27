@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>military_supply/res/military_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{360,1},{204,55}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{206,56}</string>
+			</dict>
+			<key>military_supply/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{313,1},{395,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{395,45}</string>
+			</dict>
+			<key>military_supply/res/61.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,189},{141,160}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,160}</string>
+			</dict>
+			<key>military_supply/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{310,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{310,186}</string>
+			</dict>
+			<key>military_supply/res/z1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{163,189},{100,95}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,95}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>military_supply.png</string>
+			<key>realTextureFileName</key>
+			<string>military_supply.png</string>
+			<key>size</key>
+			<string>{416,397}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>416</integer>
+			<key>height</key>
+			<integer>397</integer>
+		</dict>
+	</dict>
+</plist>

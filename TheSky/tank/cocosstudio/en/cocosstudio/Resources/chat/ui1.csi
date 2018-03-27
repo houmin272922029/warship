@@ -1,0 +1,30 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="ui1" ID="e2bfc3b0-291e-48f0-9e0b-41024d77afe5" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/chat/1.png" />
+      <FilePathData Path="Resources/chat/10.png" />
+      <FilePathData Path="Resources/chat/11.png" />
+      <FilePathData Path="Resources/chat/2.png" />
+      <FilePathData Path="Resources/chat/3.png" />
+      <FilePathData Path="Resources/chat/4.png" />
+      <FilePathData Path="Resources/chat/5.png" />
+      <FilePathData Path="Resources/chat/6.png" />
+      <FilePathData Path="Resources/chat/7.png" />
+      <FilePathData Path="Resources/chat/8.png" />
+      <FilePathData Path="Resources/chat/9.png" />
+      <FilePathData Path="Resources/chat/chakanxinxi.png" />
+      <FilePathData Path="Resources/chat/chongtian.png" />
+      <FilePathData Path="Resources/chat/faqiliaotian.png" />
+      <FilePathData Path="Resources/chat/fasong.png" />
+      <FilePathData Path="Resources/chat/faxin.png" />
+      <FilePathData Path="Resources/chat/juntuan.png" />
+      <FilePathData Path="Resources/chat/pingbi.png" />
+      <FilePathData Path="Resources/chat/queding.png" />
+      <FilePathData Path="Resources/chat/shijie.png" />
+      <FilePathData Path="Resources/chat/siliao.png" />
+      <FilePathData Path="Resources/chat/line.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

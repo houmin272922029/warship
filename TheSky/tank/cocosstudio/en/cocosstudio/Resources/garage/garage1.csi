@@ -1,0 +1,31 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="garage" ID="0b156a0f-1489-4b98-8bec-02fa21682398" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/garage/c_17.png" />
+      <FilePathData Path="Resources/garage/c_9.png" />
+      <FilePathData Path="Resources/garage/ZC_1.png" />
+      <FilePathData Path="Resources/garage/ZC_2.png" />
+      <FilePathData Path="Resources/garage/ZC_3.png" />
+      <FilePathData Path="Resources/garage/ZHC_13.png" />
+      <FilePathData Path="Resources/garage/xinxidi.png" />
+      <FilePathData Path="Resources/garage/zhuangshi01.png" />
+      <FilePathData Path="Resources/garage/z1.png" />
+      <FilePathData Path="Resources/garage/z4.png" />
+      <FilePathData Path="Resources/garage/z5.png" />
+      <FilePathData Path="Resources/garage/z6.png" />
+      <FilePathData Path="Resources/garage/z7.png" />
+      <FilePathData Path="Resources/garage/z2.png" />
+      <FilePathData Path="Resources/garage/z3.png" />
+      <FilePathData Path="Resources/garage/equip_d1.png" />
+      <FilePathData Path="Resources/garage/equip_d2.png" />
+      <FilePathData Path="Resources/garage/equip_d3.png" />
+      <FilePathData Path="Resources/garage/equip_d4.png" />
+      <FilePathData Path="Resources/garage/zhanchexinxi.png" />
+      <FilePathData Path="Resources/garage/deploy_0007.png" />
+      <FilePathData Path="Resources/garage/c_16.png" />
+      <FilePathData Path="Resources/garage/c_14.png" />
+    </ImageFiles>
+    <MaxSize Width="800" Height="310" />
+  </Content>
+</PlistInfoProjectFile>

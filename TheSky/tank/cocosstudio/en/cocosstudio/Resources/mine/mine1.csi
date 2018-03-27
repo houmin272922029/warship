@@ -1,0 +1,35 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="mine" ID="7b6abf85-9b39-411b-9fa8-5020421018a5" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/mine/diggings_icon_0001.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0002.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0003.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0009.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0010.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0014.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0017.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0021.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0027.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0030.png" />
+      <FilePathData Path="Resources/mine/diggings_icon_0031.png" />
+      <FilePathData Path="Resources/mine/general_mine.png" />
+      <FilePathData Path="Resources/mine/lead_mine.png" />
+      <FilePathData Path="Resources/mine/mine_001.png" />
+      <FilePathData Path="Resources/mine/mine_1.png" />
+      <FilePathData Path="Resources/mine/mine_4.png" />
+      <FilePathData Path="Resources/mine/plunder_level_1.png" />
+      <FilePathData Path="Resources/mine/plunder_level_2.png" />
+      <FilePathData Path="Resources/mine/plunder_level_3.png" />
+      <FilePathData Path="Resources/mine/plunder_level_4.png" />
+      <FilePathData Path="Resources/mine/plunder_level_5.png" />
+      <FilePathData Path="Resources/mine/product_level_1.png" />
+      <FilePathData Path="Resources/mine/product_level_2.png" />
+      <FilePathData Path="Resources/mine/product_level_3.png" />
+      <FilePathData Path="Resources/mine/product_level_4.png" />
+      <FilePathData Path="Resources/mine/product_level_5.png" />
+      <FilePathData Path="Resources/mine/legion_tip.png" />
+    </ImageFiles>
+    <MaxSize Width="940" Height="900" />
+  </Content>
+</PlistInfoProjectFile>

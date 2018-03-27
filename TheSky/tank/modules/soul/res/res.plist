@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>soul/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{297,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{297,68}</string>
+			</dict>
+			<key>soul/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,71},{292,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{294,36}</string>
+			</dict>
+			<key>soul/res/junhun.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{150,71},{38,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{38,37}</string>
+			</dict>
+			<key>soul/res/junhun1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,182},{97,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{97,97}</string>
+			</dict>
+			<key>soul/res/junhunzhilu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{49,281},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>soul/res/line.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{100,182},{258,2}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{258,2}</string>
+			</dict>
+			<key>soul/res/q.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,71},{109,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{109,109}</string>
+			</dict>
+			<key>soul/res/s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{190,71},{30,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{30,39}</string>
+			</dict>
+			<key>soul/res/shengji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{49,390},{57,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{57,21}</string>
+			</dict>
+			<key>soul/res/x1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{300,1},{135,135}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{137,137}</string>
+			</dict>
+			<key>soul/res/x2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,281},{178,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{178,46}</string>
+			</dict>
+			<key>soul/res/zhuansuipian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{73,356},{75,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{75,21}</string>
+			</dict>
+			<key>soul/res/fushuxing.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{73,281},{73,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{75,22}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{436,460}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>436</integer>
+			<key>height</key>
+			<integer>460</integer>
+		</dict>
+	</dict>
+</plist>

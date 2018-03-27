@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="module" ID="1539177b-b975-4caa-a5a5-d02c1f1c137f" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/module/2.png" />
+      <FilePathData Path="Resources/module/3.png" />
+      <FilePathData Path="Resources/module/4.png" />
+      <FilePathData Path="Resources/module/5.png" />
+      <FilePathData Path="Resources/module/6.png" />
+      <FilePathData Path="Resources/module/7.png" />
+      <FilePathData Path="Resources/module/8.png" />
+      <FilePathData Path="Resources/module/d1.png" />
+      <FilePathData Path="Resources/module/d2.png" />
+      <FilePathData Path="Resources/module/d3.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="login_gift" ID="4ce7ecc6-df4d-46a0-bf88-db35dbb98b19" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/operatingActivities/login_gift/7rlttz_0002.png" />
+      <FilePathData Path="Resources/operatingActivities/login_gift/7rlttz_0004.png" />
+      <FilePathData Path="Resources/operatingActivities/login_gift/7rlttz_0005.png" />
+      <FilePathData Path="Resources/operatingActivities/login_gift/7rlttz_0006.png" />
+      <FilePathData Path="Resources/operatingActivities/login_gift/7rlttz_0007.png" />
+      <FilePathData Path="Resources/operatingActivities/login_gift/7rlttz_0008.png" />
+      <FilePathData Path="Resources/operatingActivities/login_gift/guanggao.png" />
+    </ImageFiles>
+    <MaxSize Width="650" Height="333" />
+  </Content>
+</PlistInfoProjectFile>

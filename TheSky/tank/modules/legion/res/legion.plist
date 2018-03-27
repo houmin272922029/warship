@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>legion/res/d2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{603,660},{282,41}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,41}</string>
+			</dict>
+			<key>legion/res/diggings_icon_0027.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{366,756},{297,69}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{297,69}</string>
+			</dict>
+			<key>legion/res/exp.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{498,877},{247,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,23}</string>
+			</dict>
+			<key>legion/res/juntuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{539,379},{117,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{117,48}</string>
+			</dict>
+			<key>legion/res/juntuanjinku.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{808,703},{192,48}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{192,49}</string>
+			</dict>
+			<key>legion/res/jtjlb_08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{366,827},{257,48}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{258,48}</string>
+			</dict>
+			<key>legion/res/jtjlb_31.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{603,703},{203,48}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,48}</string>
+			</dict>
+			<key>legion/res/diwen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{603,615},{275,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{275,43}</string>
+			</dict>
+			<key>legion/res/b_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,897},{261,105}}</string>
+				<key>offset</key>
+				<string>{2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,105}</string>
+			</dict>
+			<key>legion/res/b_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{277,379},{260,232}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{260,232}</string>
+			</dict>
+			<key>legion/res/b_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{698,313},{323,300}}</string>
+				<key>offset</key>
+				<string>{8,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{339,300}</string>
+			</dict>
+			<key>legion/res/b_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{264,897},{232,118}}</string>
+				<key>offset</key>
+				<string>{3,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{237,118}</string>
+			</dict>
+			<key>legion/res/b_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{698,1},{322,310}}</string>
+				<key>offset</key>
+				<string>{1,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{323,319}</string>
+			</dict>
+			<key>legion/res/b_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,615},{363,280}}</string>
+				<key>offset</key>
+				<string>{8,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{379,280}</string>
+			</dict>
+			<key>legion/res/b_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,379},{274,234}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{274,235}</string>
+			</dict>
+			<key>legion/res/plane_img.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{366,613},{235,141}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{241,146}</string>
+			</dict>
+			<key>legion/res/cloud_img.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{695,376}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{695,378}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>legion.png</string>
+			<key>realTextureFileName</key>
+			<string>legion.png</string>
+			<key>size</key>
+			<string>{1022,1016}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1022</integer>
+			<key>height</key>
+			<integer>1016</integer>
+		</dict>
+	</dict>
+</plist>

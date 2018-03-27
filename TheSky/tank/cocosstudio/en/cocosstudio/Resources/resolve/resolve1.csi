@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="resolve" ID="a563ea32-722b-4f75-bcdb-5e7eb952ba2e" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/title/fenjie.png" />
+      <FilePathData Path="Resources/resolve/decompose_0006.png" />
+      <FilePathData Path="Resources/resolve/decompose_0007.png" />
+      <FilePathData Path="Resources/resolve/decompose_0008.png" />
+      <FilePathData Path="Resources/resolve/decompose_0009.png" />
+      <FilePathData Path="Resources/resolve/decompose_0010.png" />
+      <FilePathData Path="Resources/resolve/decompose_0012.png" />
+    </ImageFiles>
+    <MaxSize Width="1135" Height="250" />
+  </Content>
+</PlistInfoProjectFile>

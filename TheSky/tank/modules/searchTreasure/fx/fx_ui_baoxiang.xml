@@ -1,0 +1,43 @@
+<skeleton name="fx_ui_baoxiang" frameRate="30" version="2.2">
+ <armatures>
+  <armature name="fx_ui_baoxiang">
+   <b name="图层 1" x="0" y="-0.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="fx_ui_baoxiang_1" pX="38.5" pY="79.5"/>
+   </b>
+   <b name="图层 2" x="0" y="-0.55" kX="53.69" kY="53.69" cX="1" cY="1" pX="0" pY="0" z="1">
+    <d name="fx_ui_baoxiang_1" pX="38.5" pY="79.5"/>
+   </b>
+   <b name="图层 3" x="0" y="-0.55" kX="149.22" kY="149.22" cX="1" cY="1" pX="0" pY="0" z="2">
+    <d name="fx_ui_baoxiang_1" pX="38.5" pY="79.5"/>
+   </b>
+   <b name="图层 4" x="0" y="-0.55" kX="149.22" kY="149.22" cX="1" cY="1" pX="0" pY="0" z="3">
+    <d name="fx_ui_baoxiang_1" pX="38.5" pY="79.5"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="fx_ui_baoxiang">
+   <mov name="a" dr="68" to="0" drTW="68" lp="1" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="67"/>
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1" twR="1"/>
+    </b>
+    <b name="图层 2" sc="1" dl="0">
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="53.69" kY="53.69" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="67"/>
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="1" twR="2"/>
+    </b>
+    <b name="图层 3" sc="1" dl="0">
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="149.22" kY="149.22" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="67"/>
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="95.53" kY="95.53" cX="1" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="1" twR="2"/>
+    </b>
+    <b name="图层 4" sc="1" dl="0">
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="149.22" kY="149.22" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="67"/>
+     <f x="0" y="-0.55" cocos2d_x="0" cocos2d_y="-0.55" kX="95.53" kY="95.53" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="1" twR="3"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="fx_ui_baoxiang" width="128" height="256">
+  <SubTexture name="fx_ui_baoxiang_1" width="77" height="159" cocos2d_pX="38.5" cocos2d_pY="79.5" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

@@ -1,0 +1,46 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="campaign" ID="5547d000-980f-4f37-8bb0-1b8eac5a0c1e" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/campaign/di01.png" />
+      <FilePathData Path="Resources/campaign/di02.png" />
+      <FilePathData Path="Resources/campaign/di04.png" />
+      <FilePathData Path="Resources/campaign/fubenkuang.png" />
+      <FilePathData Path="Resources/campaign/quan01.png" />
+      <FilePathData Path="Resources/campaign/saodang01.png" />
+      <FilePathData Path="Resources/campaign/saodangbiaoti.png" />
+      <FilePathData Path="Resources/campaign/tongguangonglue.png" />
+      <FilePathData Path="Resources/campaign/wancheng.png" />
+      <FilePathData Path="Resources/campaign/xiangzi02.png" />
+      <FilePathData Path="Resources/campaign/xiangzi03.png" />
+      <FilePathData Path="Resources/campaign/xin.png" />
+      <FilePathData Path="Resources/campaign/xuanze01.png" />
+      <FilePathData Path="Resources/campaign/xuanze02.png" />
+      <FilePathData Path="Resources/campaign/z13.png" />
+      <FilePathData Path="Resources/campaign/zj1.png" />
+      <FilePathData Path="Resources/campaign/zj2.png" />
+      <FilePathData Path="Resources/campaign/zj3.png" />
+      <FilePathData Path="Resources/campaign/zj4.png" />
+      <FilePathData Path="Resources/campaign/zj5.png" />
+      <FilePathData Path="Resources/campaign/jiangliyulan.png" />
+      <FilePathData Path="Resources/campaign/chakanzhanli.png" />
+      <FilePathData Path="Resources/campaign/g2.png" />
+      <FilePathData Path="Resources/campaign/jiebao.png" />
+      <FilePathData Path="Resources/campaign/G_20.png" />
+      <FilePathData Path="Resources/campaign/G_19.png" />
+      <FilePathData Path="Resources/campaign/GK_35.png" />
+      <FilePathData Path="Resources/campaign/chapter_1.png" />
+      <FilePathData Path="Resources/campaign/chapter_2.png" />
+      <FilePathData Path="Resources/campaign/chapter_3.png" />
+      <FilePathData Path="Resources/campaign/chapter_4.png" />
+      <FilePathData Path="Resources/campaign/chapter_5.png" />
+      <FilePathData Path="Resources/campaign/chapterTite.png" />
+      <FilePathData Path="Resources/campaign/g21.png" />
+      <FilePathData Path="Resources/campaign/zj6.png" />
+      <FilePathData Path="Resources/campaign/zj7.png" />
+      <FilePathData Path="Resources/campaign/chapter_6.png" />
+      <FilePathData Path="Resources/campaign/chapter_7.png" />
+    </ImageFiles>
+    <MaxSize Width="1180" Height="1300" />
+  </Content>
+</PlistInfoProjectFile>

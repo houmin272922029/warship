@@ -1,0 +1,31 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="legion_sign" ID="aead422c-2125-432e-92e7-8fce6a205477" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/main_city/legion_sign/legion_1.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_2.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_3.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_4.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_5.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_6.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_7.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_8.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_9.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_10.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_11.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_12.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_13.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_14.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_15.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_16.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_17.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_18.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_19.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_20.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_21.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/legion_22.png" />
+      <FilePathData Path="Resources/main_city/legion_sign/a.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="300" />
+  </Content>
+</PlistInfoProjectFile>

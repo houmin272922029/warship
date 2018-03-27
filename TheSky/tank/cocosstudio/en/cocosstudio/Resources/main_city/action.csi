@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="action" ID="5fb16269-463e-459c-ae8f-b1a28728da39" Version="2.3.1.2" />
+  <Content ExportType="Jpeg" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/main_city/a1.jpg" />
+      <FilePathData Path="Resources/main_city/a10.jpg" />
+      <FilePathData Path="Resources/main_city/a11.jpg" />
+      <FilePathData Path="Resources/main_city/a12.jpg" />
+      <FilePathData Path="Resources/main_city/a13.jpg" />
+      <FilePathData Path="Resources/main_city/a2.jpg" />
+      <FilePathData Path="Resources/main_city/a3.jpg" />
+      <FilePathData Path="Resources/main_city/a4.jpg" />
+      <FilePathData Path="Resources/main_city/a5.jpg" />
+      <FilePathData Path="Resources/main_city/a6.jpg" />
+      <FilePathData Path="Resources/main_city/a7.jpg" />
+      <FilePathData Path="Resources/main_city/a8.jpg" />
+      <FilePathData Path="Resources/main_city/a9.jpg" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

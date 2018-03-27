@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>time_limit_spike/res/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,386},{250,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{250,57}</string>
+			</dict>
+			<key>time_limit_spike/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,782},{704,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{704,42}</string>
+			</dict>
+			<key>time_limit_spike/res/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,741},{754,41}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{754,41}</string>
+			</dict>
+			<key>time_limit_spike/res/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{250,386},{204,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,56}</string>
+			</dict>
+			<key>time_limit_spike/res/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,590},{126,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{126,42}</string>
+			</dict>
+			<key>time_limit_spike/res/15.jpg</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,0},{741,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{741,90}</string>
+			</dict>
+			<key>time_limit_spike/res/16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{306,386},{205,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{205,55}</string>
+			</dict>
+			<key>time_limit_spike/res/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{361,386},{232,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{232,42}</string>
+			</dict>
+			<key>time_limit_spike/res/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{403,386}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{403,386}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,78 @@
+<skeleton name="ui_fx_hejin02" frameRate="30" version="2.2">
+ <armatures>
+  <armature name="ui_fx_hejin02">
+   <b name="图层 4" x="3.05" y="-1.3" kX="0" kY="0" cX="1.8" cY="1.8" pX="0" pY="0" z="0">
+    <d name="ui_fx_hejin02_3" pX="56" pY="64.5"/>
+    <d name="ui_fx_hejin02_4" pX="35.5" pY="45"/>
+    <d name="ui_fx_hejin02_5" pX="44" pY="50"/>
+    <d name="ui_fx_hejin02_6" pX="44" pY="57.5"/>
+    <d name="ui_fx_hejin02_7" pX="57.5" pY="70.5"/>
+   </b>
+   <b name="图层 3" x="1.4" y="3.6" kX="0" kY="0" cX="0.32" cY="0.32" pX="0" pY="0" z="1">
+    <d name="ui_fx_hejin02_1" pX="150" pY="150"/>
+   </b>
+   <b name="图层 2" x="0" y="84.25" kX="0" kY="0" cX="1.18" cY="0.22" pX="0" pY="0" z="1">
+    <d name="ui_fx_hejin02_8" pX="80.5" pY="52"/>
+   </b>
+   <b name="图层 1" x="4.7" y="5.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3">
+    <d name="ui_fx_hejin02_2" pX="114.5" pY="114.5"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ui_fx_hejin02">
+   <mov name="a" dr="22" to="0" drTW="22" lp="0" twE="NaN">
+    <b name="图层 4" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="3.05" y="-1.3" cocos2d_x="3.05" cocos2d_y="-1.3" kX="0" kY="0" cX="1.8" cY="1.8" pX="0" pY="0" z="0" dI="0" twE="NaN" dr="3"/>
+     <f x="4.15" y="-5.8" cocos2d_x="4.15" cocos2d_y="-5.8" kX="0" kY="0" cX="2.48" cY="2.48" pX="0" pY="0" z="0" dI="1" twE="NaN" dr="3"/>
+     <f dr="1" dI="-1"/>
+     <f x="29" y="-0.8" cocos2d_x="29" cocos2d_y="-0.8" kX="0" kY="0" cX="2.57" cY="2.57" pX="0" pY="0" z="0" dI="2" twE="NaN" dr="3"/>
+     <f x="14.35" y="3.95" cocos2d_x="14.35" cocos2d_y="3.95" kX="0" kY="0" cX="2.05" cY="2.05" pX="0" pY="0" z="0" dI="3" twE="NaN" dr="3"/>
+     <f x="11.75" y="-5.4" cocos2d_x="11.75" cocos2d_y="-5.4" kX="0" kY="0" cX="1.64" cY="1.64" pX="0" pY="0" z="0" dI="4" twE="NaN" dr="3"/>
+     <f dr="1" dI="-1"/>
+    </b>
+    <b name="图层 3" sc="1" dl="0">
+     <f x="1.4" y="3.6" cocos2d_x="1.4" cocos2d_y="3.6" kX="0" kY="0" cX="0.32" cY="0.32" pX="0" pY="0" z="1" dI="0" twE="0" dr="6">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="1.4" y="3.6" cocos2d_x="1.4" cocos2d_y="3.6" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="1" dI="0" twE="0" dr="9"/>
+     <f x="1.4" y="3.6" cocos2d_x="1.4" cocos2d_y="3.6" kX="0" kY="0" cX="1.21" cY="1.21" pX="0" pY="0" z="1" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="6" dI="-1"/>
+    </b>
+    <b name="图层 2" sc="1" dl="0">
+     <f x="0" y="84.25" cocos2d_x="0" cocos2d_y="84.25" kX="0" kY="0" cX="1.18" cY="0.22" pX="0" pY="0" z="1" dI="0" twE="0" dr="4">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0" y="43.45" cocos2d_x="0" cocos2d_y="43.45" kX="0" kY="0" cX="1.18" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+     <f x="0" y="-41.45" cocos2d_x="0" cocos2d_y="-41.45" kX="0" kY="0" cX="1.18" cY="1" pX="0" pY="0" z="2" dI="0" twE="0" dr="5"/>
+     <f x="0" y="-86.45" cocos2d_x="0" cocos2d_y="-86.45" kX="0" kY="0" cX="1.18" cY="0.13" pX="0" pY="0" z="2" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="7" dI="-1"/>
+    </b>
+    <b name="图层 1" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="4.7" y="5.85" cocos2d_x="4.7" cocos2d_y="5.85" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="3" dI="0" twE="0" dr="6"/>
+     <f x="4.7" y="5.85" cocos2d_x="4.7" cocos2d_y="5.85" kX="0" kY="0" cX="1.49" cY="1.49" pX="0" pY="0" z="1" dI="0" twE="0" dr="10"/>
+     <f x="4.7" y="5.85" cocos2d_x="4.7" cocos2d_y="5.85" kX="0" kY="0" cX="1.49" cY="1.49" pX="0" pY="0" z="1" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="255" g="255" b="255" aM="0" rM="0" gM="0" bM="0"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ui_fx_hejin02" width="512" height="1024">
+  <SubTexture name="ui_fx_hejin02_2" width="229" height="229" cocos2d_pX="114.5" cocos2d_pY="114.5" x="0" y="301"/>
+  <SubTexture name="ui_fx_hejin02_8" width="161" height="104" cocos2d_pX="80.5" cocos2d_pY="52" x="301" y="0"/>
+  <SubTexture name="ui_fx_hejin02_1" width="300" height="300" cocos2d_pX="150" cocos2d_pY="150" x="0" y="0"/>
+  <SubTexture name="ui_fx_hejin02_7" width="115" height="141" cocos2d_pX="57.5" cocos2d_pY="70.5" x="301" y="105"/>
+  <SubTexture name="ui_fx_hejin02_6" width="88" height="115" cocos2d_pX="44" cocos2d_pY="57.5" x="417" y="105"/>
+  <SubTexture name="ui_fx_hejin02_5" width="88" height="100" cocos2d_pX="44" cocos2d_pY="50" x="417" y="221"/>
+  <SubTexture name="ui_fx_hejin02_4" width="71" height="90" cocos2d_pX="35.5" cocos2d_pY="45" x="414" y="322"/>
+  <SubTexture name="ui_fx_hejin02_3" width="112" height="129" cocos2d_pX="56" cocos2d_pY="64.5" x="301" y="247"/>
+ </TextureAtlas>
+</skeleton>

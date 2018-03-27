@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>war_group/res/b_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,0},{213,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{213,58}</string>
+			</dict>
+			<key>war_group/res/b_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,58},{142,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{142,72}</string>
+			</dict>
+			<key>war_group/res/b_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,128},{218,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{218,36}</string>
+			</dict>
+			<key>war_group/res/b_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,182},{205,14}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,14}</string>
+			</dict>
+			<key>war_group/res/b_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{822,98},{78,8}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{78,8}</string>
+			</dict>
+			<key>war_group/res/b_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,164},{205,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,18}</string>
+			</dict>
+			<key>war_group/res/b_tuichu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,196},{116,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,24}</string>
+			</dict>
+			<key>war_group/res/b_wo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{822,58},{40,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{40,40}</string>
+			</dict>
+			<key>war_group/res/xian1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,1235},{723,3}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{723,3}</string>
+			</dict>
+			<key>war_group/res/xian2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,1193},{729,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{729,42}</string>
+			</dict>
+			<key>war_group/res/win_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{680,399}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{686,400}</string>
+			</dict>
+			<key>war_group/res/failure_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,797},{682,396}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{686,400}</string>
+			</dict>
+			<key>war_group/res/win_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,399},{681,398}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{686,400}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>war_group.png</string>
+			<key>realTextureFileName</key>
+			<string>war_group.png</string>
+			<key>size</key>
+			<string>{900,1238}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>900</integer>
+			<key>height</key>
+			<integer>1238</integer>
+		</dict>
+	</dict>
+</plist>

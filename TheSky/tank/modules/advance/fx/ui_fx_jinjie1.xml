@@ -1,0 +1,61 @@
+<skeleton name="ui_fx_jinjie1" frameRate="30" version="2.2">
+ <armatures>
+  <armature name="ui_fx_jinjie1">
+   <b name="图层 1" x="-14.1" y="-133.05" kX="0" kY="0" cX="0.46" cY="1.08" pX="0" pY="-0.05" z="0">
+    <d name="ui_fx_jinjie1_1" pX="64" pY="140.1"/>
+   </b>
+   <b name="图层 2" x="625.85" y="-129.35" kX="0" kY="0" cX="1.33" cY="1.33" pX="0" pY="0.1" z="1">
+    <d name="ui_fx_jinjie1_2" pX="96.5" pY="112.5"/>
+   </b>
+   <b name="图层 3" x="627.95" y="-134.5" kX="0" kY="0" cX="3.74" cY="2.87" pX="0" pY="0" z="1">
+    <d name="ui_fx_jinjie1_3" pX="43" pY="73.5"/>
+    <d name="ui_fx_jinjie1_4" pX="36.5" pY="67"/>
+    <d name="ui_fx_jinjie1_5" pX="44.5" pY="72"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ui_fx_jinjie1">
+   <mov name="a" dr="18" to="0" drTW="18" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="-14.1" y="-133.05" cocos2d_x="-14.1" cocos2d_y="-133" kX="0" kY="0" cX="0.46" cY="1.08" pX="0" pY="-0.05" z="0" dI="0" twE="0" dr="5">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="503.75" y="-133.05" cocos2d_x="503.65" cocos2d_y="-133" kX="0" kY="0" cX="2.34" cY="1.08" pX="0.05" pY="-0.05" z="0" dI="0" twE="0" dr="4"/>
+     <f x="745.8" y="-133.05" cocos2d_x="745.75" cocos2d_y="-133" kX="0" kY="0" cX="0.27" cY="1.14" pX="0.15" pY="-0.05" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="8" dI="-1"/>
+    </b>
+    <b name="图层 2" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="625.85" y="-129.35" cocos2d_x="625.9" cocos2d_y="-129.5" kX="0" kY="0" cX="1.33" cY="1.33" pX="0" pY="0.1" z="1" dI="0" twE="0" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="35" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="625.8" y="-129.4" cocos2d_x="625.9" cocos2d_y="-129.5" kX="0" kY="0" cX="1.75" cY="1.75" pX="-0.05" pY="0.05" z="0" dI="0" twE="0" dr="4"/>
+     <f x="625.9" y="-129.4" cocos2d_x="625.9" cocos2d_y="-129.5" kX="0" kY="0" cX="2.24" cY="2.24" pX="0" pY="0.05" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="207" g="207" b="207" aM="4" rM="19" gM="19" bM="19"/>
+     </f>
+     <f dr="5" dI="-1"/>
+    </b>
+    <b name="图层 3" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="627.95" y="-134.5" cocos2d_x="627.95" cocos2d_y="-134.5" kX="0" kY="0" cX="3.74" cY="2.87" pX="0" pY="0" z="1" dI="0" twE="NaN" dr="2"/>
+     <f x="616.95" y="-155.15" cocos2d_x="616.95" cocos2d_y="-155.15" kX="0" kY="0" cX="3.74" cY="2.87" pX="0" pY="0" z="1" dI="1" twE="NaN" dr="2"/>
+     <f x="612.95" y="-159.8" cocos2d_x="612.95" cocos2d_y="-159.8" kX="0" kY="0" cX="3.74" cY="2.87" pX="0" pY="0" z="0" dI="2" twE="NaN" dr="2"/>
+     <f x="612.95" y="-225.65" cocos2d_x="612.95" cocos2d_y="-225.8" kX="0" kY="0" cX="3.74" cY="2.52" pX="0" pY="0.05" z="0" dI="2" twE="NaN" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="38" rM="100" gM="100" bM="100"/>
+     </f>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ui_fx_jinjie1" width="512" height="512">
+  <SubTexture name="ui_fx_jinjie1_5" width="89" height="144" cocos2d_pX="44.5" cocos2d_pY="72" x="390" y="0"/>
+  <SubTexture name="ui_fx_jinjie1_4" width="73" height="134" cocos2d_pX="36.5" cocos2d_pY="67" x="196" y="226"/>
+  <SubTexture name="ui_fx_jinjie1_3" width="86" height="147" cocos2d_pX="43" cocos2d_pY="73.5" x="390" y="145"/>
+  <SubTexture name="ui_fx_jinjie1_2" width="193" height="225" cocos2d_pX="96.5" cocos2d_pY="112.5" x="196" y="0"/>
+  <SubTexture name="ui_fx_jinjie1_1" width="195" height="291" cocos2d_pX="64" cocos2d_pY="140.1" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

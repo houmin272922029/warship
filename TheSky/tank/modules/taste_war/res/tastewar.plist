@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>taste_war/res/biaoti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{539,0},{294,35}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{294,35}</string>
+			</dict>
+			<key>taste_war/res/duihuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{740,91},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>taste_war/res/huang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{816,35},{67,12}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{67,12}</string>
+			</dict>
+			<key>taste_war/res/jiaru.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{791,35},{62,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,25}</string>
+			</dict>
+			<key>taste_war/res/jifenshangdian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{337,0},{202,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,56}</string>
+			</dict>
+			<key>taste_war/res/jindu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{833,0},{188,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{188,38}</string>
+			</dict>
+			<key>taste_war/res/jinfeshangdian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{766,35},{109,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{109,25}</string>
+			</dict>
+			<key>taste_war/res/jingong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{791,97},{62,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,24}</string>
+			</dict>
+			<key>taste_war/res/lan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{762,144},{67,12}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{67,12}</string>
+			</dict>
+			<key>taste_war/res/tian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{658,35},{108,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{108,56}</string>
+			</dict>
+			<key>taste_war/res/vs.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{116,107}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,107}</string>
+			</dict>
+			<key>taste_war/res/xian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{539,35},{119,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,57}</string>
+			</dict>
+			<key>taste_war/res/zongweizhengba.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{116,0},{221,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{221,56}</string>
+			</dict>
+			<key>taste_war/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{658,91},{82,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,72}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>tastewar.png</string>
+			<key>realTextureFileName</key>
+			<string>tastewar.png</string>
+			<key>size</key>
+			<string>{1021,211}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1021</integer>
+			<key>height</key>
+			<integer>211</integer>
+		</dict>
+	</dict>
+</plist>

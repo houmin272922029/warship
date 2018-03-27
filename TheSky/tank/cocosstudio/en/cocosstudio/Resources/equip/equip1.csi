@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="equip" ID="32ffa1b6-3ad2-4082-8683-38721d378e31" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/equip/suipian.png" />
+      <FilePathData Path="Resources/equip/suipian1.png" />
+      <FilePathData Path="Resources/equip/suit_title_0.png" />
+      <FilePathData Path="Resources/equip/zhuangbei.png" />
+      <FilePathData Path="Resources/equip/taozhuangxian.png" />
+      <FilePathData Path="Resources/equip/dangqian.png" />
+      <FilePathData Path="Resources/equip/baoshixiangqian.png" />
+      <FilePathData Path="Resources/equip/jiaobiao.png" />
+      <FilePathData Path="Resources/equip/suit_title_1.png" />
+      <FilePathData Path="Resources/equip/suit_title_2.png" />
+      <FilePathData Path="Resources/equip/suit_title_3.png" />
+      <FilePathData Path="Resources/equip/suit_title_4.png" />
+      <FilePathData Path="Resources/equip/suit_title_5.png" />
+      <FilePathData Path="Resources/equip/suit_title_6.png" />
+      <FilePathData Path="Resources/equip/suit_title_7.png" />
+      <FilePathData Path="Resources/equip/suit_title_8.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

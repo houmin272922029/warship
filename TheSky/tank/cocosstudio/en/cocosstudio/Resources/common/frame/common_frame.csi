@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_frame" ID="624f81dc-e736-43a1-a92e-2de223d97c5a" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/frame/kuang.png" />
+      <FilePathData Path="Resources/common/frame/kuang008.png" />
+      <FilePathData Path="Resources/common/frame/kuang01.png" />
+      <FilePathData Path="Resources/common/frame/kuang02.png" />
+      <FilePathData Path="Resources/common/frame/SJ_7.png" />
+      <FilePathData Path="Resources/common/frame/XL_7.png" />
+      <FilePathData Path="Resources/common/frame/biaoti01.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

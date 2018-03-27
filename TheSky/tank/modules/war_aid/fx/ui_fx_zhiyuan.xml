@@ -1,0 +1,32 @@
+<skeleton name="ui_fx_zhiyuan" frameRate="30" version="2.2">
+ <armatures>
+  <armature name="ui_fx_zhiyuan">
+   <b name="图层 1" x="0" y="14" kX="0" kY="0" cX="0.14" cY="0.14" pX="0" pY="0" z="0">
+    <d name="ui_fx_zhiyuan_1" pX="212" pY="43"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ui_fx_zhiyuan">
+   <mov name="a" dr="38" to="0" drTW="38" lp="0" twE="NaN">
+    <b name="图层 1" sc="1" dl="0">
+     <f x="0" y="14" cocos2d_x="0" cocos2d_y="14" kX="0" kY="0" cX="0.14" cY="0.14" pX="0" pY="0" z="0" dI="0" twE="0" dr="7">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1.38" cY="1.38" pX="0" pY="0" z="0" dI="0" twE="0" dr="4">
+      <colorTransform a="0" r="255" g="255" b="255" aM="100" rM="0" gM="0" bM="0"/>
+     </f>
+     <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="0.91" cY="0.91" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="0" y="0" cocos2d_x="0" cocos2d_y="0" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="20"/>
+     <f x="0" y="-9" cocos2d_x="0" cocos2d_y="-9" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="3"/>
+     <f x="0" y="-9" cocos2d_x="0" cocos2d_y="-9" kX="0" kY="0" cX="1.2" cY="1.2" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+     </f>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ui_fx_zhiyuan" width="512" height="128">
+  <SubTexture name="ui_fx_zhiyuan_1" width="424" height="86" cocos2d_pX="212" cocos2d_pY="43" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

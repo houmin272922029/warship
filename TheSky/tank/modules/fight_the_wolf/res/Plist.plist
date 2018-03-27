@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fight_the_wolf/res/sharuchongwei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,412},{104,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{104,27}</string>
+			</dict>
+			<key>fight_the_wolf/res/yijisha.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,225},{123,102}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{123,102}</string>
+			</dict>
+			<key>fight_the_wolf/res/gongda.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,583},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>fight_the_wolf/res/guanqia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{211,225}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{211,225}</string>
+			</dict>
+			<key>fight_the_wolf/res/help.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,348},{64,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{64,55}</string>
+			</dict>
+			<key>fight_the_wolf/res/lingqu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,516},{67,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{67,24}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{211,645}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>211</integer>
+			<key>height</key>
+			<integer>645</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>war_aid/res/war_aid_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{231,65},{205,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,57}</string>
+			</dict>
+			<key>war_aid/res/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{520,156},{94,88}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{95,89}</string>
+			</dict>
+			<key>war_aid/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{539,46},{84,86}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,87}</string>
+			</dict>
+			<key>war_aid/res/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{251,182},{127,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,43}</string>
+			</dict>
+			<key>war_aid/res/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,249},{129,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{129,43}</string>
+			</dict>
+			<key>war_aid/res/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{132,249},{129,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{129,43}</string>
+			</dict>
+			<key>war_aid/res/15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{380,182},{32,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,32}</string>
+			</dict>
+			<key>war_aid/res/17.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{683,1},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>war_aid/res/18.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{365,227},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>war_aid/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{263,227},{100,67}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,69}</string>
+			</dict>
+			<key>war_aid/res/shop_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{231,124},{205,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,56}</string>
+			</dict>
+			<key>war_aid/res/aid_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,190},{248,57}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{248,57}</string>
+			</dict>
+			<key>war_aid/res/25.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{680,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{680,43}</string>
+			</dict>
+			<key>war_aid/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{414,182},{104,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{104,105}</string>
+			</dict>
+			<key>war_aid/res/gift_ground.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{438,46},{108,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{108,99}</string>
+			</dict>
+			<key>war_aid/res/gift_coast.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,65},{113,109}}</string>
+				<key>offset</key>
+				<string>{-3,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{118,111}</string>
+			</dict>
+			<key>war_aid/res/gift_air.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,65},{123,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{125,118}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>war_aid.png</string>
+			<key>realTextureFileName</key>
+			<string>war_aid.png</string>
+			<key>size</key>
+			<string>{706,295}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>706</integer>
+			<key>height</key>
+			<integer>295</integer>
+		</dict>
+	</dict>
+</plist>

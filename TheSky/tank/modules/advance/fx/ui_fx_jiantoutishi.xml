@@ -1,0 +1,23 @@
+<skeleton name="ui_fx_jiantoutishi" frameRate="30" version="2.2">
+ <armatures>
+  <armature name="ui_fx_jiantoutishi">
+   <b name="图层 2" x="-0.4" y="-0.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0">
+    <d name="ui_fx_jiantoutishi_1" pX="11.7" pY="13.1"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="ui_fx_jiantoutishi">
+   <mov name="a" dr="16" to="0" drTW="16" lp="1" twE="NaN">
+    <b name="图层 2" sc="1" dl="0">
+     <f x="-0.4" y="-0.35" cocos2d_x="-0.4" cocos2d_y="-0.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0.82" dr="8"/>
+     <f x="-0.4" y="-6.35" cocos2d_x="-0.4" cocos2d_y="-6.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="7"/>
+     <f x="-0.4" y="-0.35" cocos2d_x="-0.4" cocos2d_y="-0.35" kX="0" kY="0" cX="1" cY="1" pX="0" pY="0" z="0" dI="0" twE="0" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="ui_fx_jiantoutishi" width="32" height="32">
+  <SubTexture name="ui_fx_jiantoutishi_1" width="24" height="27" cocos2d_pX="11.7" cocos2d_pY="13.1" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

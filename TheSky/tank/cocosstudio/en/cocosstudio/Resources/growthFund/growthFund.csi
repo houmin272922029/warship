@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="growthFund" ID="fdb42c74-2982-4950-a87d-c3c86fdf9834" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/growthFund/2.png" />
+      <FilePathData Path="Resources/growthFund/3.png" />
+      <FilePathData Path="Resources/growthFund/4.png" />
+      <FilePathData Path="Resources/growthFund/q3.png" />
+      <FilePathData Path="Resources/growthFund/s1.png" />
+      <FilePathData Path="Resources/growthFund/s2.png" />
+      <FilePathData Path="Resources/growthFund/s3.png" />
+      <FilePathData Path="Resources/growthFund/s4.png" />
+      <FilePathData Path="Resources/growthFund/s5.png" />
+      <FilePathData Path="Resources/growthFund/s6.png" />
+      <FilePathData Path="Resources/growthFund/s7.png" />
+      <FilePathData Path="Resources/growthFund/s8.png" />
+      <FilePathData Path="Resources/growthFund/s9.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

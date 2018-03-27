@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>endless_war/res/biaoti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{842,0},{980,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{980,93}</string>
+			</dict>
+			<key>endless_war/res/jinfeshangdian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,980},{109,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{109,25}</string>
+			</dict>
+			<key>endless_war/res/1s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,840},{710,127}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,128}</string>
+			</dict>
+			<key>endless_war/res/2s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{712,130}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,130}</string>
+			</dict>
+			<key>endless_war/res/3s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{712,0},{712,130}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{712,131}</string>
+			</dict>
+			<key>endless_war/res/4s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,712},{712,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,128}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>tastewar.png</string>
+			<key>realTextureFileName</key>
+			<string>tastewar.png</string>
+			<key>size</key>
+			<string>{935,1005}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>935</integer>
+			<key>height</key>
+			<integer>1005</integer>
+		</dict>
+	</dict>
+</plist>

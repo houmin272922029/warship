@@ -1,0 +1,64 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="activity" ID="f182dd8b-2598-4447-9292-659dcaf44b18" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/activity/arena.png" />
+      <FilePathData Path="Resources/activity/classicBattle.png" />
+      <FilePathData Path="Resources/activity/expedition.png" />
+      <FilePathData Path="Resources/activity/gunner_train.png" />
+      <FilePathData Path="Resources/activity/inspection.png" />
+      <FilePathData Path="Resources/activity/invade.png" />
+      <FilePathData Path="Resources/activity/mine_view.png" />
+      <FilePathData Path="Resources/activity/technology.png" />
+      <FilePathData Path="Resources/activity/boss.png" />
+      <FilePathData Path="Resources/activity/gold_bunker.png" />
+      <FilePathData Path="Resources/activity/title_arena.png" />
+      <FilePathData Path="Resources/activity/title_classicBattle.png" />
+      <FilePathData Path="Resources/activity/title_expedition.png" />
+      <FilePathData Path="Resources/activity/title_gunner_train.png" />
+      <FilePathData Path="Resources/activity/title_inspection.png" />
+      <FilePathData Path="Resources/activity/title_invade.png" />
+      <FilePathData Path="Resources/activity/title_boss.png" />
+      <FilePathData Path="Resources/activity/title_gold_bunker.png" />
+      <FilePathData Path="Resources/activity/advance.png" />
+      <FilePathData Path="Resources/activity/title_legion_escort.png" />
+      <FilePathData Path="Resources/activity/legion.png" />
+      <FilePathData Path="Resources/activity/alloy.png" />
+      <FilePathData Path="Resources/activity/resolve.png" />
+      <FilePathData Path="Resources/activity/title_soul_road.png" />
+      <FilePathData Path="Resources/activity/title_single_hero.png" />
+      <FilePathData Path="Resources/activity/title_interservice.png" />
+      <FilePathData Path="Resources/activity/title_soldier_battle.png" />
+      <FilePathData Path="Resources/activity/title_overawe.png" />
+      <FilePathData Path="Resources/activity/title_warfarejigsaws.png" />
+      <FilePathData Path="Resources/main_city/kaiqi.png" />
+      <FilePathData Path="Resources/activity/passenger.png" />
+      <FilePathData Path="Resources/activity/soul.png" />
+      <FilePathData Path="Resources/activity/interservice.png" />
+      <FilePathData Path="Resources/activity/legion_escort.png" />
+      <FilePathData Path="Resources/activity/single_hero.png" />
+      <FilePathData Path="Resources/activity/soldier_battle.png" />
+      <FilePathData Path="Resources/activity/soul_road.png" />
+      <FilePathData Path="Resources/activity/achievement.png" />
+      <FilePathData Path="Resources/activity/s0.png" />
+      <FilePathData Path="Resources/activity/s1.png" />
+      <FilePathData Path="Resources/activity/s2.png" />
+      <FilePathData Path="Resources/activity/s3.png" />
+      <FilePathData Path="Resources/activity/s4.png" />
+      <FilePathData Path="Resources/activity/s5.png" />
+      <FilePathData Path="Resources/activity/s6.png" />
+      <FilePathData Path="Resources/activity/s7.png" />
+      <FilePathData Path="Resources/activity/s8.png" />
+      <FilePathData Path="Resources/activity/s9.png" />
+      <FilePathData Path="Resources/activity/title_group_battles.png" />
+      <FilePathData Path="Resources/activity/title_reward.png" />
+      <FilePathData Path="Resources/activity/kejiwuzhuang1.png" />
+      <FilePathData Path="Resources/activity/kejiwuzhuang2.png" />
+      <FilePathData Path="Resources/activity/title_exercise.png" />
+      <FilePathData Path="Resources/activity/title_inter_service_arena.png" />
+      <FilePathData Path="Resources/activity/title_god_worship.png" />
+      <FilePathData Path="Resources/activity/title_endless_war.png" />
+    </ImageFiles>
+    <MaxSize Width="1280" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

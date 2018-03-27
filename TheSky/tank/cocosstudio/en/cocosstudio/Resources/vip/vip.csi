@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="vip" ID="c08a5c41-83e8-487f-88b4-166a63343b06" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/vip/1.png" />
+      <FilePathData Path="Resources/vip/2.png" />
+      <FilePathData Path="Resources/vip/3.png" />
+      <FilePathData Path="Resources/vip/sv.png" />
+      <FilePathData Path="Resources/vip/sv1.png" />
+      <FilePathData Path="Resources/vip/VIP_4.png" />
+      <FilePathData Path="Resources/vip/VIP_6.png" />
+      <FilePathData Path="Resources/vip/VIP_8.png" />
+      <FilePathData Path="Resources/vip/z1.png" />
+      <FilePathData Path="Resources/vip/z2.png" />
+    </ImageFiles>
+    <MaxSize Width="800" Height="800" />
+  </Content>
+</PlistInfoProjectFile>

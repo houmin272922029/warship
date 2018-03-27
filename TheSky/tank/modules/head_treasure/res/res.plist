@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>head_treasure/res/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{95,807},{166,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,50}</string>
+			</dict>
+			<key>head_treasure/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{95,755},{167,50}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{167,50}</string>
+			</dict>
+			<key>head_treasure/res/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{207,945},{98,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{98,68}</string>
+			</dict>
+			<key>head_treasure/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,227},{412,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{412,37}</string>
+			</dict>
+			<key>head_treasure/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{296,1},{942,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{942,37}</string>
+			</dict>
+			<key>head_treasure/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{293,224}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{293,224}</string>
+			</dict>
+			<key>head_treasure/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{40,227},{87,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{87,92}</string>
+			</dict>
+			<key>head_treasure/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,755},{92,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{92,101}</string>
+			</dict>
+			<key>head_treasure/res/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,858},{83,104}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{83,104}</string>
+			</dict>
+			<key>head_treasure/res/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{131,227},{166,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{168,50}</string>
+			</dict>
+			<key>head_treasure/res/xunbao1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{263,807},{127,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{127,27}</string>
+			</dict>
+			<key>head_treasure/res/xunbao2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{107,857},{127,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{127,27}</string>
+			</dict>
+			<key>head_treasure/res/yuanshoubaozang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,945},{204,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,56}</string>
+			</dict>
+			<key>head_treasure/res/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,641},{112,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{112,128}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{334,1014}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>334</integer>
+			<key>height</key>
+			<integer>1014</integer>
+		</dict>
+	</dict>
+</plist>

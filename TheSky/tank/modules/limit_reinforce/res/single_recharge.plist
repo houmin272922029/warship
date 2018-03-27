@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>limit_reinforce/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{270,107}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{270,107}</string>
+			</dict>
+			<key>limit_reinforce/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,273},{270,107}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{270,107}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>single_recharge.png</string>
+			<key>realTextureFileName</key>
+			<string>single_recharge.png</string>
+			<key>size</key>
+			<string>{109,544}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>109</integer>
+			<key>height</key>
+			<integer>544</integer>
+		</dict>
+	</dict>
+</plist>

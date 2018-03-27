@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pubs/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,432},{163,166}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{167,167}</string>
+			</dict>
+			<key>pubs/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{318,609},{168,170}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{170,170}</string>
+			</dict>
+			<key>pubs/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{488,609},{109,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{109,30}</string>
+			</dict>
+			<key>pubs/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,248},{23,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{23,28}</string>
+			</dict>
+			<key>pubs/res/pub10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{271,432},{105,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{105,105}</string>
+			</dict>
+			<key>pubs/res/pub13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,370},{461,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{461,62}</string>
+			</dict>
+			<key>pubs/res/pub15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,330},{201,52}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{204,52}</string>
+			</dict>
+			<key>pubs/res/pub2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,0},{248,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{248,58}</string>
+			</dict>
+			<key>pubs/res/pub4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{577,0},{330,2}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{330,2}</string>
+			</dict>
+			<key>pubs/res/pub9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{163,432},{108,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{108,108}</string>
+			</dict>
+			<key>pubs/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{370,464}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{370,464}</string>
+			</dict>
+			<key>pubs/res/Btn_close2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{518,687},{92,53}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{93,53}</string>
+			</dict>
+			<key>pubs/res/hao1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,531},{156,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{156,61}</string>
+			</dict>
+			<key>pubs/res/hao2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{163,540},{156,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{156,61}</string>
+			</dict>
+			<key>pubs/res/haoyin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{318,777},{119,27}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{120,29}</string>
+			</dict>
+			<key>pubs/res/biankuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,609},{318,208}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{318,208}</string>
+			</dict>
+			<key>pubs/res/bg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{464,0},{609,55}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{612,55}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{580,817}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>580</integer>
+			<key>height</key>
+			<integer>817</integer>
+		</dict>
+	</dict>
+</plist>

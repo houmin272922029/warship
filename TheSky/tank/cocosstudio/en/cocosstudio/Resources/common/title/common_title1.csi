@@ -1,0 +1,58 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_title" ID="e336eaf8-10c2-425d-992d-adff3e7b1841" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/title/baifang.png" />
+      <FilePathData Path="Resources/common/title/Daily-review_0001.png" />
+      <FilePathData Path="Resources/common/title/ganbeichengjiujiangli.png" />
+      <FilePathData Path="Resources/common/title/huodekejishu.png" />
+      <FilePathData Path="Resources/common/title/paoshouxunlian.png" />
+      <FilePathData Path="Resources/common/title/sanbingruqin.png" />
+      <FilePathData Path="Resources/common/title/saodangbiaoti.png" />
+      <FilePathData Path="Resources/common/title/shuxingyulan.png" />
+      <FilePathData Path="Resources/common/title/tanketujian.png" />
+      <FilePathData Path="Resources/common/title/yingyongjingsu.png" />
+      <FilePathData Path="Resources/common/title/zhanchejianshang.png" />
+      <FilePathData Path="Resources/common/title/zongbuzhiyuan.png" />
+      <FilePathData Path="Resources/common/title/login_gift_title.png" />
+      <FilePathData Path="Resources/common/title/server_gift_title.png" />
+      <FilePathData Path="Resources/common/title/mail_title.png" />
+      <FilePathData Path="Resources/common/title/zuozhanshi.png" />
+      <FilePathData Path="Resources/common/title/qianxianzhanbao.png" />
+      <FilePathData Path="Resources/common/title/zongbuhedian.png" />
+      <FilePathData Path="Resources/common/title/train_title.png" />
+      <FilePathData Path="Resources/common/title/goumaitili.png" />
+      <FilePathData Path="Resources/common/title/Daily-tasks_title.png" />
+      <FilePathData Path="Resources/common/title/choose_tank_list.png" />
+      <FilePathData Path="Resources/common/title/tank_shop.png" />
+      <FilePathData Path="Resources/common/title/shop.png" />
+      <FilePathData Path="Resources/common/title/props_shop.png" />
+      <FilePathData Path="Resources/common/title/storage.png" />
+      <FilePathData Path="Resources/common/title/supply_title.png" />
+      <FilePathData Path="Resources/common/title/encourage_title.png" />
+      <FilePathData Path="Resources/common/title/enemy_title.png" />
+      <FilePathData Path="Resources/common/title/fj_exchange_title.png" />
+      <FilePathData Path="Resources/common/title/fightJapan_title.png" />
+      <FilePathData Path="Resources/common/title/zhangjiejiangli.png" />
+      <FilePathData Path="Resources/common/title/plunder_log_title.png" />
+      <FilePathData Path="Resources/common/title/equip_title.png" />
+      <FilePathData Path="Resources/common/title/plunder_title.png" />
+      <FilePathData Path="Resources/common/title/vip_privilege_title.png" />
+      <FilePathData Path="Resources/common/title/recharge_title.png" />
+      <FilePathData Path="Resources/common/title/goumai.png" />
+      <FilePathData Path="Resources/common/title/chakan.png" />
+      <FilePathData Path="Resources/common/title/youxishezhi.png" />
+      <FilePathData Path="Resources/common/title/army_assault.png" />
+      <FilePathData Path="Resources/common/title/embattle_title.png" />
+      <FilePathData Path="Resources/common/title/zhanchejinjie.png" />
+      <FilePathData Path="Resources/common/title/shengxingyulan2.png" />
+      <FilePathData Path="Resources/common/title/jinjiechenggong.png" />
+      <FilePathData Path="Resources/common/title/duihuanma.png" />
+      <FilePathData Path="Resources/common/title/sjboss0001.png" />
+      <FilePathData Path="Resources/common/title/sjboss0002.png" />
+      <FilePathData Path="Resources/common/title/sjboss0003.png" />
+      <FilePathData Path="Resources/common/title/jtboss_01.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

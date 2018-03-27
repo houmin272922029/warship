@@ -1,0 +1,36 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_icon" ID="47792b20-4b5f-418b-b32d-3da482ddeba4" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/icon/c_19.png" />
+      <FilePathData Path="Resources/common/icon/c_8.png" />
+      <FilePathData Path="Resources/common/icon/chapter_icon.png" />
+      <FilePathData Path="Resources/common/icon/CK_16.png" />
+      <FilePathData Path="Resources/common/icon/equip_icon.png" />
+      <FilePathData Path="Resources/common/icon/icon_hd.png" />
+      <FilePathData Path="Resources/common/icon/JDZ_4.png" />
+      <FilePathData Path="Resources/common/icon/login_35.png" />
+      <FilePathData Path="Resources/common/icon/oil_icon_1.png" />
+      <FilePathData Path="Resources/common/icon/oil_icon_2.png" />
+      <FilePathData Path="Resources/common/icon/SD_6.png" />
+      <FilePathData Path="Resources/common/icon/SJ_5.png" />
+      <FilePathData Path="Resources/common/icon/XL_10.png" />
+      <FilePathData Path="Resources/common/icon/ZJM_20.png" />
+      <FilePathData Path="Resources/common/icon/10.png" />
+      <FilePathData Path="Resources/common/icon/VIP_tqcz_0003.png" />
+      <FilePathData Path="Resources/common/icon/b1.png" />
+      <FilePathData Path="Resources/common/icon/b2.png" />
+      <FilePathData Path="Resources/common/icon/b3.png" />
+      <FilePathData Path="Resources/common/icon/b4.png" />
+      <FilePathData Path="Resources/common/icon/b5.png" />
+      <FilePathData Path="Resources/common/icon/c_13.png" />
+      <FilePathData Path="Resources/common/icon/c_12.png" />
+      <FilePathData Path="Resources/common/icon/chestIcon.png" />
+      <FilePathData Path="Resources/common/icon/chestIcon_2.png" />
+      <FilePathData Path="Resources/common/icon/chestIcon_3.png" />
+      <FilePathData Path="Resources/common/icon/chestIcon_4.png" />
+      <FilePathData Path="Resources/common/icon/faxin.png" />
+    </ImageFiles>
+    <MaxSize Width="310" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

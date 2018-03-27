@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="invade" ID="4d69c45f-229f-4eb3-afed-6c9711580f95" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/invade/name1.png" />
+      <FilePathData Path="Resources/invade/name2.png" />
+      <FilePathData Path="Resources/invade/name3.png" />
+      <FilePathData Path="Resources/invade/name4.png" />
+      <FilePathData Path="Resources/invade/Paratroopers-i_0007.png" />
+      <FilePathData Path="Resources/invade/tank1.png" />
+      <FilePathData Path="Resources/invade/tank2.png" />
+      <FilePathData Path="Resources/invade/tank3.png" />
+      <FilePathData Path="Resources/invade/tank4.png" />
+    </ImageFiles>
+    <MaxSize Width="650" Height="700" />
+  </Content>
+</PlistInfoProjectFile>

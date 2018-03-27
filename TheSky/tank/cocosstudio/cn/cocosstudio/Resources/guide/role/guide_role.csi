@@ -1,0 +1,25 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="guide_role" ID="c93cba1d-2ac6-4cc4-b756-2cb4da274890" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/guide/role/img_head_1.png" />
+      <FilePathData Path="Resources/guide/role/img_head_2.png" />
+      <FilePathData Path="Resources/guide/role/lead_1.png" />
+      <FilePathData Path="Resources/guide/role/lead_16.png" />
+      <FilePathData Path="Resources/guide/role/lead_17.png" />
+      <FilePathData Path="Resources/guide/role/lead_18.png" />
+      <FilePathData Path="Resources/guide/role/lead_19.png" />
+      <FilePathData Path="Resources/guide/role/lead_20.png" />
+      <FilePathData Path="Resources/guide/role/lead_21.png" />
+      <FilePathData Path="Resources/guide/role/lead_26.png" />
+      <FilePathData Path="Resources/guide/role/lead_28.png" />
+      <FilePathData Path="Resources/guide/role/xsyd_0020.png" />
+      <FilePathData Path="Resources/guide/role/xsyd_0120.png" />
+      <FilePathData Path="Resources/guide/role/img_head_3.png" />
+      <FilePathData Path="Resources/guide/role/img_head_4.png" />
+      <FilePathData Path="Resources/guide/role/chuangjianrenwunan1.png" />
+      <FilePathData Path="Resources/guide/role/chuangjianrenwunv1.png" />
+    </ImageFiles>
+    <MaxSize Width="1636" Height="1800" />
+  </Content>
+</PlistInfoProjectFile>

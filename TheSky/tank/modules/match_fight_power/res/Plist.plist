@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>match_fight_power/res/s4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{661,964},{72,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{72,48}</string>
+			</dict>
+			<key>match_fight_power/res/s5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,395},{74,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{74,37}</string>
+			</dict>
+			<key>match_fight_power/res/s6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,469},{70,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{70,38}</string>
+			</dict>
+			<key>match_fight_power/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,928},{779,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{779,36}</string>
+			</dict>
+			<key>match_fight_power/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{733,964},{31,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{31,30}</string>
+			</dict>
+			<key>match_fight_power/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,817},{777,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{777,111}</string>
+			</dict>
+			<key>match_fight_power/res/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,380},{776,15}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{776,15}</string>
+			</dict>
+			<key>match_fight_power/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{776,0},{817,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{817,18}</string>
+			</dict>
+			<key>match_fight_power/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,992},{102,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,30}</string>
+			</dict>
+			<key>match_fight_power/res/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,964},{661,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{661,28}</string>
+			</dict>
+			<key>match_fight_power/res/6.jpg</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{776,380}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{776,380}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{794,1022}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>794</integer>
+			<key>height</key>
+			<integer>1022</integer>
+		</dict>
+	</dict>
+</plist>

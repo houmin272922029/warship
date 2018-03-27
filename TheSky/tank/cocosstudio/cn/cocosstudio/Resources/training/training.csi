@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="training" ID="3b1ee4a5-9deb-4197-bed3-b8b3e2b6d29c" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/training/train_level_1.png" />
+      <FilePathData Path="Resources/training/train_level_2.png" />
+      <FilePathData Path="Resources/training/train_level_3.png" />
+      <FilePathData Path="Resources/training/train_level_4.png" />
+      <FilePathData Path="Resources/training/train_level_5.png" />
+      <FilePathData Path="Resources/training/XL_22.png" />
+      <FilePathData Path="Resources/training/XL_25.png" />
+      <FilePathData Path="Resources/training/XL_4.png" />
+      <FilePathData Path="Resources/training/XL_40.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

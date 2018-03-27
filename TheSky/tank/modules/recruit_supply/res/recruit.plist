@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>recruit_supply/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1014,0},{795,6}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{795,6}</string>
+			</dict>
+			<key>recruit_supply/res/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,105},{106,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{108,64}</string>
+			</dict>
+			<key>recruit_supply/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,211},{103,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{104,64}</string>
+			</dict>
+			<key>recruit_supply/res/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{569,0},{567,111}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{569,111}</string>
+			</dict>
+			<key>recruit_supply/res/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{680,0},{567,109}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{568,109}</string>
+			</dict>
+			<key>recruit_supply/res/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{569,113}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{569,113}</string>
+			</dict>
+			<key>recruit_supply/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{936,0},{795,13}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{795,13}</string>
+			</dict>
+			<key>recruit_supply/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{915,0},{21,583}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{22,583}</string>
+			</dict>
+			<key>recruit_supply/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{991,314},{8,583}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{8,583}</string>
+			</dict>
+			<key>recruit_supply/res/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,222},{122,98}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{123,98}</string>
+			</dict>
+			<key>recruit_supply/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,431},{90,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{90,42}</string>
+			</dict>
+			<key>recruit_supply/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,521},{90,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{90,42}</string>
+			</dict>
+			<key>recruit_supply/res/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,314},{117,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{117,42}</string>
+			</dict>
+			<key>recruit_supply/res/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,0},{105,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{105,65}</string>
+			</dict>
+			<key>recruit_supply/res/a.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,0},{111,126}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{111,126}</string>
+			</dict>
+			<key>recruit_supply/res/a1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{789,111},{111,126}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{111,126}</string>
+			</dict>
+			<key>recruit_supply/res/quchongzhi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,611},{100,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,28}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>recruit.png</string>
+			<key>realTextureFileName</key>
+			<string>recruit.png</string>
+			<key>size</key>
+			<string>{1020,897}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1020</integer>
+			<key>height</key>
+			<integer>897</integer>
+		</dict>
+	</dict>
+</plist>

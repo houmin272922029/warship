@@ -1,0 +1,28 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="arena" ID="47728b64-39a1-48fc-b778-a4dc875fdbe7" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/arena/JJC_cell1.png" />
+      <FilePathData Path="Resources/arena/JJC_12.png" />
+      <FilePathData Path="Resources/arena/JJC_13.png" />
+      <FilePathData Path="Resources/arena/JJC_14.png" />
+      <FilePathData Path="Resources/arena/JJC_17.png" />
+      <FilePathData Path="Resources/arena/JJC_4.png" />
+      <FilePathData Path="Resources/arena/JJC_7.png" />
+      <FilePathData Path="Resources/arena/JJC_0008.png" />
+      <FilePathData Path="Resources/arena/JJC_0017.png" />
+      <FilePathData Path="Resources/arena/JJC_0018.png" />
+      <FilePathData Path="Resources/arena/JJC_0020.png" />
+      <FilePathData Path="Resources/arena/JJC_0019.png" />
+      <FilePathData Path="Resources/arena/JJC_cell2.png" />
+      <FilePathData Path="Resources/arena/JJC_label1.png" />
+      <FilePathData Path="Resources/arena/JJC_0003.png" />
+      <FilePathData Path="Resources/arena/wusheng1.png" />
+      <FilePathData Path="Resources/arena/wusheng2.png" />
+      <FilePathData Path="Resources/arena/wusheng3.png" />
+      <FilePathData Path="Resources/arena/wusheng4.png" />
+      <FilePathData Path="Resources/arena/jssd.png" />
+    </ImageFiles>
+    <MaxSize Width="1105" Height="650" />
+  </Content>
+</PlistInfoProjectFile>

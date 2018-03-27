@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>soldiers_war/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{289,0},{437,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{437,42}</string>
+			</dict>
+			<key>soldiers_war/res/20.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{101,0},{130,87}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{130,88}</string>
+			</dict>
+			<key>soldiers_war/res/21.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,155},{61,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{61,54}</string>
+			</dict>
+			<key>soldiers_war/res/22.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{178,336},{51,51}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{51,51}</string>
+			</dict>
+			<key>soldiers_war/res/23.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,336},{53,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{53,54}</string>
+			</dict>
+			<key>soldiers_war/res/24.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{174,87},{52,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{54,69}</string>
+			</dict>
+			<key>soldiers_war/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{121,87},{435,3}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{435,3}</string>
+			</dict>
+			<key>soldiers_war/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,559},{142,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{142,27}</string>
+			</dict>
+			<key>soldiers_war/res/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{142,551},{147,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,46}</string>
+			</dict>
+			<key>soldiers_war/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{178,387},{51,51}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{51,51}</string>
+			</dict>
+			<key>soldiers_war/res/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{231,0},{551,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{551,38}</string>
+			</dict>
+			<key>soldiers_war/res/lingqu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,413},{146,121}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{146,121}</string>
+			</dict>
+			<key>soldiers_war/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,87},{171,50}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{172,51}</string>
+			</dict>
+			<key>soldiers_war/res/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,258},{78,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,93}</string>
+			</dict>
+			<key>soldiers_war/res/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{121,522},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>soldiers_war/res/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,389},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>soldiers_war/res/15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,496},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>soldiers_war/res/16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{413,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{413,101}</string>
+			</dict>
+			<key>soldiers_war/res/jixutiaozhan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{146,389},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{331,597}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>331</integer>
+			<key>height</key>
+			<integer>597</integer>
+		</dict>
+	</dict>
+</plist>

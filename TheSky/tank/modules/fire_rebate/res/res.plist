@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fire_rebate/res/zhezhao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{490,163},{20,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{20,24}</string>
+			</dict>
+			<key>fire_rebate/res/zhangchang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{156,295},{183,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{183,109}</string>
+			</dict>
+			<key>fire_rebate/res/shuomingdi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{398,213},{58,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,47}</string>
+			</dict>
+			<key>fire_rebate/res/wenhao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,194},{61,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{61,62}</string>
+			</dict>
+			<key>fire_rebate/res/leijidenglu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,483},{133,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{133,29}</string>
+			</dict>
+			<key>fire_rebate/res/liangkuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240,213},{96,79}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,79}</string>
+			</dict>
+			<key>fire_rebate/res/qiandao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{490,55},{54,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{54,22}</string>
+			</dict>
+			<key>fire_rebate/res/quchongzhi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{461,133},{95,29}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{96,29}</string>
+			</dict>
+			<key>fire_rebate/res/chick.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240,0},{183,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{183,109}</string>
+			</dict>
+			<key>fire_rebate/res/chongzhi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{490,0},{55,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{55,22}</string>
+			</dict>
+			<key>fire_rebate/res/chongzhidaren.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240,109},{96,100}}</string>
+				<key>offset</key>
+				<string>{2,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,107}</string>
+			</dict>
+			<key>fire_rebate/res/dikuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,295},{188,156}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{188,156}</string>
+			</dict>
+			<key>fire_rebate/res/fuli.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{133,483},{133,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{133,29}</string>
+			</dict>
+			<key>fire_rebate/res/leichong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{461,0},{133,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{133,29}</string>
+			</dict>
+			<key>fire_rebate/res/biaoqian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,109},{85,85}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{85,85}</string>
+			</dict>
+			<key>fire_rebate/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{423,0},{213,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{213,38}</string>
+			</dict>
+			<key>fire_rebate/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{240,295}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,295}</string>
+			</dict>
+			<key>fire_rebate/res/kaiqi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{490,109},{54,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{54,22}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

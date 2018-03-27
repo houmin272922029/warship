@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="army_assault" ID="8f6a210e-8a58-403c-af9a-36edd238a392" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/operatingActivities/army_assault/war_mobilization_0005.png" />
+      <FilePathData Path="Resources/operatingActivities/army_assault/war_mobilization_0008.png" />
+      <FilePathData Path="Resources/operatingActivities/army_assault/mobilization_0006.png" />
+      <FilePathData Path="Resources/operatingActivities/army_assault/mobilization_0008.png" />
+      <FilePathData Path="Resources/operatingActivities/army_assault/mobilization_0009.png" />
+      <FilePathData Path="Resources/operatingActivities/army_assault/mobilization_0012.png" />
+      <FilePathData Path="Resources/operatingActivities/army_assault/mobilization_0013.png" />
+    </ImageFiles>
+    <MaxSize Width="472" Height="342" />
+  </Content>
+</PlistInfoProjectFile>

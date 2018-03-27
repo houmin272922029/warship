@@ -1,0 +1,1806 @@
+<Solution>
+  <PropertyGroup Name="res" Version="2.3.1.2" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csd">
+          <Folder Name="view">
+            <Folder Name="signIn">
+              <Project Name="MainView.csd" Type="Layer" />
+              <Project Name="ItemView.csd" Type="Node" />
+              <Project Name="ItemNodeView.csd" Type="Node" />
+            </Folder>
+            <Folder Name="login">
+              <Project Name="EnterGameCell.csd" Type="Node" />
+              <Project Name="DistrictCell.csd" Type="Node" />
+              <Project Name="RegisterDialog.csd" Type="Layer" />
+              <Project Name="DistrictDialog.csd" Type="Layer" />
+              <Project Name="ReminderDialog.csd" Type="Layer" />
+              <Project Name="LoginView.csd" Type="Scene" />
+              <Project Name="LoginCell.csd" Type="Node" />
+              <Project Name="AccountCell.csd" Type="Node" />
+              <Project Name="AgreeDialog.csd" Type="Layer" />
+              <Project Name="AnnouncementDialog.csd" Type="Layer" />
+              <Project Name="BindAccountDialog.csd" Type="Layer" />
+              <Project Name="CleanupDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="main">
+              <Project Name="MainView.csd" Type="Layer" />
+              <Project Name="MessageDialog.csd" Type="Layer" />
+              <Project Name="BroadcastView.csd" Type="Node" />
+              <Project Name="WorldBossNoticeDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="battle">
+              <Project Name="BattleView.csd" Type="Layer" />
+              <Project Name="BattleResultView.csd" Type="Layer" />
+              <Project Name="BattleHeader.csd" Type="Layer" />
+              <Project Name="BattleShareDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="alert">
+              <Project Name="BaseAlert.csd" Type="Layer" />
+              <Project Name="TestAlertNode.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="campaign">
+              <Project Name="ChapterView.csd" Type="Layer" />
+              <Project Name="ChapterSingleView.csd" Type="Layer" />
+              <Project Name="ChapterRewardView.csd" Type="Layer" />
+              <Project Name="ChapterOpenTip.csd" Type="Layer" />
+              <Project Name="ScenePoint.csd" Type="Node" />
+              <Folder Name="chapterMap">
+                <Project Name="ChapterMap1.csd" Type="Layer" />
+                <Project Name="ChapterMap2.csd" Type="Layer" />
+                <Project Name="ChapterMap3.csd" Type="Layer" />
+                <Project Name="ChapterMap4.csd" Type="Layer" />
+                <Project Name="ChapterMap5.csd" Type="Layer" />
+                <Project Name="ChapterMap6.csd" Type="Layer" />
+                <Project Name="ChapterMap7.csd" Type="Layer" />
+              </Folder>
+              <Project Name="SceneView.csd" Type="Layer" />
+              <Project Name="Checkpoint.csd" Type="Layer" />
+              <Project Name="CheckpointAwardDialog.csd" Type="Layer" />
+              <Project Name="HowToPlayDialog.csd" Type="Layer" />
+              <Project Name="HowToPlayItem.csd" Type="Layer" />
+              <Project Name="AutoFightDialog.csd" Type="Layer" />
+              <Project Name="AutoFightItem.csd" Type="Layer" />
+              <Project Name="ChapterHelpAlert.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="garage">
+              <Project Name="GarageView.csd" Type="Layer" />
+              <Project Name="GarageTankCell.csd" Type="Node" />
+              <Project Name="TankSelectDialog.csd" Type="Layer" />
+              <Project Name="TankSelectCell.csd" Type="Node" />
+              <Project Name="EmbattleDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="training">
+              <Project Name="BatchTrainDialog.csd" Type="Layer" />
+              <Project Name="TankInfoCell.csd" Type="Layer" />
+              <Project Name="TrainingView.csd" Type="Layer" />
+              <Project Name="TrainAreaCell.csd" Type="Node" />
+              <Project Name="UpgradeAreaTip.csd" Type="Node" />
+            </Folder>
+            <Folder Name="style">
+              <Project Name="DialogStyle2.csd" Type="Node" />
+              <Project Name="DialogStyle3.csd" Type="Node" />
+              <Project Name="DialogStyle5.csd" Type="Node" />
+              <Project Name="DialogStyle1.csd" Type="Node" />
+              <Project Name="ViewStyle1.csd" Type="Node" />
+            </Folder>
+            <Folder Name="storage">
+              <Project Name="StorageDialog.csd" Type="Layer" />
+              <Project Name="StorageCell.csd" Type="Node" />
+              <Project Name="PropUseDialog.csd" Type="Layer" />
+              <Project Name="PropSaleDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="equip">
+              <Project Name="EquipInfoCell.csd" Type="Node" />
+              <Project Name="EquipView.csd" Type="Layer" />
+              <Project Name="EquipBaseInfo.csd" Type="Node" />
+              <Project Name="SuitCell.csd" Type="Node" />
+              <Project Name="AlloyCell.csd" Type="Node" />
+              <Project Name="SuitCell2.csd" Type="Node" />
+            </Folder>
+            <Folder Name="mail">
+              <Project Name="MailDialog.csd" Type="Layer" />
+              <Project Name="MailCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="classicbattle">
+              <Project Name="ClassicBattleView.csd" Type="Layer" />
+              <Project Name="ClassicBattleCard.csd" Type="Node" />
+              <Project Name="ClassicBattleTip.csd" Type="Node" />
+            </Folder>
+            <Folder Name="extractionCard">
+              <Project Name="ExtractionCardView.csd" Type="Layer" />
+              <Project Name="ExtractionCardResultView.csd" Type="Layer" />
+              <Project Name="ExtractionCardAward.csd" Type="Layer" />
+              <Project Name="ExtractionCardAwardCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="supply">
+              <Project Name="SupplyDialog.csd" Type="Layer" />
+              <Project Name="SupplyAwardCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="task">
+              <Project Name="TaskCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="shop">
+              <Project Name="ShopView.csd" Type="Layer" />
+              <Project Name="TankShopView.csd" Type="Layer" />
+              <Project Name="PropShopView.csd" Type="Layer" />
+              <Project Name="PropShopCell.csd" Type="Node" />
+              <Project Name="PurchaseDialog.csd" Type="Layer" />
+              <Project Name="TankShopCell.csd" Type="Node" />
+              <Project Name="TankShopTip.csd" Type="Node" />
+            </Folder>
+            <Folder Name="technology">
+              <Project Name="TechnologyView.csd" Type="Layer" />
+              <Project Name="TechnologyDetailView.csd" Type="Layer" />
+              <Project Name="TechnologyHelpDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="tip">
+              <Project Name="GeneralTip.csd" Type="Layer" />
+              <Project Name="TankTip.csd" Type="Layer" />
+              <Project Name="DescribeCell.csd" Type="Node" />
+              <Project Name="EquipTip.csd" Type="Layer" />
+              <Project Name="TankTipCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="mine">
+              <Project Name="MineView.csd" Type="Layer" />
+              <Project Name="PlunderView.csd" Type="Layer" />
+              <Project Name="RareMineView.csd" Type="Layer" />
+              <Project Name="PlunderCell.csd" Type="Node" />
+              <Project Name="RareMineCell.csd" Type="Node" />
+              <Project Name="OilList.csd" Type="Node" />
+              <Project Name="MineTip.csd" Type="Layer" />
+              <Project Name="MineEventDialog.csd" Type="Layer" />
+              <Project Name="PlunderLogCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="fightJapan">
+              <Project Name="FightJapanView.csd" Type="Layer" />
+              <Project Name="ExchangeDialog.csd" Type="Layer" />
+              <Project Name="EncourageDialog.csd" Type="Layer" />
+              <Project Name="ExchangeItem.csd" Type="Node" />
+              <Project Name="ExEnemyCell.csd" Type="Node" />
+              <Project Name="ChestInfoDialog1.csd" Type="Layer" />
+              <Project Name="ExchangeCell.csd" Type="Node" />
+              <Project Name="ExChestCell.csd" Type="Node" />
+              <Project Name="ExUserCell.csd" Type="Node" />
+              <Project Name="SpeakDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="arena">
+              <Project Name="ArenaView.csd" Type="Layer" />
+              <Project Name="ArenaCell.csd" Type="Node" />
+              <Project Name="AwardPreviewDialog.csd" Type="Layer" />
+              <Project Name="AwardPreviewCell.csd" Type="Node" />
+              <Project Name="ArenaAwardView.csd" Type="Layer" />
+              <Project Name="ArenaAwardCard.csd" Type="Node" />
+            </Folder>
+            <Folder Name="user">
+              <Folder Name="upgrade">
+                <Project Name="RoleUpgradeDialog.csd" Type="Layer" />
+                <Project Name="UpgradeInfoCell.csd" Type="Node" />
+              </Folder>
+            </Folder>
+            <Folder Name="activity">
+              <Project Name="BattleRoomView.csd" Type="Layer" />
+              <Project Name="RoomCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="common">
+              <Project Name="AwardGetDialog.csd" Type="Layer" />
+              <Project Name="TankItem.csd" Type="Node" />
+              <Project Name="HelpDialog.csd" Type="Layer" />
+              <Project Name="Toast2.csd" Type="Node" />
+              <Project Name="EnergyNode.csd" Type="Node" />
+              <Project Name="BuyOrUseDialog.csd" Type="Layer" />
+              <Project Name="TankItem2.csd" Type="Node" />
+              <Project Name="Loading.csd" Type="Layer" />
+              <Project Name="TankItem3.csd" Type="Node" />
+              <Project Name="VipNode.csd" Type="Node" />
+              <Project Name="Button1.csd" Type="Node" />
+              <Project Name="Button2.csd" Type="Node" />
+              <Project Name="TankInfoList.csd" Type="Node" />
+              <Project Name="SceneTransition.csd" Type="Node" />
+              <Project Name="DiamondDialog.csd" Type="Layer" />
+              <Project Name="ShareView.csd" Type="Layer" />
+              <Project Name="Toast3.csd" Type="Node" />
+            </Folder>
+            <Folder Name="inspection">
+              <Project Name="InspectionDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="vip">
+              <Project Name="VipAwardDialog.csd" Type="Layer" />
+              <Project Name="VipPrivilegeView.csd" Type="Layer" />
+              <Project Name="VipAwardCell.csd" Type="Node" />
+              <Project Name="VipPrivilegeCell.csd" Type="Node" />
+            </Folder>
+            <Folder Name="invade">
+              <Project Name="InvadeDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="pot">
+              <Project Name="PotView.csd" Type="Layer" />
+              <Project Name="potPoint.csd" Type="Node" />
+            </Folder>
+            <Folder Name="setting">
+              <Project Name="SettingDialog.csd" Type="Layer" />
+              <Project Name="BlackListItem.csd" Type="Node" />
+              <Project Name="BlackListView.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="operatingActivities">
+              <Folder Name="loginGift">
+                <Project Name="LoginGiftDialog.csd" Type="Layer" />
+                <Project Name="LoginGiftCell.csd" Type="Node" />
+              </Folder>
+              <Project Name="ActivitiesList.csd" Type="Layer" />
+              <Folder Name="gunnerTrain">
+                <Project Name="GunnerTrainDialog.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="heroicRacing">
+                <Project Name="HeroicRacingDialog.csd" Type="Layer" />
+                <Project Name="HeroicRacingItem.csd" Type="Node" />
+              </Folder>
+              <Folder Name="visitGeneral">
+                <Project Name="VisitGeneralDialog.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="headquartersSupport">
+                <Project Name="HeadquartersSupportDialog.csd" Type="Scene" />
+                <Project Name="PicView.csd" Type="Node" />
+              </Folder>
+              <Folder Name="openServerGift">
+                <Project Name="ServerGiftCell.csd" Type="Node" />
+                <Project Name="ServerGiftDialog.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="armyAssault">
+                <Project Name="ArmyAssaultDialog.csd" Type="Layer" />
+                <Project Name="SupplyRankCell.csd" Type="Node" />
+              </Folder>
+              <Folder Name="totalPay">
+                <Project Name="TotalPayDialog.csd" Type="Layer" />
+                <Project Name="TotalPayCell.csd" Type="Node" />
+              </Folder>
+              <Folder Name="firstPay">
+                <Project Name="FirstPayDialog.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="growthFund">
+                <Project Name="MainDialog.csd" Type="Layer" />
+                <Project Name="ItemView.csd" Type="Node" />
+              </Folder>
+              <Folder Name="pay_rebate">
+                <Project Name="PayRebateCell.csd" Type="Node" />
+                <Project Name="PayRebateDialog.csd" Type="Layer" />
+              </Folder>
+            </Folder>
+            <Folder Name="guide">
+              <Folder Name="noviceGuide">
+                <Project Name="DialogueGuide.csd" Type="Layer" />
+                <Project Name="ClickGuide.csd" Type="Layer" />
+                <Project Name="DialogueCell.csd" Type="Node" />
+                <Project Name="SelectOneTank.csd" Type="Layer" />
+                <Project Name="CreateRole.csd" Type="Layer" />
+                <Project Name="FinishGuideDialog.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="triggerGuide">
+                <Project Name="FunctionOpenDialog.csd" Type="Layer" />
+              </Folder>
+            </Folder>
+            <Folder Name="achievement">
+              <Project Name="MainDialog.csd" Type="Layer" />
+              <Project Name="PictureView.csd" Type="Node" />
+              <Project Name="Attribute.csd" Type="Node" />
+              <Project Name="PictureFragment.csd" Type="Node" />
+              <Project Name="AchievementItemView.csd" Type="Node" />
+              <Project Name="InfoView.csd" Type="Node" />
+              <Project Name="CommentDialog.csd" Type="Layer" />
+              <Project Name="CommentItem.csd" Type="Node" />
+              <Project Name="AttributeItem.csd" Type="Node" />
+              <Project Name="AttributeListDialog.csd" Type="Layer" />
+              <Project Name="UpgradeDescDialog.csd" Type="Layer" />
+              <Project Name="PicAddTips.csd" Type="Node" />
+            </Folder>
+            <Folder Name="examine">
+              <Project Name="ExamineTech.csd" Type="Layer" />
+              <Project Name="ExamineFormation.csd" Type="Layer" />
+              <Project Name="ExamineAchievement.csd" Type="Scene" />
+              <Project Name="ExamineDialog.csd" Type="Layer" />
+              <Project Name="ExamineAchievementCell.csd" Type="Node" />
+              <Project Name="ExamineSoul.csd" Type="Layer" />
+              <Project Name="ShowExamineEquipInfo.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="chat">
+              <Project Name="UserInfoDialog.csd" Type="Layer" />
+              <Project Name="MainView.csd" Type="Layer" />
+              <Project Name="InputNameDialog.csd" Type="Layer" />
+              <Project Name="BlockDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="resolve">
+              <Project Name="ResolveView.csd" Type="Layer" />
+              <Project Name="TankItem.csd" Type="Node" />
+              <Project Name="RewardDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="recharge">
+              <Project Name="RechargeView.csd" Type="Layer" />
+              <Project Name="RechargeCell.csd" Type="Node" />
+              <Project Name="RechargeItem.csd" Type="Node" />
+              <Project Name="ShowDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="monthCard">
+              <Project Name="MainDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="module">
+              <Project Name="Loader.csd" Type="Layer" />
+              <Project Name="Error.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="advance">
+              <Project Name="PreView.csd" Type="Layer" />
+              <Project Name="TankInfoList.csd" Type="Node" />
+            </Folder>
+            <Folder Name="exchange">
+              <Project Name="ExCDKeyDialog.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="debug">
+              <Project Name="SelectBranchView.csd" Type="Layer" />
+            </Folder>
+          </Folder>
+          <Folder Name="widget">
+            <Project Name="Toast.csd" Type="Node" />
+            <Project Name="ServiceLoading.csd" Type="Layer" />
+            <Project Name="TabButton1.csd" Type="Node" />
+            <Project Name="BattleBloodBar.csd" Type="Node" />
+            <Project Name="BattleMoraleBar.csd" Type="Node" />
+            <Project Name="Attribute.csd" Type="Layer" />
+            <Project Name="Debugger.csd" Type="Layer" />
+            <Project Name="BuyNumDialog.csd" Type="Layer" />
+            <Project Name="BattleBloodProgressBar.csd" Type="Node" />
+            <Project Name="BattleExpBar.csd" Type="Node" />
+            <Project Name="TabButton2.csd" Type="Node" />
+          </Folder>
+          <Project Name="all.csd" Type="Node" />
+        </Folder>
+        <Folder Name="Resources">
+          <Folder Name="common">
+            <Folder Name="button">
+              <Image Name="D_1.png" />
+              <Image Name="diggings_icon_0033.png" />
+              <Image Name="login_30.png" />
+              <Image Name="login_31.png" />
+              <Image Name="login_32.png" />
+              <Image Name="login_33.png" />
+              <Image Name="login_38.png" />
+              <Image Name="login_39.png" />
+              <Image Name="BUT_12.png" />
+              <Image Name="BUT_11.png" />
+              <PlistInfo Name="common_button.csi" Type="Plist" />
+              <Image Name="anniu01.png" />
+              <Image Name="anniu01_1.png" />
+              <Image Name="anniuhong02.png" />
+              <Image Name="anniuhui.png" />
+              <Image Name="anniulan02.png" />
+              <Image Name="btn_19.png" />
+              <Image Name="btn_3.png" />
+              <Image Name="btn_4.png" />
+              <Image Name="card_0004.png" />
+              <Image Name="card_0005.png" />
+              <Image Name="dinganniu01.png" />
+              <Image Name="dinganniu02.png" />
+              <Image Name="guanbi.png" />
+              <Image Name="guanbi01.png" />
+              <Image Name="jiantou.png" />
+              <Image Name="zhuye.png" />
+              <Image Name="VIP_tqcz_0005.png" />
+              <Image Name="topup_rebate_0006.png" />
+              <Image Name="science_icon_00023.png" />
+              <Image Name="VIP_tqcz_0002.png" />
+              <Image Name="anniu03.png" />
+              <Image Name="anniu03_1.png" />
+              <Image Name="anniu04.png" />
+              <Image Name="anniu04-1.png" />
+              <Image Name="j1.png" />
+              <Image Name="j2.png" />
+              <Image Name="j3.png" />
+              <Image Name="j4.png" />
+              <Image Name="deploy_0002.png" />
+              <Image Name="deploy_0009.png" />
+              <Image Name="guanbi1.png" />
+              <Image Name="guanbi02.png" />
+              <Image Name="btn_5.png" />
+              <Image Name="btn_6.png" />
+              <Image Name="q1.png" />
+              <Image Name="q1_1.png" />
+              <Image Name="q2.png" />
+              <Image Name="q2_1.png" />
+              <Image Name="q3.png" />
+              <Image Name="q3_1.png" />
+              <Image Name="biaoti3.png" />
+              <Image Name="btn_8.png" />
+              <Image Name="btn_7.png" />
+              <Image Name="qq2.png" />
+              <Image Name="sc1.png" />
+              <Image Name="xgnkq01.jpg" />
+              <Image Name="btn_13.png" />
+              <Image Name="btn_14.png" />
+            </Folder>
+            <Folder Name="icon">
+              <Image Name="c_8.png" />
+              <Image Name="XL_10.png" />
+              <Image Name="JDZ_4.png" />
+              <Image Name="ZJM_20.png" />
+              <Image Name="CK_16.png" />
+              <Image Name="SJ_5.png" />
+              <Image Name="SD_6.png" />
+              <Image Name="chapter_icon.png" />
+              <Image Name="equip_icon.png" />
+              <Image Name="icon_hd.png" />
+              <Image Name="c_19.png" />
+              <Image Name="oil_icon_1.png" />
+              <Image Name="oil_icon_2.png" />
+              <Folder Name="coin">
+                <Image Name="1.png" />
+                <Image Name="10.png" />
+                <Image Name="1a.png" />
+                <Image Name="2.png" />
+                <Image Name="3.png" />
+                <Image Name="5.png" />
+                <Image Name="6.png" />
+                <Image Name="7.png" />
+                <Image Name="8.png" />
+                <Image Name="9.png" />
+                <Image Name="4.png" />
+                <Image Name="user_exp_icon.png" />
+                <Image Name="11.png" />
+                <Image Name="21.png" />
+                <Image Name="soul.png" />
+                <Image Name="soul2.png" />
+              </Folder>
+              <Image Name="login_35.png" />
+              <PlistInfo Name="common_icon.csi" Type="Plist" />
+              <Image Name="10.png" />
+              <Image Name="VIP_tqcz_0003.png" />
+              <Image Name="b1.png" />
+              <Image Name="b2.png" />
+              <Image Name="b3.png" />
+              <Image Name="b4.png" />
+              <Image Name="b5.png" />
+              <Folder Name="task">
+                <Image Name="1_1.jpg" />
+                <Image Name="1_10.jpg" />
+                <Image Name="1_11.jpg" />
+                <Image Name="1_2.jpg" />
+                <Image Name="1_3.jpg" />
+                <Image Name="1_4.jpg" />
+                <Image Name="1_5.jpg" />
+                <Image Name="1_6.jpg" />
+                <Image Name="1_7.jpg" />
+                <Image Name="1_8.jpg" />
+                <Image Name="1_9.jpg" />
+                <Image Name="2_1.jpg" />
+                <Image Name="2_2.jpg" />
+                <Image Name="2_3.jpg" />
+              </Folder>
+              <Image Name="c_12.png" />
+              <Image Name="c_13.png" />
+              <Image Name="chestIcon.png" />
+              <Image Name="chestIcon_2.png" />
+              <Image Name="chestIcon_3.png" />
+              <Image Name="chestIcon_4.png" />
+              <Image Name="faxin.png" />
+            </Folder>
+            <Folder Name="img">
+              <Image Name="BZ_2.png" />
+              <Image Name="loading_img.jpg" />
+              <Image Name="ZJM_4.png" />
+              <Image Name="Base_0006.png" />
+              <Image Name="c_1.png" />
+              <Image Name="KQ_20.png" />
+              <Image Name="06.png" />
+              <Image Name="di.png" />
+              <Image Name="15.png" />
+              <Image Name="5.png" />
+              <Image Name="7.png" />
+              <Image Name="bg06.png" />
+              <Image Name="di03.png" />
+              <Image Name="di5.png" />
+              <Image Name="dingbu01.png" />
+              <Image Name="dingbu02.png" />
+              <Image Name="dingbu03.png" />
+              <Image Name="duihao.png" />
+              <Image Name="gongxi.png" />
+              <Image Name="img_1.png" />
+              <Image Name="input_bg01.png" />
+              <Image Name="jiantou01.png" />
+              <Image Name="VIP_16.jpg" />
+              <Image Name="VIP_17.jpg" />
+              <Image Name="war_mobilization_0003.png" />
+              <Image Name="war-mobilization_0005.png" />
+              <Image Name="xia.jpg" />
+              <Image Name="zhezhao.png" />
+              <Image Name="zidi.png" />
+              <Image Name="ZW_1.png" />
+              <Image Name="BK_t6.png" />
+              <Image Name="kuang1.png" />
+              <Image Name="chuo1.png" />
+              <Image Name="D_12.png" />
+              <Image Name="line1.png" />
+              <Image Name="line3.png" />
+              <Image Name="XL_12.png" />
+              <Image Name="XL_13.png" />
+              <Image Name="XL_14.png" />
+              <Image Name="XL_3.png" />
+              <Image Name="xuanzhong.png" />
+              <Image Name="ZW_2.png" />
+              <Image Name="D_3.png" />
+              <Image Name="D_6.png" />
+              <Image Name="decompose_0010.png" />
+              <Image Name="fuben01.png" />
+              <Image Name="get_interface_0003.png" />
+              <Image Name="XL_21.png" />
+              <Image Name="VIP_tqcz_0011.png" />
+              <Image Name="war-mobilization_0014.png" />
+              <Image Name="xiangzi01.png" />
+              <Image Name="VIP_tqcz_0008.png" />
+              <Image Name="VIP_tqcz_0007.png" />
+              <Image Name="GW_10.png" />
+              <Image Name="upload1_0001.png" />
+              <Image Name="upload1_0002.png" />
+              <Image Name="biaoti.png" />
+              <Image Name="btn_7.png" />
+              <PlistInfo Name="common_img.csi" Type="Plist" />
+              <Image Name="tip_detail.png" />
+              <Image Name="b2.png" />
+              <Image Name="XL_11.png" />
+              <Image Name="topup_rebate_0004.png" />
+              <Image Name="biaotidi.png" />
+              <Image Name="xiahuaxian_0001.png" />
+              <Image Name="ZHC_1.png" />
+              <Image Name="guang1.png" />
+              <Image Name="door_down.jpg" />
+              <Image Name="door_up.jpg" />
+              <Image Name="bar_1.png" />
+              <Image Name="bar_2.png" />
+              <Image Name="bar_3.png" />
+              <Image Name="bg1.jpg" />
+              <Image Name="shade1.png" />
+              <Image Name="shade2.png" />
+              <Image Name="biaoti2.png" />
+              <Image Name="jiantou1.png" />
+              <Image Name="jiantou2.png" />
+              <Image Name="jiantou3.png" />
+              <Image Name="line.png" />
+              <Image Name="jiantou4.png" />
+              <Image Name="underline1.png" />
+              <Image Name="underline2.png" />
+              <Image Name="ygmc.png" />
+              <Image Name="pubflag.png" />
+              <Image Name="g_01.png" />
+              <Image Name="g_02.png" />
+              <Image Name="q.png" />
+            </Folder>
+            <Folder Name="frame">
+              <PlistInfo Name="common_frame.csi" Type="Plist" />
+              <Image Name="kuang.png" />
+              <Image Name="kuang008.png" />
+              <Image Name="kuang01.png" />
+              <Image Name="kuang02.png" />
+              <Image Name="XL_7.png" />
+              <Image Name="SJ_7.png" />
+              <Image Name="biaoti01.png" />
+            </Folder>
+            <Folder Name="txt">
+              <Image Name="buzhen.png" />
+              <Image Name="saodang.png" />
+              <Image Name="kaishizhandou.png" />
+              <Image Name="junxushangdian.png" />
+              <Image Name="xianyou.png" />
+              <Image Name="zaichouyici.png" />
+              <Image Name="fanhui.png" />
+              <Image Name="qianghua.png" />
+              <Image Name="zhuangzai.png" />
+              <PlistInfo Name="common_txt.csi" Type="Plist" />
+              <Image Name="fasong.png" />
+              <Image Name="huifu.png" />
+              <Image Name="lingqu.png" />
+              <Image Name="quanbulingqu.png" />
+              <Image Name="quanbushanchu.png" />
+              <Image Name="shanchu.png" />
+              <Image Name="xinjianyoujian.png" />
+              <Image Name="chakangonggao.png" />
+              <Image Name="genghuanfuwuqi.png" />
+              <Image Name="guanbiyinyue.png" />
+              <Image Name="heimingdan.png" />
+              <Image Name="kaiqiyinyue.png" />
+              <Image Name="lianxikefu.png" />
+              <Image Name="libaoduihuan.png" />
+              <Image Name="tuisongshezhi.png" />
+              <Image Name="youxibangzu.png" />
+              <Image Name="zhanhaoanquan.png" />
+              <Image Name="chongzhi.png" />
+              <Image Name="qianwang.png" />
+              <Image Name="buji.png" />
+              <Image Name="qiangbu.png" />
+              <Image Name="jianyue.png" />
+              <Image Name="dakailibao.png" />
+              <Image Name="qubuji.png" />
+              <Image Name="miaozhun.png" />
+              <Image Name="jitui.png" />
+              <Image Name="chakanzhanbao.png" />
+              <Image Name="lingqu2.png" />
+              <Image Name="lingqu3.png" />
+              <Image Name="goumai.png" />
+              <Image Name="queding.png" />
+              <Image Name="shuxing.png" />
+              <Image Name="zhanchedianping.png" />
+              <Image Name="mianfeishuaxin.png" />
+              <Image Name="tilishuaxin.png" />
+              <Image Name="yuanzhengguwu.png" />
+              <Image Name="yuanzhengshangdian.png" />
+              <Image Name="chongxinkaishi.png" />
+              <Image Name="tankefenjie2.png" />
+              <Image Name="tankefenjie1.png" />
+              <Image Name="zhuangbeifenjie1.png" />
+              <Image Name="zhuangbeifenjie2.png" />
+              <Image Name="guanbi.png" />
+              <Image Name="pinzhishengji.png" />
+              <Image Name="quxiao.png" />
+              <Image Name="fenjie.png" />
+              <Image Name="viptequan.png" />
+              <Image Name="chongzhi2.png" />
+              <Image Name="lingqu4.png" />
+              <Image Name="guankan.png" />
+              <Image Name="chongzhi3.png" />
+              <Image Name="yunyinghuodong.png" />
+              <Image Name="vip.png" />
+              <Image Name="buji2.png" />
+              <Image Name="jingjichang.png" />
+              <Image Name="renwu.png" />
+              <Image Name="zanweikaiqi.png" />
+              <Image Name="zhandouli.png" />
+              <Image Name="zuozhanshi.png" />
+              <Image Name="goumai2.png" />
+              <Image Name="baifang.png" />
+              <Image Name="weidacheng.png" />
+              <Image Name="chakan.png" />
+              <Image Name="xiayifeng.png" />
+              <Image Name="shiyong.png" />
+              <Image Name="quchongzhi.png" />
+              <Image Name="refresh.png" />
+              <Image Name="kaihuo.png" />
+              <Image Name="genghuan.png" />
+              <Image Name="jinjie.png" />
+              <Image Name="shengxingyulan.png" />
+              <Image Name="jichuxinxi.png" />
+              <Image Name="jinengtihuan.png" />
+              <Image Name="zhanchejieshao.png" />
+              <Image Name="zhanchetianfu.png" />
+              <Image Name="zhanchejinjie.png" />
+              <Image Name="zhancheshengji.png" />
+              <Image Name="weidacheng2.png" />
+              <Image Name="lijilingqu.png" />
+              <Image Name="chongzhi1.png" />
+              <Image Name="xiexia.png" />
+              <Image Name="qingkong.png" />
+              <Image Name="chongzhi4.png" />
+              <Image Name="lingqu5.png" />
+              <Image Name="sjboss0004.png" />
+              <Image Name="zhidaole.png" />
+              <Image Name="qukankan.png" />
+              <Image Name="yijiangouxuan.png" />
+              <Image Name="tanbaopaihangbang.png" />
+              <Image Name="kuaisutiaozhuan.png" />
+              <Image Name="mianfei.png" />
+              <Image Name="tankkegaizao.png" />
+              <Image Name="gaizao.png" />
+            </Folder>
+            <Folder Name="title">
+              <PlistInfo Name="common_title.csi" Type="Plist" />
+              <Image Name="baifang.png" />
+              <Image Name="Daily-review_0001.png" />
+              <Image Name="yingyongjingsu.png" />
+              <Image Name="zhanchejianshang.png" />
+              <Image Name="zongbuzhiyuan.png" />
+              <Image Name="ganbeichengjiujiangli.png" />
+              <Image Name="huodekejishu.png" />
+              <Image Name="paoshouxunlian.png" />
+              <Image Name="sanbingruqin.png" />
+              <Image Name="saodangbiaoti.png" />
+              <Image Name="shuxingyulan.png" />
+              <Image Name="tanketujian.png" />
+              <Image Name="login_gift_title.png" />
+              <Image Name="server_gift_title.png" />
+              <Image Name="mail_title.png" />
+              <Image Name="zuozhanshi.png" />
+              <Image Name="qianxianzhanbao.png" />
+              <Image Name="zongbuhedian.png" />
+              <Image Name="train_title.png" />
+              <Image Name="goumaitili.png" />
+              <Image Name="Daily-tasks_title.png" />
+              <Image Name="choose_tank_list.png" />
+              <Image Name="tank_shop.png" />
+              <Image Name="shop.png" />
+              <Image Name="props_shop.png" />
+              <Image Name="storage.png" />
+              <Image Name="supply_title.png" />
+              <Image Name="encourage_title.png" />
+              <Image Name="enemy_title.png" />
+              <Image Name="fj_exchange_title.png" />
+              <Image Name="fightJapan_title.png" />
+              <Image Name="zhangjiejiangli.png" />
+              <Image Name="plunder_log_title.png" />
+              <Image Name="equip_title.png" />
+              <Image Name="plunder_title.png" />
+              <Image Name="vip_privilege_title.png" />
+              <Image Name="recharge_title.png" />
+              <Image Name="fenjie.png" />
+              <Image Name="goumai.png" />
+              <Image Name="chakan.png" />
+              <Image Name="youxishezhi.png" />
+              <Image Name="army_assault.png" />
+              <Image Name="embattle_title.png" />
+              <Image Name="jinjiechenggong.png" />
+              <Image Name="shengxingyulan2.png" />
+              <Image Name="zhanchejinjie.png" />
+              <Image Name="duihuanma.png" />
+              <Image Name="sjboss0001.png" />
+              <Image Name="sjboss0003.png" />
+              <Image Name="sjboss0002.png" />
+              <Image Name="jtboss_01.png" />
+              <Image Name="tishi.png" />
+              <Image Name="pingbiheimingdan.png" />
+              <Image Name="zhishijingsai.png" />
+            </Folder>
+            <Folder Name="item">
+              <Image Name="bg1.png" />
+              <PlistInfo Name="common_item.csi" Type="Plist" />
+              <Image Name="item_bg_1.png" />
+              <Image Name="item_bg_2.png" />
+              <Image Name="item_bg_3.png" />
+              <Image Name="item_bg_4.png" />
+              <Image Name="item_bg_5.png" />
+              <Image Name="item_bg_6.png" />
+            </Folder>
+            <Folder Name="bg">
+              <Image Name="VIP_img_0001.jpg" />
+              <Image Name="17.png" />
+              <Image Name="bg.jpg" />
+              <Image Name="JJC_22.jpg" />
+              <Image Name="c_11.png" />
+              <Image Name="c_12.png" />
+              <Image Name="support_0008.jpg" />
+              <Image Name="di1.png" />
+              <Image Name="g1.png" />
+              <Image Name="deploy_0006.jpg" />
+              <Image Name="shuomingbg.png" />
+              <Image Name="dibg.png" />
+              <Image Name="di01.jpg" />
+              <Image Name="xinxidi1.png" />
+            </Folder>
+            <Folder Name="particle">
+              <Image Name="1.png" />
+              <Image Name="2.png" />
+              <Image Name="3.png" />
+              <Image Name="4.png" />
+            </Folder>
+            <Folder Name="share">
+              <Image Name="1.png" />
+              <Image Name="2.png" />
+              <Image Name="3.png" />
+              <Image Name="4.png" />
+              <Image Name="bg.jpg" />
+            </Folder>
+          </Folder>
+          <Folder Name="campaign">
+            <Image Name="GK_35.png" />
+            <Image Name="di01.png" />
+            <Image Name="di02.png" />
+            <Image Name="di04.png" />
+            <Image Name="fubenkuang.png" />
+            <Image Name="quan01.png" />
+            <Image Name="saodang01.png" />
+            <Image Name="saodangbiaoti.png" />
+            <Image Name="wancheng.png" />
+            <Image Name="xiangzi02.png" />
+            <Image Name="xiangzi03.png" />
+            <Image Name="xin.png" />
+            <Image Name="xuanze01.png" />
+            <Image Name="xuanze02.png" />
+            <Image Name="jiangliyulan.png" />
+            <Image Name="chakanzhanli.png" />
+            <Image Name="tongguangonglue.png" />
+            <Image Name="zj1.png" />
+            <Image Name="zj2.png" />
+            <Image Name="zj3.png" />
+            <Image Name="zj4.png" />
+            <Image Name="zj5.png" />
+            <Image Name="z13.png" />
+            <PlistInfo Name="campaign.csi" Type="Plist" />
+            <Image Name="g2.png" />
+            <Image Name="jiebao.png" />
+            <Image Name="GK_6.jpg" />
+            <Image Name="G_20.png" />
+            <Image Name="G_19.png" />
+            <Image Name="chapter_1.png" />
+            <Image Name="chapter_2.png" />
+            <Image Name="chapter_3.png" />
+            <Image Name="chapter_4.png" />
+            <Image Name="chapter_5.png" />
+            <Image Name="chapterTite.png" />
+            <Image Name="1.jpg" />
+            <Image Name="10.jpg" />
+            <Image Name="11.jpg" />
+            <Image Name="12.jpg" />
+            <Image Name="13.jpg" />
+            <Image Name="14.jpg" />
+            <Image Name="15.jpg" />
+            <Image Name="16.jpg" />
+            <Image Name="17.jpg" />
+            <Image Name="18.jpg" />
+            <Image Name="19.jpg" />
+            <Image Name="2.jpg" />
+            <Image Name="20.jpg" />
+            <Image Name="21.jpg" />
+            <Image Name="22.jpg" />
+            <Image Name="23.jpg" />
+            <Image Name="24.jpg" />
+            <Image Name="25.jpg" />
+            <Image Name="26.jpg" />
+            <Image Name="27.jpg" />
+            <Image Name="28.jpg" />
+            <Image Name="29.jpg" />
+            <Image Name="3.jpg" />
+            <Image Name="31.jpg" />
+            <Image Name="32.jpg" />
+            <Image Name="4.jpg" />
+            <Image Name="5.jpg" />
+            <Image Name="6.jpg" />
+            <Image Name="7.jpg" />
+            <Image Name="8.jpg" />
+            <Image Name="9.jpg" />
+            <Image Name="GK_38.jpg" />
+            <Image Name="g21.png" />
+            <Image Name="zj6.png" />
+            <Image Name="zj7.png" />
+            <Image Name="chapter_6.png" />
+            <Image Name="chapter_7.png" />
+          </Folder>
+          <Folder Name="garage">
+            <Image Name="c_9.png" />
+            <Image Name="ZC_1.png" />
+            <Image Name="ZC_2.png" />
+            <Image Name="ZC_3.png" />
+            <Image Name="ZHC_13.png" />
+            <Image Name="c_17.png" />
+            <PlistInfo Name="garage.csi" Type="Plist" />
+            <Image Name="zhuangshi01.png" />
+            <Image Name="z1.png" />
+            <Image Name="z4.png" />
+            <Image Name="z5.png" />
+            <Image Name="z6.png" />
+            <Image Name="z7.png" />
+            <Image Name="xinxidi.png" />
+            <Image Name="z2.png" />
+            <Image Name="z3.png" />
+            <Image Name="equip_d1.png" />
+            <Image Name="equip_d2.png" />
+            <Image Name="equip_d3.png" />
+            <Image Name="equip_d4.png" />
+            <Image Name="zhanchexinxi.png" />
+            <Image Name="garage_bg.jpg" />
+            <Image Name="deploy_0007.png" />
+            <Image Name="c_16.png" />
+            <Image Name="c_14.png" />
+          </Folder>
+          <Folder Name="training">
+            <Image Name="train_level_1.png" />
+            <Image Name="train_level_2.png" />
+            <Image Name="train_level_3.png" />
+            <Image Name="train_level_4.png" />
+            <Image Name="train_level_5.png" />
+            <Image Name="XL_22.png" />
+            <Image Name="XL_25.png" />
+            <Image Name="XL_4.png" />
+            <Image Name="XL_5.jpg" />
+            <Image Name="XL_6.jpg" />
+            <Image Name="XL_40.png" />
+            <PlistInfo Name="training.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="storage">
+            <PlistInfo Name="storage.csi" Type="Plist" />
+            <Image Name="z1.png" />
+            <Image Name="z2.png" />
+            <Image Name="title_use.png" />
+            <Image Name="xian.png" />
+            <Image Name="title_sale.png" />
+          </Folder>
+          <Folder Name="tank">
+            <Folder Name="icon">
+              <Image Name="icon_t1.png" />
+            </Folder>
+            <Folder Name="card">
+              <Image Name="card_t1.jpg" />
+            </Folder>
+            <Folder Name="img">
+              <Image Name="img_t2.jpg" />
+              <Image Name="img_t3.jpg" />
+              <Image Name="img_t47.jpg" />
+              <Image Name="img_t50.jpg" />
+              <Image Name="img_t23.jpg" />
+              <Image Name="img_t1.jpg" />
+              <Image Name="img_t55.jpg" />
+            </Folder>
+          </Folder>
+          <Folder Name="mail">
+            <Image Name="01.png" />
+            <Image Name="03.png" />
+            <Image Name="04.png" />
+            <Image Name="05.png" />
+            <Image Name="07.png" />
+            <PlistInfo Name="mail.csi" Type="Plist" />
+            <Image Name="08.png" />
+            <Image Name="09.png" />
+          </Folder>
+          <Folder Name="extractionCard">
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="CK_19.png" />
+            <Image Name="CK_18.png" />
+            <Image Name="title_card.png" />
+            <Image Name="title_item.png" />
+            <Image Name="title0.png" />
+            <Image Name="4.png" />
+            <Image Name="card_0001.jpg" />
+            <Image Name="card_0002.jpg" />
+            <Image Name="card_0003.jpg" />
+            <Image Name="card_0006.png" />
+            <Image Name="card_0007.png" />
+            <Image Name="card_0008.png" />
+            <Image Name="card_0009.png" />
+            <PlistInfo Name="extraction_card.csi" Type="Plist" />
+            <Image Name="card_0017.png" />
+            <Image Name="3.png" />
+            <Image Name="bg.jpg" />
+            <Image Name="5.png" />
+          </Folder>
+          <Folder Name="classicbattle">
+            <Image Name="JDZ_2.jpg" />
+            <Image Name="JDZ_2.png" />
+            <Image Name="JDZ_1.jpg" />
+            <Image Name="JDZ_6.png" />
+            <Image Name="JDZ_8.png" />
+            <Image Name="JDZ_3.png" />
+            <Image Name="JDZ_5.png" />
+            <Image Name="JDZ_11.png" />
+            <PlistInfo Name="classicbattle.csi" Type="Plist" />
+            <Image Name="JDZY_0008.png" />
+            <Image Name="JDZY_0009.png" />
+            <Image Name="JDZY_0014.png" />
+            <Image Name="JDZY_0012.png" />
+            <Image Name="JDZY_0013.png" />
+            <Image Name="JDZY_0011.png" />
+          </Folder>
+          <Folder Name="supply">
+            <Image Name="BG1.jpg" />
+            <Image Name="di2.png" />
+          </Folder>
+          <Folder Name="battle">
+            <Image Name="yishuz_29.png" />
+            <Image Name="yishuz_30.png" />
+            <Image Name="yishuz_31.png" />
+            <Image Name="yishuz_32.png" />
+            <Image Name="yishuz_34.jpg" />
+            <Image Name="yishuz_25.png" />
+            <Image Name="yishuz_26.png" />
+            <Image Name="yishuz_27.png" />
+            <Image Name="yishuz_28.png" />
+            <Image Name="yishuz_29_1.png" />
+            <Image Name="yishuz_34_1.png" />
+            <Image Name="fight_0001.png" />
+            <Image Name="fight_0003.png" />
+            <Image Name="fight_0004.png" />
+            <Image Name="fight_0005.png" />
+            <Image Name="fight_0007.png" />
+            <Image Name="fight_0008.png" />
+            <Image Name="fight_0009.png" />
+            <Image Name="fight_0010.png" />
+            <Image Name="fight_0011.png" />
+            <Image Name="fight_0012.png" />
+            <Image Name="fight_0014.png" />
+            <Image Name="fight_0015.png" />
+            <Image Name="wire.png" />
+            <PlistInfo Name="battle.csi" Type="Plist" />
+            <Image Name="mask_1280_720.png" />
+            <Image Name="mask_960_640.png" />
+            <Image Name="btn_speed3.png" />
+            <Image Name="btn_skip.png" />
+            <Image Name="btn_speed1.png" />
+            <Image Name="btn_speed2.png" />
+            <Image Name="fight_0006.png" />
+            <Image Name="fight_0013.png" />
+            <Image Name="jx_0001.png" />
+            <Image Name="jx_0002.png" />
+            <Image Name="shanghai.png" />
+            <Image Name="t_baoji.png" />
+            <Image Name="t_shanbi_blue.png" />
+            <Image Name="t_shiqi_down.png" />
+            <Image Name="t_shiqi_up.png" />
+            <Image Name="t_tiaoguo.png" />
+            <Image Name="t_x1.png" />
+            <Image Name="t_x2.png" />
+            <Image Name="yishuz_34.png" />
+            <Image Name="chat_share_btn.png" />
+            <Image Name="fb_share_btn.png" />
+            <Image Name="share_title.png" />
+            <Image Name="share_bg.png" />
+          </Folder>
+          <Folder Name="shop">
+            <PlistInfo Name="shop.csi" Type="Plist" />
+            <Image Name="SD_8.png" />
+            <Image Name="zcgc_0001.jpg" />
+            <Image Name="zcgc_0002.jpg" />
+            <Image Name="zcgc_0003.jpg" />
+            <Image Name="zcgc_0005.png" />
+            <Image Name="zcgc_0006.png" />
+            <Image Name="zcgc_0007.png" />
+            <Image Name="zcgc_0008.png" />
+            <Image Name="zcgc_0004.jpg" />
+            <Image Name="zcgc_0016.png" />
+            <Image Name="Vbuy_icon_1.png" />
+            <Image Name="Vbuy_icon_4.png" />
+            <Image Name="Vbuy_icon_7.png" />
+            <Image Name="Vbuy_icon_8.png" />
+          </Folder>
+          <Folder Name="font">
+            <Folder Name="ttf">
+              <TTF Name="black_body.TTF" />
+              <TTF Name="black_body_2.TTF" />
+            </Folder>
+            <Folder Name="num">
+              <Image Name="chapterNum.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="task">
+            <Image Name="randonm_0005.png" />
+            <Image Name="Daily-tasks_0006.png" />
+          </Folder>
+          <Folder Name="technology">
+            <Image Name="science_bgi_0001.jpg" />
+            <Image Name="science_bgi_0002.png" />
+            <Image Name="science_bgi_0003.png" />
+            <Image Name="science_bgi_0031.jpg" />
+            <Image Name="science_font_0004.png" />
+            <Image Name="science_font_0020.png" />
+            <Image Name="science_font_0021.png" />
+            <Image Name="science_font_0024.png" />
+            <Image Name="science_icon_00010.png" />
+            <Image Name="no.png" />
+            <Image Name="science_icon_00013.png" />
+            <Image Name="black.png" />
+            <Image Name="science_icon_00017.png" />
+            <Image Name="science_icon_00018.png" />
+            <Image Name="science_icon_00019.png" />
+            <Image Name="science_icon_00022.png" />
+            <Image Name="science_icon_00028.png" />
+            <Image Name="science_icon_00029.png" />
+            <Image Name="science_icon_00030.png" />
+            <Image Name="noneTxtBg.png" />
+            <Image Name="openTxtBg.png" />
+            <Image Name="closeTxtBg.png" />
+            <Image Name="closeTxt.png" />
+            <Image Name="light.png" />
+            <Image Name="noneTxt.png" />
+            <Image Name="openTxt1.png" />
+            <Image Name="openTxt2.png" />
+            <Image Name="science_font_0043.png" />
+            <Image Name="science_icon_0044.png" />
+            <Image Name="hdkjs_0002.png" />
+            <Image Name="hdkjs_0003.png" />
+            <Image Name="hdkjs_0004.png" />
+            <PlistInfo Name="technology.csi" Type="Plist" />
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="open1.png" />
+            <Image Name="open2.png" />
+            <Image Name="open3.png" />
+            <Image Name="open4.png" />
+            <Image Name="close3.png" />
+            <Image Name="close4.png" />
+            <Image Name="close2.png" />
+            <Image Name="close1.png" />
+            <Image Name="science_lv.png" />
+          </Folder>
+          <Folder Name="mine">
+            <Image Name="diggings_bji.jpg" />
+            <Image Name="diggings_icon_0001.png" />
+            <Image Name="diggings_icon_0002.png" />
+            <Image Name="diggings_icon_0003.png" />
+            <Image Name="diggings_icon_0009.png" />
+            <Image Name="diggings_icon_0010.png" />
+            <Image Name="diggings_icon_0014.png" />
+            <Image Name="diggings_icon_0017.png" />
+            <Image Name="diggings_icon_0018.png" />
+            <Image Name="lead_mine.png" />
+            <Image Name="diggings_icon_0021.png" />
+            <Image Name="diggings_icon_0027.png" />
+            <Image Name="diggings_icon_0030.png" />
+            <Image Name="diggings_icon_0031.png" />
+            <Image Name="general_mine.png" />
+            <Image Name="rare_mine_bg.jpg" />
+            <Image Name="mine_001.png" />
+            <Image Name="BG.jpg" />
+            <Image Name="di01.png" />
+            <Image Name="mine_1.png" />
+            <Image Name="mine_4.png" />
+            <PlistInfo Name="mine.csi" Type="Plist" />
+            <Image Name="plunder_level_1.png" />
+            <Image Name="plunder_level_2.png" />
+            <Image Name="plunder_level_3.png" />
+            <Image Name="plunder_level_4.png" />
+            <Image Name="plunder_level_5.png" />
+            <Image Name="product_level_1.png" />
+            <Image Name="product_level_2.png" />
+            <Image Name="product_level_3.png" />
+            <Image Name="product_level_4.png" />
+            <Image Name="product_level_5.png" />
+            <Image Name="diggings_icon_0032.png" />
+            <Image Name="legion_tip.png" />
+          </Folder>
+          <Folder Name="arena">
+            <Image Name="JJC_4.png" />
+            <Image Name="JJC_7.png" />
+            <Image Name="JJC_12.png" />
+            <Image Name="JJC_13.png" />
+            <Image Name="JJC_14.png" />
+            <Image Name="JJC_17.png" />
+            <Image Name="JJC_cell1.png" />
+            <PlistInfo Name="arena.csi" Type="Plist" />
+            <Image Name="JJC_0017.png" />
+            <Image Name="JJC_0018.png" />
+            <Image Name="JJC_0020.png" />
+            <Image Name="JJC_0021.jpg" />
+            <Image Name="JJC_0008.png" />
+            <Image Name="JJC_0019.png" />
+            <Image Name="JJC_0023.jpg" />
+            <Image Name="JJC_cell2.png" />
+            <Image Name="JJC_0003.png" />
+            <Image Name="JJC_label1.png" />
+            <Image Name="wusheng1.png" />
+            <Image Name="wusheng2.png" />
+            <Image Name="wusheng3.png" />
+            <Image Name="wusheng4.png" />
+            <Image Name="jssd.png" />
+          </Folder>
+          <Folder Name="activity">
+            <Image Name="bg.jpg" />
+            <Image Name="arena.png" />
+            <Image Name="classicBattle.png" />
+            <Image Name="expedition.png" />
+            <Image Name="gunner_train.png" />
+            <Image Name="img_arena.jpg" />
+            <Image Name="img_classicBattle.jpg" />
+            <Image Name="img_expedition.jpg" />
+            <Image Name="img_gunner_train.jpg" />
+            <Image Name="img_inspection.jpg" />
+            <Image Name="img_invade.jpg" />
+            <Image Name="inspection.png" />
+            <Image Name="invade.png" />
+            <Image Name="mine_view.png" />
+            <Image Name="technology.png" />
+            <Image Name="title_arena.png" />
+            <Image Name="title_classicBattle.png" />
+            <Image Name="title_expedition.png" />
+            <Image Name="title_gunner_train.png" />
+            <Image Name="title_inspection.png" />
+            <Image Name="title_invade.png" />
+            <PlistInfo Name="activity.csi" Type="Plist" />
+            <Image Name="gold_bunker.png" />
+            <Image Name="boss.png" />
+            <Image Name="img_boss.jpg" />
+            <Image Name="title_boss.png" />
+            <Image Name="img_gold_bunker.jpg" />
+            <Image Name="title_gold_bunker.png" />
+            <Image Name="advance.png" />
+            <Image Name="title_legion_escort.png" />
+            <Image Name="img_legion_escort.jpg" />
+            <Image Name="legion.png" />
+            <Image Name="alloy.png" />
+            <Image Name="resolve.png" />
+            <Image Name="img_single_hero.jpg" />
+            <Image Name="img_soul_road.jpg" />
+            <Image Name="title_single_hero.png" />
+            <Image Name="title_soul_road.png" />
+          </Folder>
+          <Folder Name="user">
+            <Image Name="SJ_3.png" />
+            <Image Name="SJ_4.png" />
+            <Image Name="SJ_1.png" />
+            <Image Name="SJ_6.png" />
+            <Image Name="SJ_2.png" />
+            <Image Name="SJ_5.png" />
+            <Image Name="SJ_8.jpg" />
+            <Image Name="icon_head_1.png" />
+            <Image Name="icon_head_2.png" />
+            <PlistInfo Name="role_icon.csi" Type="Plist" />
+            <Image Name="icon_head_3.png" />
+            <Image Name="icon_head_4.png" />
+          </Folder>
+          <Folder Name="inspection">
+            <Image Name="Daily-review_0002.png" />
+            <Image Name="Daily-review_0003.png" />
+            <Image Name="Daily-review_0005.png" />
+            <Image Name="Daily-review_0006.png" />
+            <Image Name="Daily-review_0007.png" />
+            <Image Name="Daily-review_0008.png" />
+            <Image Name="Daily-review_0009.png" />
+            <Image Name="Daily-review_0010.png" />
+            <Image Name="Daily-review_0011.png" />
+            <PlistInfo Name="inspection.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="vip">
+            <Image Name="VIP_4.png" />
+            <Image Name="VIP_6.png" />
+            <Image Name="VIP_8.png" />
+            <PlistInfo Name="vip.csi" Type="Plist" />
+            <Image Name="1.png" />
+            <Image Name="z1.png" />
+            <Image Name="z2.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="VIP_10_bg.jpg" />
+            <Image Name="VIP_5_bg.jpg" />
+            <Image Name="VIP_8_bg.jpg" />
+            <Image Name="sv.png" />
+            <Image Name="sv1.png" />
+            <Image Name="VIP_12_bg.jpg" />
+          </Folder>
+          <Folder Name="invade">
+            <Image Name="name3.png" />
+            <Image Name="name1.png" />
+            <Image Name="name2.png" />
+            <Image Name="name4.png" />
+            <Image Name="Paratroopers-i_0007.png" />
+            <Image Name="tank2.png" />
+            <Image Name="tank4.png" />
+            <Image Name="tank3.png" />
+            <Image Name="tank1.png" />
+            <Image Name="Paratroopers-i_0012.jpg" />
+            <PlistInfo Name="invade.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="pot">
+            <Image Name="DG_2.png" />
+            <Image Name="DG_3.png" />
+            <Image Name="DG_4.png" />
+            <Image Name="DG_5.png" />
+            <Image Name="bg.jpg" />
+            <PlistInfo Name="pot.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="setting">
+            <Image Name="SZ_1.png" />
+            <Image Name="1.png" />
+            <Image Name="3.png" />
+          </Folder>
+          <Folder Name="operatingActivities">
+            <Folder Name="gunnerTrain">
+              <Image Name="train_0002.png" />
+              <Image Name="train_0005.png" />
+              <Image Name="train_0006.png" />
+              <Image Name="train_0007.png" />
+              <Image Name="bg1.jpg" />
+              <Image Name="s1.png" />
+            </Folder>
+            <Folder Name="heroicRacing">
+              <Image Name="yyjs_0002.png" />
+            </Folder>
+            <Folder Name="visitGeneral">
+              <Image Name="01.png" />
+              <Image Name="02.png" />
+              <Image Name="03.png" />
+              <Image Name="04.png" />
+            </Folder>
+            <Folder Name="headquartersSupport">
+              <Image Name="support_0003.png" />
+              <Image Name="support_0005.png" />
+              <Image Name="support_0006.png" />
+              <Image Name="support_0007.png" />
+            </Folder>
+            <Image Name="topup_rebate_0001.jpg" />
+            <Image Name="topup_rebate_0002.png" />
+            <Folder Name="army_assault">
+              <Image Name="mobilization_0006.png" />
+              <Image Name="mobilization_0008.png" />
+              <Image Name="mobilization_0009.png" />
+              <Image Name="mobilization_0012.png" />
+              <Image Name="mobilization_0013.png" />
+              <Image Name="war_mobilization_0008.png" />
+              <Image Name="war_mobilization_0005.png" />
+              <PlistInfo Name="army_assault.csi" Type="Plist" />
+            </Folder>
+            <Image Name="war_mobilization_0002.png" />
+            <Folder Name="login_gift">
+              <Image Name="7rlttz_0002.png" />
+              <Image Name="7rlttz_0004.png" />
+              <Image Name="7rlttz_0005.png" />
+              <Image Name="7rlttz_0006.png" />
+              <Image Name="7rlttz_0007.png" />
+              <Image Name="7rlttz_0008.png" />
+              <Image Name="login_gift_bg.jpg" />
+              <Image Name="guanggao.png" />
+              <PlistInfo Name="login_gift.csi" Type="Plist" />
+            </Folder>
+            <Folder Name="icon">
+              <Image Name="army_assault.png" />
+              <Image Name="first_pay.png" />
+              <Image Name="headquarters_support.png" />
+              <Image Name="heroic_racing.png" />
+              <Image Name="jiuguan.png" />
+              <Image Name="market.png" />
+              <Image Name="month_card.png" />
+              <Image Name="open_server_gift_bag.png" />
+              <Image Name="pot.png" />
+              <Image Name="seven_day_login.png" />
+              <Image Name="total_pay.png" />
+              <Image Name="up_fund.png" />
+              <Image Name="vip_award.png" />
+              <Image Name="visit_general.png" />
+              <Image Name="recharge_bonus.png" />
+              <Image Name="iron_mine.png" />
+              <PlistInfo Name="activityIcon.csi" Type="Plist" />
+              <Image Name="lucky_cat.png" />
+              <Image Name="torch_operation.png" />
+              <Image Name="spring_festival.png" />
+              <Image Name="assembly.png" />
+              <Image Name="limit_time_sale.png" />
+              <Image Name="spring_gift.png" />
+              <Image Name="pay_rebate.png" />
+              <Image Name="head_treasure.png" />
+              <Image Name="login_combat.png" />
+              <Image Name="recharge_doyen.png" />
+              <Image Name="earth_soul.png" />
+              <Image Name="all_recharge.png" />
+              <Image Name="search_treasure.png" />
+              <Image Name="single_recharge.png" />
+              <Image Name="grouppurchase.png" />
+              <Image Name="quiz.png" />
+            </Folder>
+            <Image Name="top_1.jpg" />
+            <Image Name="7rlttz_0010.jpg" />
+            <Folder Name="first_pay">
+              <Image Name="bg1.jpg" />
+              <Image Name="f_p_1.png" />
+              <Image Name="f_p_2.png" />
+              <Image Name="f_p_3.png" />
+              <Image Name="f_p_4.png" />
+              <Image Name="f_p_5.png" />
+              <Image Name="f_p_6.png" />
+              <PlistInfo Name="first_pay.csi" Type="Plist" />
+            </Folder>
+            <Image Name="rebate_bg.jpg" />
+          </Folder>
+          <Folder Name="guide">
+            <Image Name="lead_3.png" />
+            <Image Name="lead_4.png" />
+            <Image Name="lead_5.png" />
+            <Image Name="lead_12.png" />
+            <Image Name="lead_23.png" />
+            <Image Name="guide_1.png" />
+            <Image Name="guide_2.jpg" />
+            <Image Name="xsyd_0001.png" />
+            <Image Name="xsyd_00014.png" />
+            <Image Name="xsyd_0003.png" />
+            <Image Name="xsyd_0004.png" />
+            <Image Name="xsyd_0005.png" />
+            <Image Name="xsyd_0006.png" />
+            <Image Name="xsyd_0007.png" />
+            <Image Name="xsyd_0008.png" />
+            <Image Name="xsyd_0010.png" />
+            <Image Name="xsyd_0011.png" />
+            <Image Name="xsyd_0012.jpg" />
+            <Image Name="xsyd_0012.png" />
+            <Image Name="xsyd_0013.jpg" />
+            <Image Name="xsyd_0002.png" />
+            <Image Name="xsyd_0019.png" />
+            <Image Name="guide_4.png" />
+            <Image Name="guide_3.png" />
+            <Image Name="xsyd_0009.png" />
+            <Image Name="xsyd_0018.png" />
+            <Image Name="xsyd_0017.png" />
+            <Folder Name="role">
+              <PlistInfo Name="guide_role.csi" Type="Plist" />
+              <Image Name="img_head_1.png" />
+              <Image Name="img_head_2.png" />
+              <Image Name="lead_1.png" />
+              <Image Name="lead_16.png" />
+              <Image Name="lead_17.png" />
+              <Image Name="lead_18.png" />
+              <Image Name="lead_19.png" />
+              <Image Name="lead_20.png" />
+              <Image Name="lead_21.png" />
+              <Image Name="lead_26.png" />
+              <Image Name="lead_28.png" />
+              <Image Name="xsyd_0020.png" />
+              <Image Name="xsyd_0120.png" />
+              <Image Name="img_head_3.png" />
+              <Image Name="img_head_4.png" />
+              <Image Name="chuangjianrenwunan1.png" />
+              <Image Name="chuangjianrenwunv1.png" />
+            </Folder>
+            <Image Name="lead_24.png" />
+            <PlistInfo Name="guide.csi" Type="Plist" />
+            <Image Name="tip_cjjs.png" />
+            <Image Name="xgnkq04.png" />
+            <Image Name="xgnkq05.png" />
+          </Folder>
+          <Folder Name="message">
+            <Image Name="war_report_0006.png" />
+            <Image Name="war_report_0007.png" />
+            <Image Name="war_report_0008.png" />
+            <PlistInfo Name="message.csi" Type="Plist" />
+            <Image Name="bg.png" />
+            <Image Name="war_report_0009.png" />
+            <Image Name="war_report_0010.png" />
+          </Folder>
+          <Folder Name="login">
+            <Image Name="login_10.png" />
+            <Image Name="login_13.png" />
+            <Image Name="login_14.png" />
+            <Image Name="login_15.png" />
+            <Image Name="login_16.png" />
+            <Image Name="login_17.png" />
+            <Image Name="login_19.png" />
+            <Image Name="login_21.png" />
+            <Image Name="login_25.png" />
+            <Image Name="login_3.png" />
+            <Image Name="login_8.png" />
+            <Image Name="login_9.png" />
+            <Image Name="login_H_00013.png" />
+            <Image Name="login_H_00014.png" />
+            <Image Name="login_B_0006.png" />
+            <Image Name="login_B_0007.png" />
+            <Image Name="login_36.png" />
+            <Image Name="login_37.png" />
+            <Image Name="login_18.png" />
+            <Image Name="login_40.png" />
+            <PlistInfo Name="login.csi" Type="Plist" />
+            <Image Name="bind_1.jpg" />
+            <Image Name="bind_2.png" />
+            <Image Name="bind_3.png" />
+            <Image Name="bind_5.png" />
+            <Image Name="bind_6.png" />
+            <Image Name="bind_7.png" />
+            <Image Name="login_H_00015.png" />
+            <PlistInfo Name="bind.csi" Type="Plist" />
+            <Image Name="cover_plan.jpg" />
+            <Image Name="login_24.png" />
+            <Image Name="login_26.png" />
+            <Image Name="login_27.png" />
+            <Image Name="login_28.png" />
+            <Image Name="login_34.png" />
+            <Image Name="cover_logo.png" />
+            <Image Name="clean.png" />
+            <PlistInfo Name="fb_en.csi" Type="Plist" />
+            <Image Name="visitor_btn_1.png" />
+            <Image Name="visitor_btn_2.png" />
+            <Image Name="sign_in_btn_1.png" />
+            <Image Name="sign_in_btn_2.png" />
+            <Image Name="logout_btn_1.png" />
+            <Image Name="logout_btn_2.png" />
+            <Image Name="bind_fb_text.png" />
+            <Image Name="visitor_logout_btn_1.png" />
+            <Image Name="visitor_logout_btn_2.png" />
+          </Folder>
+          <Folder Name="achievement">
+            <Image Name="zctjcj_0001.png" />
+            <Image Name="zctjcj_0004.png" />
+            <Image Name="zctjcj_0008.png" />
+            <Image Name="zctjcj_0012.png" />
+            <Image Name="1.png" />
+            <Image Name="10.png" />
+            <Image Name="11.png" />
+            <Image Name="13.png" />
+            <Image Name="14.png" />
+            <Image Name="15.png" />
+            <Image Name="4.png" />
+            <Image Name="6.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="b1.png" />
+            <PlistInfo Name="achievement.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="main_city">
+            <Folder Name="building">
+              <Image Name="extraction_card_light.png" />
+              <Image Name="factory_light.png" />
+              <Image Name="mine_light.png" />
+              <Image Name="tech_light.png" />
+              <Image Name="train_light.png" />
+              <Image Name="1.png" />
+              <Image Name="2.png" />
+              <Image Name="main_bg.jpg" />
+              <Image Name="command_light.png" />
+              <PlistInfo Name="maincity_building.csi" Type="Plist" />
+            </Folder>
+            <Image Name="1.png" />
+            <Image Name="10.png" />
+            <Image Name="11.png" />
+            <Image Name="12.png" />
+            <Image Name="14.png" />
+            <Image Name="16.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="buzhen.png" />
+            <Image Name="cangku.png" />
+            <Image Name="fenjie.png" />
+            <Image Name="hejin.png" />
+            <Image Name="huodong.png" />
+            <Image Name="jiantou.png" />
+            <Image Name="juntuan.png" />
+            <Image Name="shouna.png" />
+            <Image Name="tujian.png" />
+            <Image Name="youxiang.png" />
+            <Image Name="zhanche.png" />
+            <Image Name="zhankai.png" />
+            <Image Name="zhanyi.png" />
+            <Image Name="zhuangbei.png" />
+            <PlistInfo Name="main_city.csi" Type="Plist" />
+            <Image Name="d1.png" />
+            <Image Name="d2.png" />
+            <Image Name="d3.png" />
+            <Image Name="junshenbang.png" />
+            <Image Name="buji.png" />
+            <Image Name="renwu.png" />
+            <Image Name="q.png" />
+            <Image Name="a1.jpg" />
+            <Image Name="a2.jpg" />
+            <Image Name="a3.jpg" />
+            <Image Name="a4.jpg" />
+            <Image Name="a5.jpg" />
+            <Image Name="a6.jpg" />
+            <Image Name="a7.jpg" />
+            <Image Name="a8.jpg" />
+            <Image Name="a9.jpg" />
+            <Image Name="a10.jpg" />
+            <Image Name="a11.jpg" />
+            <Image Name="a12.jpg" />
+            <Image Name="a13.jpg" />
+            <PlistInfo Name="action.csi" Type="Plist" />
+            <Image Name="q1.png" />
+            <Image Name="q2.png" />
+            <Image Name="icon_new_1.png" />
+            <Image Name="icon_new_2.png" />
+            <Image Name="zzbk_0010.png" />
+            <Image Name="recharge_btn.png" />
+            <Folder Name="vip">
+              <Image Name="v1.png" />
+              <Image Name="v10.png" />
+              <Image Name="v2.png" />
+              <Image Name="v3.png" />
+              <Image Name="v4.png" />
+              <Image Name="v5.png" />
+              <Image Name="v6.png" />
+              <Image Name="v7.png" />
+              <Image Name="v8.png" />
+              <Image Name="v9.png" />
+              <PlistInfo Name="main_vip_icon.csi" Type="Plist" />
+              <Image Name="v0.png" />
+              <Image Name="v11.png" />
+              <Image Name="v12.png" />
+            </Folder>
+            <Image Name="soul.png" />
+            <Folder Name="legion_sign">
+              <Image Name="a.png" />
+              <Image Name="legion_1.png" />
+              <Image Name="legion_2.png" />
+              <Image Name="legion_3.png" />
+              <Image Name="legion_4.png" />
+              <Image Name="legion_5.png" />
+              <Image Name="legion_6.png" />
+              <Image Name="legion_7.png" />
+              <Image Name="legion_8.png" />
+              <Image Name="legion_9.png" />
+              <Image Name="legion_10.png" />
+              <Image Name="legion_11.png" />
+              <Image Name="legion_12.png" />
+              <Image Name="legion_13.png" />
+              <Image Name="legion_14.png" />
+              <Image Name="legion_15.png" />
+              <Image Name="legion_16.png" />
+              <Image Name="legion_17.png" />
+              <Image Name="legion_18.png" />
+              <Image Name="legion_19.png" />
+              <Image Name="legion_20.png" />
+              <Image Name="legion_21.png" />
+              <Image Name="legion_22.png" />
+              <PlistInfo Name="legion_sign.csi" Type="Plist" />
+            </Folder>
+          </Folder>
+          <Folder Name="resolve">
+            <Image Name="decompose_0006.png" />
+            <Image Name="decompose_0007.png" />
+            <Image Name="decompose_0008.png" />
+            <Image Name="decompose_0009.png" />
+            <Image Name="decompose_0010.png" />
+            <Image Name="decompose_0012.png" />
+            <PlistInfo Name="resolve.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="chat">
+            <Image Name="1.png" />
+            <Image Name="10.png" />
+            <Image Name="11.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Image Name="9.png" />
+            <Image Name="bg.jpg" />
+            <Image Name="chakanxinxi.png" />
+            <Image Name="chongtian.png" />
+            <Image Name="faqiliaotian.png" />
+            <Image Name="fasong.png" />
+            <Image Name="faxin.png" />
+            <Image Name="juntuan.png" />
+            <Image Name="pingbi.png" />
+            <Image Name="queding.png" />
+            <Image Name="shijie.png" />
+            <Image Name="siliao.png" />
+            <Image Name="yanxi.png" />
+            <PlistInfo Name="background.csi" Type="Plist" />
+            <PlistInfo Name="ui.csi" Type="Plist" />
+            <Image Name="line.png" />
+          </Folder>
+          <Folder Name="examine">
+            <Image Name="s3.png" />
+            <Image Name="s8.png" />
+            <Image Name="1.png" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="gerenziliao.png" />
+            <Image Name="chakan.png" />
+            <Image Name="chengjiu.png" />
+            <Image Name="keji.png" />
+            <Image Name="4.png" />
+            <PlistInfo Name="examine.csi" Type="Plist" />
+            <Image Name="bg.png" />
+          </Folder>
+          <Folder Name="recharge">
+            <Image Name="VIP_tqcz_0020.png" />
+            <Image Name="VIP_tqcz_0026.png" />
+            <Image Name="corner_1.png" />
+            <Image Name="corner_2.png" />
+            <Image Name="diamond_1.png" />
+            <Image Name="diamond_2.png" />
+            <Image Name="diamond_3.png" />
+            <PlistInfo Name="recharge.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="monthCard">
+            <Image Name="BG.jpg" />
+          </Folder>
+          <Folder Name="growthFund">
+            <Image Name="1.jpg" />
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="q3.png" />
+            <Image Name="s1.png" />
+            <PlistInfo Name="growthFund.csi" Type="Plist" />
+            <Image Name="s2.png" />
+            <Image Name="s3.png" />
+            <Image Name="s4.png" />
+            <Image Name="s5.png" />
+            <Image Name="s6.png" />
+            <Image Name="s7.png" />
+            <Image Name="s8.png" />
+            <Image Name="s9.png" />
+          </Folder>
+          <Folder Name="module">
+            <Image Name="2.png" />
+            <Image Name="3.png" />
+            <Image Name="4.png" />
+            <Image Name="5.png" />
+            <Image Name="6.png" />
+            <Image Name="7.png" />
+            <Image Name="8.png" />
+            <Folder Name="error">
+              <Image Name="s1.png" />
+              <Image Name="s3.png" />
+              <Image Name="s4.png" />
+              <Image Name="s5.png" />
+              <Image Name="s6.png" />
+            </Folder>
+            <Image Name="d1.png" />
+            <Image Name="d2.png" />
+            <Image Name="d3.png" />
+          </Folder>
+          <Folder Name="plist">
+            <PlistInfo Name="module.csi" Type="Plist" />
+            <PlistInfo Name="module_error.csi" Type="Plist" />
+          </Folder>
+          <Folder Name="equip">
+            <Image Name="taozhuangxian.png" />
+            <Image Name="zhuangbei.png" />
+            <Image Name="suit_title_0.png" />
+            <Image Name="suipian.png" />
+            <Image Name="suipian1.png" />
+            <PlistInfo Name="equip.csi" Type="Plist" />
+            <Image Name="dangqian.png" />
+            <Image Name="baoshixiangqian.png" />
+            <Image Name="jiaobiao.png" />
+            <Image Name="suit_title_1.png" />
+            <Image Name="suit_title_2.png" />
+            <Image Name="suit_title_3.png" />
+            <Image Name="suit_title_4.png" />
+            <Image Name="suit_title_5.png" />
+            <Image Name="suit_title_6.png" />
+            <Image Name="suit_title_7.png" />
+            <Image Name="suit_title_8.png" />
+          </Folder>
+          <Folder Name="fight_japan">
+            <Image Name="03.png" />
+            <Image Name="09.png" />
+            <Image Name="10.png" />
+            <Image Name="z1.png" />
+            <Image Name="z2.png" />
+            <Image Name="z3.png" />
+            <Image Name="z4.png" />
+            <Image Name="z5.png" />
+            <Image Name="z6.png" />
+            <Image Name="GW_11.png" />
+            <Image Name="YZ_2.png" />
+            <Image Name="YZ_3.jpg" />
+            <Image Name="YZ_5.png" />
+            <Image Name="YZ_6.png" />
+            <Image Name="ZW_5.png" />
+            <PlistInfo Name="fight_japan.csi" Type="Plist" />
+            <Image Name="D_4.png" />
+            <Image Name="D_5.png" />
+            <Image Name="04.png" />
+            <Image Name="lead_yuanzheng.png" />
+          </Folder>
+          <Folder Name="toast">
+            <Image Name="bj_ty_2.png" />
+            <Image Name="bj_ty_4.png" />
+            <Image Name="bj_ty_6.png" />
+            <Image Name="bj_ty_8.png" />
+            <PlistInfo Name="toast.csi" Type="Plist" />
+            <PlistInfo Name="toast_txt.csi" Type="Plist" />
+            <Image Name="XL_27.png" />
+            <Image Name="XL_42.png" />
+            <Image Name="XL_28.png" />
+            <Image Name="XL_49.png" />
+            <Image Name="XL_29.png" />
+            <Image Name="XL_30.png" />
+            <Image Name="critical_0001.png" />
+            <Image Name="XL_26.png" />
+            <Image Name="XL_50.png" />
+            <Image Name="fight_power.png" />
+            <Image Name="XL_1.png" />
+            <Image Name="XL_2.png" />
+            <Image Name="streng_crit.png" />
+            <Image Name="streng_success.png" />
+            <Image Name="XL_39.png" />
+            <Image Name="load_equip_success.png" />
+            <Image Name="XL_31.png" />
+            <Image Name="XL_32.png" />
+            <Image Name="XL_33.png" />
+            <Image Name="XL_34.png" />
+            <Image Name="XL_35.png" />
+            <Image Name="XL_36.png" />
+            <Image Name="quantizhanche.png" />
+            <Image Name="equip_unload.png" />
+          </Folder>
+          <Folder Name="broadcast">
+            <Image Name="laba.png" />
+            <Image Name="laba1.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

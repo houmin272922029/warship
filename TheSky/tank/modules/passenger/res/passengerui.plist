@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>passenger/res/TU1.jpg</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{207,251}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{207,251}</string>
+			</dict>
+			<key>passenger/res/up.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{115,904},{81,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{81,22}</string>
+			</dict>
+			<key>passenger/res/zaizhso.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{72,904},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>passenger/res/chengyuanshengji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,904},{99,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{99,21}</string>
+			</dict>
+			<key>passenger/res/next.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,904},{81,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{81,22}</string>
+			</dict>
+			<key>passenger/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,251},{297,61}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{297,61}</string>
+			</dict>
+			<key>passenger/res/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,548},{283,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{283,44}</string>
+			</dict>
+			<key>passenger/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,872},{279,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{279,32}</string>
+			</dict>
+			<key>passenger/res/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{193,904},{83,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{83,23}</string>
+			</dict>
+			<key>passenger/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{182,943},{19,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{19,24}</string>
+			</dict>
+			<key>passenger/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{279,895},{63,63}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,64}</string>
+			</dict>
+			<key>passenger/res/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{182,927},{16,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{16,89}</string>
+			</dict>
+			<key>passenger/res/exp.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{279,872},{247,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{247,23}</string>
+			</dict>
+			<key>passenger/res/d2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,831},{282,41}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{282,41}</string>
+			</dict>
+			<key>passenger/res/quxiaotianjia.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{94,1003},{99,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{99,21}</string>
+			</dict>
+			<key>passenger/res/mianfei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{159,904},{63,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{63,23}</string>
+			</dict>
+			<key>passenger/res/zaizhaoshici.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,904},{117,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{117,26}</string>
+			</dict>
+			<key>passenger/res/zhaomushici.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{26,904},{108,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{108,23}</string>
+			</dict>
+			<key>passenger/res/zhaomuyici.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{49,904},{108,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{108,23}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>passengerui.png</string>
+			<key>realTextureFileName</key>
+			<string>passengerui.png</string>
+			<key>size</key>
+			<string>{526,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>526</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

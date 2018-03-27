@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>service_faction_war/res/b1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{297,284}}</string>
+				<key>offset</key>
+				<string>{0,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{360,380}</string>
+			</dict>
+			<key>service_faction_war/res/b2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{284,0},{233,284}}</string>
+				<key>offset</key>
+				<string>{-6,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{360,380}</string>
+			</dict>
+			<key>service_faction_war/res/b3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,297},{137,285}}</string>
+				<key>offset</key>
+				<string>{-8,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{360,380}</string>
+			</dict>
+			<key>service_faction_war/res/b4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,434},{41,284}}</string>
+				<key>offset</key>
+				<string>{0,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{360,380}</string>
+			</dict>
+			<key>service_faction_war/res/b5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{285,284},{137,285}}</string>
+				<key>offset</key>
+				<string>{3,-5}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{360,380}</string>
+			</dict>
+			<key>service_faction_war/res/b6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{517,0},{233,284}}</string>
+				<key>offset</key>
+				<string>{1,-5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{360,380}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>action2.png</string>
+			<key>realTextureFileName</key>
+			<string>action2.png</string>
+			<key>size</key>
+			<string>{750,475}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>750</integer>
+			<key>height</key>
+			<integer>475</integer>
+		</dict>
+	</dict>
+</plist>

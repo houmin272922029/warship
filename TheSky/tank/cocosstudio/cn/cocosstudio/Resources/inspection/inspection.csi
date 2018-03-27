@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="inspection" ID="6d6fcce7-035b-4233-8dee-044a537c72df" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/inspection/Daily-review_0002.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0003.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0005.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0006.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0007.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0008.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0009.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0010.png" />
+      <FilePathData Path="Resources/inspection/Daily-review_0011.png" />
+    </ImageFiles>
+    <MaxSize Width="700" Height="800" />
+  </Content>
+</PlistInfoProjectFile>

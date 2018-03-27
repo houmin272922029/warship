@@ -1,0 +1,53 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="main_city" ID="f5af5210-42bf-4efb-a8bf-224d7bf59ce2" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/main_city/16.png" />
+      <FilePathData Path="Resources/main_city/shouna.png" />
+      <FilePathData Path="Resources/main_city/zhankai.png" />
+      <FilePathData Path="Resources/main_city/juntuan.png" />
+      <FilePathData Path="Resources/main_city/10.png" />
+      <FilePathData Path="Resources/main_city/11.png" />
+      <FilePathData Path="Resources/main_city/12.png" />
+      <FilePathData Path="Resources/main_city/14.png" />
+      <FilePathData Path="Resources/main_city/3.png" />
+      <FilePathData Path="Resources/main_city/4.png" />
+      <FilePathData Path="Resources/main_city/5.png" />
+      <FilePathData Path="Resources/main_city/6.png" />
+      <FilePathData Path="Resources/main_city/7.png" />
+      <FilePathData Path="Resources/main_city/8.png" />
+      <FilePathData Path="Resources/main_city/buzhen.png" />
+      <FilePathData Path="Resources/main_city/cangku.png" />
+      <FilePathData Path="Resources/main_city/d1.png" />
+      <FilePathData Path="Resources/main_city/d2.png" />
+      <FilePathData Path="Resources/main_city/d3.png" />
+      <FilePathData Path="Resources/main_city/fenjie.png" />
+      <FilePathData Path="Resources/main_city/hejin.png" />
+      <FilePathData Path="Resources/main_city/huodong.png" />
+      <FilePathData Path="Resources/main_city/tujian.png" />
+      <FilePathData Path="Resources/main_city/youxiang.png" />
+      <FilePathData Path="Resources/main_city/zhanche.png" />
+      <FilePathData Path="Resources/main_city/zhuangbei.png" />
+      <FilePathData Path="Resources/main_city/zhanyi.png" />
+      <FilePathData Path="Resources/main_city/buji.png" />
+      <FilePathData Path="Resources/main_city/renwu.png" />
+      <FilePathData Path="Resources/main_city/junshenbang.png" />
+      <FilePathData Path="Resources/main_city/1.png" />
+      <FilePathData Path="Resources/main_city/9.png" />
+      <FilePathData Path="Resources/main_city/q.png" />
+      <FilePathData Path="Resources/main_city/q1.png" />
+      <FilePathData Path="Resources/main_city/q2.png" />
+      <FilePathData Path="Resources/main_city/zzbk_0010.png" />
+      <FilePathData Path="Resources/main_city/recharge_btn.png" />
+      <FilePathData Path="Resources/main_city/soul.png" />
+      <FilePathData Path="Resources/main_city/chengyuan.png" />
+      <FilePathData Path="Resources/main_city/strong.png" />
+      <FilePathData Path="Resources/main_city/kaiqi1.png" />
+      <FilePathData Path="Resources/main_city/juanxian.png" />
+      <FilePathData Path="Resources/main_city/strongest_battle.png" />
+      <FilePathData Path="Resources/main_city/xunzhang.png" />
+      <FilePathData Path="Resources/main_city/peijian.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

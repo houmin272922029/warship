@@ -1,0 +1,40 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="activityIcon" ID="842b6f8d-f748-4338-9e23-87cb38c70296" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/operatingActivities/icon/army_assault.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/first_pay.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/headquarters_support.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/heroic_racing.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/iron_mine.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/jiuguan.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/market.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/month_card.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/open_server_gift_bag.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/pot.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/recharge_bonus.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/seven_day_login.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/total_pay.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/up_fund.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/vip_award.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/visit_general.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/lucky_cat.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/torch_operation.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/spring_festival.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/assembly.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/limit_time_sale.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/spring_gift.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/pay_rebate.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/head_treasure.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/login_combat.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/recharge_doyen.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/earth_soul.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/all_recharge.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/search_treasure.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/single_recharge.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/grouppurchase.png" />
+      <FilePathData Path="Resources/operatingActivities/icon/quiz.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

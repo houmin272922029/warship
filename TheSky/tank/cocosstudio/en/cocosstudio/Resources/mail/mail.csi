@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="mail" ID="cfd29337-86a7-473c-a3cc-a50ab9eba014" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/mail/01.png" />
+      <FilePathData Path="Resources/mail/03.png" />
+      <FilePathData Path="Resources/mail/04.png" />
+      <FilePathData Path="Resources/mail/05.png" />
+      <FilePathData Path="Resources/mail/07.png" />
+      <FilePathData Path="Resources/mail/08.png" />
+      <FilePathData Path="Resources/mail/09.png" />
+    </ImageFiles>
+    <MaxSize Width="870" Height="570" />
+  </Content>
+</PlistInfoProjectFile>

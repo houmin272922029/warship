@@ -1,0 +1,23 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="achievement" ID="de3d1705-5cb7-4f58-93e5-c535dd5db8ee" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/achievement/1.png" />
+      <FilePathData Path="Resources/achievement/10.png" />
+      <FilePathData Path="Resources/achievement/11.png" />
+      <FilePathData Path="Resources/achievement/13.png" />
+      <FilePathData Path="Resources/achievement/14.png" />
+      <FilePathData Path="Resources/achievement/15.png" />
+      <FilePathData Path="Resources/achievement/4.png" />
+      <FilePathData Path="Resources/achievement/6.png" />
+      <FilePathData Path="Resources/achievement/8.png" />
+      <FilePathData Path="Resources/achievement/9.png" />
+      <FilePathData Path="Resources/achievement/b1.png" />
+      <FilePathData Path="Resources/achievement/zctjcj_0001.png" />
+      <FilePathData Path="Resources/achievement/zctjcj_0004.png" />
+      <FilePathData Path="Resources/achievement/zctjcj_0008.png" />
+      <FilePathData Path="Resources/achievement/zctjcj_0012.png" />
+    </ImageFiles>
+    <MaxSize Width="820" Height="532" />
+  </Content>
+</PlistInfoProjectFile>

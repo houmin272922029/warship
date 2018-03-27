@@ -1,0 +1,18 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="maincity_building" ID="3696d822-14b4-47cd-bdff-3b87aa4a23bc" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/main_city/building/1.png" />
+      <FilePathData Path="Resources/main_city/building/2.png" />
+      <FilePathData Path="Resources/main_city/building/command_light.png" />
+      <FilePathData Path="Resources/main_city/building/extraction_card_light.png" />
+      <FilePathData Path="Resources/main_city/building/factory_light.png" />
+      <FilePathData Path="Resources/main_city/building/mine_light.png" />
+      <FilePathData Path="Resources/main_city/building/tech_light.png" />
+      <FilePathData Path="Resources/main_city/building/train_light.png" />
+      <FilePathData Path="Resources/main_city/building/newyear_1.png" />
+      <FilePathData Path="Resources/main_city/building/newyear_2.png" />
+    </ImageFiles>
+    <MaxSize Width="1200" Height="1100" />
+  </Content>
+</PlistInfoProjectFile>

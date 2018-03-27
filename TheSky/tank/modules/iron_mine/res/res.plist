@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>iron_mine/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{293,1},{206,302}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{209,302}</string>
+			</dict>
+			<key>iron_mine/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{245,290}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{246,290}</string>
+			</dict>
+			<key>iron_mine/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,248},{219,292}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{219,292}</string>
+			</dict>
+			<key>iron_mine/res/success1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{426,305},{387,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{387,75}</string>
+			</dict>
+			<key>iron_mine/res/success2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,559},{386,75}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{386,75}</string>
+			</dict>
+			<key>iron_mine/res/hei1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{222,248},{252,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{254,52}</string>
+			</dict>
+			<key>iron_mine/res/jingtiefanbei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{276,305},{142,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{142,29}</string>
+			</dict>
+			<key>iron_mine/res/wakuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{388,336},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>iron_mine/res/zhijieshouhuo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{364,336},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>iron_mine/res/jingtie1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{222,502},{202,55}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{204,56}</string>
+			</dict>
+			<key>iron_mine/res/tishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{276,336},{86,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{86,46}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{502,693}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>502</integer>
+			<key>height</key>
+			<integer>693</integer>
+		</dict>
+	</dict>
+</plist>

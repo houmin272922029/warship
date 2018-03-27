@@ -1,0 +1,39 @@
+<skeleton name="ui_fx_hejin01" frameRate="30" version="2.2">
+  <armatures>
+    <armature name="ui_fx_hejin01">
+      <b name="图层 2" x="-2.15" y="1.25" kX="0" kY="0" cX="0.89" cY="0.89" pX="0" pY="0" z="0">
+        <d name="ui_fx_hejin01_1" pX="150" pY="150"/>
+      </b>
+      <b name="图层 1" x="-0.75" y="-0.15" kX="0" kY="0" cX="0.77" cY="0.77" pX="0" pY="0" z="0">
+        <d name="ui_fx_hejin01_1" pX="150" pY="150"/>
+      </b>
+    </armature>
+  </armatures>
+  <animations>
+    <animation name="ui_fx_hejin01">
+      <mov name="a" dr="16" to="6" drTW="16" lp="0" twE="NaN">
+        <b name="图层 2" sc="1" dl="0">
+          <f x="-2.15" y="1.25" cocos2d_x="-2.15" cocos2d_y="1.25" kX="0" kY="0" cX="0.89" cY="0.89" pX="0" pY="0" z="0" dI="0" twE="0" dr="3">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f x="-0.75" y="-0.15" cocos2d_x="-0.75" cocos2d_y="-0.15" kX="0" kY="0" cX="0.77" cY="0.77" pX="0" pY="0" z="0" dI="0" twE="0" dr="6"/>
+          <f x="-2.15" y="1.25" cocos2d_x="-2.15" cocos2d_y="1.25" kX="0" kY="0" cX="0.29" cY="0.29" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="6" dI="-1"/>
+        </b>
+        <b name="图层 1" sc="1" dl="0">
+          <f dr="5" dI="-1"/>
+          <f x="-0.75" y="-0.15" cocos2d_x="-0.75" cocos2d_y="-0.15" kX="0" kY="0" cX="0.77" cY="0.77" pX="0" pY="0" z="0" dI="0" twE="0" dr="9"/>
+          <f x="-0.75" y="-0.15" cocos2d_x="-0.75" cocos2d_y="-0.15" kX="0" kY="0" cX="0.99" cY="0.99" pX="0" pY="0" z="0" dI="0" twE="0" dr="1">
+            <colorTransform a="0" r="0" g="0" b="0" aM="0" rM="100" gM="100" bM="100"/>
+          </f>
+          <f dr="1" dI="-1"/>
+        </b>
+      </mov>
+    </animation>
+  </animations>
+  <TextureAtlas name="ui_fx_hejin01" width="512" height="512">
+    <SubTexture name="ui_fx_hejin01_1" width="300" height="300" cocos2d_pX="150" cocos2d_pY="150" x="0" y="0"/>
+  </TextureAtlas>
+</skeleton>

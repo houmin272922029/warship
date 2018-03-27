@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="recharge" ID="1a26bd11-fd89-4bff-8ce3-4810f13cdeb0" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/recharge/corner_1.png" />
+      <FilePathData Path="Resources/recharge/corner_2.png" />
+      <FilePathData Path="Resources/recharge/diamond_1.png" />
+      <FilePathData Path="Resources/recharge/diamond_2.png" />
+      <FilePathData Path="Resources/recharge/diamond_3.png" />
+      <FilePathData Path="Resources/recharge/VIP_tqcz_0020.png" />
+      <FilePathData Path="Resources/recharge/VIP_tqcz_0026.png" />
+    </ImageFiles>
+    <MaxSize Width="448" Height="283" />
+  </Content>
+</PlistInfoProjectFile>

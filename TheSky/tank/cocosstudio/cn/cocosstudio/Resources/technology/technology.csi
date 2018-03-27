@@ -1,0 +1,62 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="technology" ID="4b92d231-5da6-4f23-8e68-c2f7ffaec2de" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/technology/science_bgi_0002.png" />
+      <FilePathData Path="Resources/technology/science_bgi_0003.png" />
+      <FilePathData Path="Resources/technology/science_font_0004.png" />
+      <FilePathData Path="Resources/technology/science_font_0020.png" />
+      <FilePathData Path="Resources/technology/science_font_0021.png" />
+      <FilePathData Path="Resources/technology/science_font_0024.png" />
+      <FilePathData Path="Resources/technology/noneTxt.png" />
+      <FilePathData Path="Resources/technology/openTxt1.png" />
+      <FilePathData Path="Resources/technology/openTxt2.png" />
+      <FilePathData Path="Resources/technology/science_font_0043.png" />
+      <FilePathData Path="Resources/technology/science_icon_00010.png" />
+      <FilePathData Path="Resources/technology/no.png" />
+      <FilePathData Path="Resources/technology/science_icon_00013.png" />
+      <FilePathData Path="Resources/technology/black.png" />
+      <FilePathData Path="Resources/technology/science_icon_00017.png" />
+      <FilePathData Path="Resources/technology/science_icon_00018.png" />
+      <FilePathData Path="Resources/technology/science_icon_00019.png" />
+      <FilePathData Path="Resources/technology/science_icon_00022.png" />
+      <FilePathData Path="Resources/technology/science_icon_00028.png" />
+      <FilePathData Path="Resources/technology/science_icon_00029.png" />
+      <FilePathData Path="Resources/technology/science_icon_00030.png" />
+      <FilePathData Path="Resources/technology/noneTxtBg.png" />
+      <FilePathData Path="Resources/technology/openTxtBg.png" />
+      <FilePathData Path="Resources/technology/closeTxtBg.png" />
+      <FilePathData Path="Resources/technology/closeTxt.png" />
+      <FilePathData Path="Resources/technology/light.png" />
+      <FilePathData Path="Resources/technology/science_icon_0044.png" />
+      <FilePathData Path="Resources/technology/hdkjs_0002.png" />
+      <FilePathData Path="Resources/technology/hdkjs_0003.png" />
+      <FilePathData Path="Resources/technology/hdkjs_0004.png" />
+      <FilePathData Path="Resources/technology/1.png" />
+      <FilePathData Path="Resources/technology/2.png" />
+      <FilePathData Path="Resources/technology/3.png" />
+      <FilePathData Path="Resources/technology/4.png" />
+      <FilePathData Path="Resources/technology/5.png" />
+      <FilePathData Path="Resources/technology/6.png" />
+      <FilePathData Path="Resources/technology/7.png" />
+      <FilePathData Path="Resources/technology/8.png" />
+      <FilePathData Path="Resources/technology/9.png" />
+      <FilePathData Path="Resources/technology/open1.png" />
+      <FilePathData Path="Resources/technology/open2.png" />
+      <FilePathData Path="Resources/technology/open3.png" />
+      <FilePathData Path="Resources/technology/open4.png" />
+      <FilePathData Path="Resources/technology/close1.png" />
+      <FilePathData Path="Resources/technology/close2.png" />
+      <FilePathData Path="Resources/technology/close3.png" />
+      <FilePathData Path="Resources/technology/close4.png" />
+      <FilePathData Path="Resources/technology/science_lv.png" />
+      <FilePathData Path="Resources/technology/openTxt4.png" />
+      <FilePathData Path="Resources/technology/closeTxt1.png" />
+      <FilePathData Path="Resources/technology/closeTxt2.png" />
+      <FilePathData Path="Resources/technology/closeTxt3.png" />
+      <FilePathData Path="Resources/technology/closeTxt4.png" />
+      <FilePathData Path="Resources/technology/openTxt3.png" />
+    </ImageFiles>
+    <MaxSize Width="1550" Height="1360" />
+  </Content>
+</PlistInfoProjectFile>

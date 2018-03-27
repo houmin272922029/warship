@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>fx_ui_baoxiang_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{77,159}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,159}}</string>
+                <key>sourceSize</key>
+                <string>{77,159}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>fx_ui_baoxiang.pvr.gz</string>
+            <key>size</key>
+            <string>{81,163}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:fd6638b6fdc40caf0b911feb066bbde3$</string>
+            <key>textureFileName</key>
+            <string>fx_ui_baoxiang.pvr.gz</string>
+        </dict>
+    </dict>
+</plist>

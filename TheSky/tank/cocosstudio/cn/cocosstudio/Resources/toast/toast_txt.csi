@@ -1,0 +1,33 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="toast_txt" ID="7a824b70-6338-4284-ac2d-0a76ee326aaf" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/toast/XL_1.png" />
+      <FilePathData Path="Resources/toast/XL_2.png" />
+      <FilePathData Path="Resources/toast/XL_26.png" />
+      <FilePathData Path="Resources/toast/XL_27.png" />
+      <FilePathData Path="Resources/toast/XL_28.png" />
+      <FilePathData Path="Resources/toast/XL_29.png" />
+      <FilePathData Path="Resources/toast/XL_30.png" />
+      <FilePathData Path="Resources/toast/XL_39.png" />
+      <FilePathData Path="Resources/toast/XL_42.png" />
+      <FilePathData Path="Resources/toast/XL_49.png" />
+      <FilePathData Path="Resources/toast/XL_50.png" />
+      <FilePathData Path="Resources/toast/critical_0001.png" />
+      <FilePathData Path="Resources/toast/fight_power.png" />
+      <FilePathData Path="Resources/toast/streng_crit.png" />
+      <FilePathData Path="Resources/toast/streng_success.png" />
+      <FilePathData Path="Resources/toast/load_equip_success.png" />
+      <FilePathData Path="Resources/toast/XL_31.png" />
+      <FilePathData Path="Resources/toast/XL_32.png" />
+      <FilePathData Path="Resources/toast/XL_33.png" />
+      <FilePathData Path="Resources/toast/XL_34.png" />
+      <FilePathData Path="Resources/toast/XL_35.png" />
+      <FilePathData Path="Resources/toast/XL_36.png" />
+      <FilePathData Path="Resources/toast/quantizhanche.png" />
+      <FilePathData Path="Resources/toast/equip_unload.png" />
+      <FilePathData Path="Resources/toast/XL_3.png" />
+    </ImageFiles>
+    <MaxSize Width="525" Height="310" />
+  </Content>
+</PlistInfoProjectFile>

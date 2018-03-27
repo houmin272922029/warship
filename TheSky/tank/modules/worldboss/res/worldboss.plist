@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>worldboss/res/sjboss0001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,268},{319,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{319,33}</string>
+			</dict>
+			<key>worldboss/res/sjboss0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,80},{61,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{61,26}</string>
+			</dict>
+			<key>worldboss/res/sjboss0003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{961,108},{61,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{61,26}</string>
+			</dict>
+			<key>worldboss/res/sjboss0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{754,82},{58,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,22}</string>
+			</dict>
+			<key>worldboss/res/sjboss0005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,212},{229,54}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{229,54}</string>
+			</dict>
+			<key>worldboss/res/sjboss0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{840,1},{165,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{165,38}</string>
+			</dict>
+			<key>worldboss/res/sjboss0007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,158},{295,52}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,52}</string>
+			</dict>
+			<key>worldboss/res/sjboss0008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,486},{496,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{496,47}</string>
+			</dict>
+			<key>worldboss/res/sjboss0009.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,337},{313,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{313,25}</string>
+			</dict>
+			<key>worldboss/res/sjboss0010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,303},{319,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{319,32}</string>
+			</dict>
+			<key>worldboss/res/sjboss0011.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,111},{101,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,22}</string>
+			</dict>
+			<key>worldboss/res/sjboss0012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{814,110},{101,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,22}</string>
+			</dict>
+			<key>worldboss/res/sjboss0013.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{754,106},{58,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,22}</string>
+			</dict>
+			<key>worldboss/res/sjboss0014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{840,80},{119,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,28}</string>
+			</dict>
+			<key>worldboss/res/sjboss0015.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,82},{119,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,27}</string>
+			</dict>
+			<key>worldboss/res/sjboss0018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{630,483}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{635,483}</string>
+			</dict>
+			<key>worldboss/res/sjboss0019.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{736,134},{101,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,22}</string>
+			</dict>
+			<key>worldboss/res/yulan2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,1},{205,79}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{207,80}</string>
+			</dict>
+			<key>worldboss/res/yulan1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{840,41},{161,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{161,37}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>worldboss.png</string>
+			<key>realTextureFileName</key>
+			<string>worldboss.png</string>
+			<key>size</key>
+			<string>{1023,534}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1023</integer>
+			<key>height</key>
+			<integer>534</integer>
+		</dict>
+	</dict>
+</plist>

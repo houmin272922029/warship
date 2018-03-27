@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>newyear_supply/res/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{102,480},{20,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{20,22}</string>
+			</dict>
+			<key>newyear_supply/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,480},{59,20}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{59,20}</string>
+			</dict>
+			<key>newyear_supply/res/21.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{124,480},{20,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{20,22}</string>
+			</dict>
+			<key>newyear_supply/res/jiantou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611,457},{35,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{35,56}</string>
+			</dict>
+			<key>newyear_supply/res/lingqu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{455,457},{93,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,34}</string>
+			</dict>
+			<key>newyear_supply/res/point2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{166,480},{11,11}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{11,11}</string>
+			</dict>
+			<key>newyear_supply/res/point1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{146,480},{18,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{18,18}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{550,457},{40,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{40,59}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{62,480},{38,29}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{38,29}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{710,1},{454,149}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{454,149}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{104,707}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{104,707}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,150},{78,553}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{79,553}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,457},{452,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{452,21}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{861,1},{102,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,90}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{861,93},{102,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,90}</string>
+			</dict>
+			<key>newyear_supply/res/xnlb14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{669,107},{41,33}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{41,33}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{964,510}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>964</integer>
+			<key>height</key>
+			<integer>510</integer>
+		</dict>
+	</dict>
+</plist>

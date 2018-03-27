@@ -1,0 +1,16 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="classicbattle" ID="1229ff7f-ba89-4720-b736-46bfc690a984" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/classicbattle/JDZ_11.png" />
+      <FilePathData Path="Resources/classicbattle/JDZ_2.png" />
+      <FilePathData Path="Resources/classicbattle/JDZ_3.png" />
+      <FilePathData Path="Resources/classicbattle/JDZ_5.png" />
+      <FilePathData Path="Resources/classicbattle/JDZ_6.png" />
+      <FilePathData Path="Resources/classicbattle/JDZ_8.png" />
+      <FilePathData Path="Resources/classicbattle/JDZY_0011.png" />
+      <FilePathData Path="Resources/classicbattle/JDZY_0008.png" />
+    </ImageFiles>
+    <MaxSize Width="550" Height="580" />
+  </Content>
+</PlistInfoProjectFile>

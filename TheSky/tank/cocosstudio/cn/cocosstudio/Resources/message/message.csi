@@ -1,0 +1,15 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="message" ID="9b22aa05-4b1d-43d1-9df5-f832bb446006" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/message/war_report_0006.png" />
+      <FilePathData Path="Resources/message/war_report_0007.png" />
+      <FilePathData Path="Resources/message/war_report_0008.png" />
+      <FilePathData Path="Resources/message/bg.png" />
+      <FilePathData Path="Resources/message/war_report_0009.png" />
+      <FilePathData Path="Resources/message/war_report_0010.png" />
+      <FilePathData Path="Resources/message/war_report_0011.png" />
+    </ImageFiles>
+    <MaxSize Width="626" Height="640" />
+  </Content>
+</PlistInfoProjectFile>

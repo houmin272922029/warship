@@ -1,0 +1,83 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_img" ID="c881c43f-d407-4ddb-b477-5ccd74a6ca21" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/img/06.png" />
+      <FilePathData Path="Resources/common/img/15.png" />
+      <FilePathData Path="Resources/common/img/5.png" />
+      <FilePathData Path="Resources/common/img/7.png" />
+      <FilePathData Path="Resources/common/img/Base_0006.png" />
+      <FilePathData Path="Resources/common/img/bg06.png" />
+      <FilePathData Path="Resources/common/img/biaoti.png" />
+      <FilePathData Path="Resources/common/img/biaotidi.png" />
+      <FilePathData Path="Resources/common/img/BK_t6.png" />
+      <FilePathData Path="Resources/common/img/btn_7.png" />
+      <FilePathData Path="Resources/common/img/BZ_2.png" />
+      <FilePathData Path="Resources/common/img/c_1.png" />
+      <FilePathData Path="Resources/common/img/chuo1.png" />
+      <FilePathData Path="Resources/common/img/D_12.png" />
+      <FilePathData Path="Resources/common/img/D_3.png" />
+      <FilePathData Path="Resources/common/img/D_6.png" />
+      <FilePathData Path="Resources/common/img/decompose_0010.png" />
+      <FilePathData Path="Resources/common/img/di.png" />
+      <FilePathData Path="Resources/common/img/di03.png" />
+      <FilePathData Path="Resources/common/img/di5.png" />
+      <FilePathData Path="Resources/common/img/dingbu01.png" />
+      <FilePathData Path="Resources/common/img/dingbu02.png" />
+      <FilePathData Path="Resources/common/img/dingbu03.png" />
+      <FilePathData Path="Resources/common/img/duihao.png" />
+      <FilePathData Path="Resources/common/img/fuben01.png" />
+      <FilePathData Path="Resources/common/img/get_interface_0003.png" />
+      <FilePathData Path="Resources/common/img/gongxi.png" />
+      <FilePathData Path="Resources/common/img/GW_10.png" />
+      <FilePathData Path="Resources/common/img/img_1.png" />
+      <FilePathData Path="Resources/common/img/input_bg01.png" />
+      <FilePathData Path="Resources/common/img/jiantou01.png" />
+      <FilePathData Path="Resources/common/img/KQ_20.png" />
+      <FilePathData Path="Resources/common/img/kuang1.png" />
+      <FilePathData Path="Resources/common/img/line1.png" />
+      <FilePathData Path="Resources/common/img/line3.png" />
+      <FilePathData Path="Resources/common/img/upload1_0001.png" />
+      <FilePathData Path="Resources/common/img/upload1_0002.png" />
+      <FilePathData Path="Resources/common/img/VIP_tqcz_0007.png" />
+      <FilePathData Path="Resources/common/img/VIP_tqcz_0008.png" />
+      <FilePathData Path="Resources/common/img/VIP_tqcz_0011.png" />
+      <FilePathData Path="Resources/common/img/war_mobilization_0003.png" />
+      <FilePathData Path="Resources/common/img/war-mobilization_0005.png" />
+      <FilePathData Path="Resources/common/img/war-mobilization_0014.png" />
+      <FilePathData Path="Resources/common/img/xiangzi01.png" />
+      <FilePathData Path="Resources/common/img/XL_12.png" />
+      <FilePathData Path="Resources/common/img/XL_13.png" />
+      <FilePathData Path="Resources/common/img/XL_14.png" />
+      <FilePathData Path="Resources/common/img/XL_21.png" />
+      <FilePathData Path="Resources/common/img/XL_3.png" />
+      <FilePathData Path="Resources/common/img/xuanzhong.png" />
+      <FilePathData Path="Resources/common/img/zhezhao.png" />
+      <FilePathData Path="Resources/common/img/zidi.png" />
+      <FilePathData Path="Resources/common/img/ZJM_4.png" />
+      <FilePathData Path="Resources/common/img/ZW_1.png" />
+      <FilePathData Path="Resources/common/img/ZW_2.png" />
+      <FilePathData Path="Resources/common/img/tip_detail.png" />
+      <FilePathData Path="Resources/common/img/b2.png" />
+      <FilePathData Path="Resources/common/img/XL_11.png" />
+      <FilePathData Path="Resources/common/img/topup_rebate_0004.png" />
+      <FilePathData Path="Resources/common/img/xiahuaxian_0001.png" />
+      <FilePathData Path="Resources/common/img/bar_1.png" />
+      <FilePathData Path="Resources/common/img/bar_2.png" />
+      <FilePathData Path="Resources/common/img/bar_3.png" />
+      <FilePathData Path="Resources/common/img/shade1.png" />
+      <FilePathData Path="Resources/common/img/shade2.png" />
+      <FilePathData Path="Resources/common/img/biaoti2.png" />
+      <FilePathData Path="Resources/common/img/jiantou1.png" />
+      <FilePathData Path="Resources/common/img/jiantou2.png" />
+      <FilePathData Path="Resources/common/img/jiantou3.png" />
+      <FilePathData Path="Resources/common/img/line.png" />
+      <FilePathData Path="Resources/common/img/jiantou4.png" />
+      <FilePathData Path="Resources/common/img/underline1.png" />
+      <FilePathData Path="Resources/common/img/underline2.png" />
+      <FilePathData Path="Resources/common/img/ygmc.png" />
+      <FilePathData Path="Resources/common/img/pubflag.png" />
+    </ImageFiles>
+    <MaxSize Width="1468" Height="1026" />
+  </Content>
+</PlistInfoProjectFile>

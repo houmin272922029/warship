@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>earth_soul/res/bg5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{683,1},{190,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{190,115}</string>
+			</dict>
+			<key>earth_soul/res/d.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,286},{838,11}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{838,11}</string>
+			</dict>
+			<key>earth_soul/res/l.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,193},{26,586}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{27,586}</string>
+			</dict>
+			<key>earth_soul/res/r.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,299},{9,586}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{9,586}</string>
+			</dict>
+			<key>earth_soul/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,154},{181,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{181,71}</string>
+			</dict>
+			<key>earth_soul/res/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{680,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{680,43}</string>
+			</dict>
+			<key>earth_soul/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{253,46},{119,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{119,93}</string>
+			</dict>
+			<key>earth_soul/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,107},{105,24}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{106,24}</string>
+			</dict>
+			<key>earth_soul/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{841,227},{95,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,24}</string>
+			</dict>
+			<key>earth_soul/res/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{983,154},{130,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{130,24}</string>
+			</dict>
+			<key>earth_soul/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{978,1},{151,27}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{152,27}</string>
+			</dict>
+			<key>earth_soul/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,1},{176,104}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{180,104}</string>
+			</dict>
+			<key>earth_soul/res/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{589,193},{203,55}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,56}</string>
+			</dict>
+			<key>earth_soul/res/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,46},{250,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{250,56}</string>
+			</dict>
+			<key>earth_soul/res/t.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,253},{857,26}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{857,26}</string>
+			</dict>
+			<key>earth_soul/res/xian1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,281},{723,3}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{723,3}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{1008,309}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1008</integer>
+			<key>height</key>
+			<integer>309</integer>
+		</dict>
+	</dict>
+</plist>

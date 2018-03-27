@@ -1,0 +1,19 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="examine" ID="9435c1eb-c5f2-46e5-acce-1acb21f8859b" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/examine/1.png" />
+      <FilePathData Path="Resources/examine/2.png" />
+      <FilePathData Path="Resources/examine/3.png" />
+      <FilePathData Path="Resources/examine/4.png" />
+      <FilePathData Path="Resources/examine/chakan.png" />
+      <FilePathData Path="Resources/examine/chengjiu.png" />
+      <FilePathData Path="Resources/examine/gerenziliao.png" />
+      <FilePathData Path="Resources/examine/s3.png" />
+      <FilePathData Path="Resources/examine/s8.png" />
+      <FilePathData Path="Resources/examine/keji.png" />
+      <FilePathData Path="Resources/examine/111.png" />
+    </ImageFiles>
+    <MaxSize Width="900" Height="600" />
+  </Content>
+</PlistInfoProjectFile>

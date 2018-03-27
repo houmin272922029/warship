@@ -1,0 +1,25 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="fight_japan" ID="708d37d2-a576-40f7-9189-da289058213e" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/fight_japan/03.png" />
+      <FilePathData Path="Resources/fight_japan/04.png" />
+      <FilePathData Path="Resources/fight_japan/09.png" />
+      <FilePathData Path="Resources/fight_japan/10.png" />
+      <FilePathData Path="Resources/fight_japan/YZ_2.png" />
+      <FilePathData Path="Resources/fight_japan/YZ_5.png" />
+      <FilePathData Path="Resources/fight_japan/z1.png" />
+      <FilePathData Path="Resources/fight_japan/z2.png" />
+      <FilePathData Path="Resources/fight_japan/z3.png" />
+      <FilePathData Path="Resources/fight_japan/z4.png" />
+      <FilePathData Path="Resources/fight_japan/z5.png" />
+      <FilePathData Path="Resources/fight_japan/z6.png" />
+      <FilePathData Path="Resources/fight_japan/ZW_5.png" />
+      <FilePathData Path="Resources/fight_japan/GW_11.png" />
+      <FilePathData Path="Resources/fight_japan/D_4.png" />
+      <FilePathData Path="Resources/fight_japan/D_5.png" />
+      <FilePathData Path="Resources/fight_japan/lead_yuanzheng.png" />
+    </ImageFiles>
+    <MaxSize Width="710" Height="669" />
+  </Content>
+</PlistInfoProjectFile>

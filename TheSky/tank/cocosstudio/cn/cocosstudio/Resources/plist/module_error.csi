@@ -1,0 +1,13 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="module_error" ID="fc7f728b-aa7d-4d17-ad4c-e8bd3997410a" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/module/error/s1.png" />
+      <FilePathData Path="Resources/module/error/s3.png" />
+      <FilePathData Path="Resources/module/error/s4.png" />
+      <FilePathData Path="Resources/module/error/s5.png" />
+      <FilePathData Path="Resources/module/error/s6.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

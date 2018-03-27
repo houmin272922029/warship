@@ -1,0 +1,34 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="login" ID="04dfee7a-dc1c-4cdf-ad62-2a9c3184abce" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/login/login_10.png" />
+      <FilePathData Path="Resources/login/login_14.png" />
+      <FilePathData Path="Resources/login/login_15.png" />
+      <FilePathData Path="Resources/login/login_16.png" />
+      <FilePathData Path="Resources/login/login_17.png" />
+      <FilePathData Path="Resources/login/login_19.png" />
+      <FilePathData Path="Resources/login/login_21.png" />
+      <FilePathData Path="Resources/login/login_25.png" />
+      <FilePathData Path="Resources/login/login_3.png" />
+      <FilePathData Path="Resources/login/login_36.png" />
+      <FilePathData Path="Resources/login/login_37.png" />
+      <FilePathData Path="Resources/login/login_40.png" />
+      <FilePathData Path="Resources/login/login_8.png" />
+      <FilePathData Path="Resources/login/login_9.png" />
+      <FilePathData Path="Resources/login/login_B_0006.png" />
+      <FilePathData Path="Resources/login/login_B_0007.png" />
+      <FilePathData Path="Resources/login/login_H_00013.png" />
+      <FilePathData Path="Resources/login/login_H_00014.png" />
+      <FilePathData Path="Resources/login/login_H_00015.png" />
+      <FilePathData Path="Resources/login/login_26.png" />
+      <FilePathData Path="Resources/login/login_27.png" />
+      <FilePathData Path="Resources/login/login_28.png" />
+      <FilePathData Path="Resources/login/login_24.png" />
+      <FilePathData Path="Resources/login/login_34.png" />
+      <FilePathData Path="Resources/login/clean.png" />
+      <FilePathData Path="Resources/login/info.png" />
+    </ImageFiles>
+    <MaxSize Width="850" Height="650" />
+  </Content>
+</PlistInfoProjectFile>

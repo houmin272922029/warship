@@ -1,0 +1,27 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="extractionCard" ID="69923fb5-7660-4ad5-93de-ad35f0a72b29" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/extractionCard/1.png" />
+      <FilePathData Path="Resources/extractionCard/2.png" />
+      <FilePathData Path="Resources/extractionCard/4.png" />
+      <FilePathData Path="Resources/extractionCard/card_0002.jpg" />
+      <FilePathData Path="Resources/extractionCard/card_0003.jpg" />
+      <FilePathData Path="Resources/extractionCard/card_0006.png" />
+      <FilePathData Path="Resources/extractionCard/card_0007.png" />
+      <FilePathData Path="Resources/extractionCard/card_0008.png" />
+      <FilePathData Path="Resources/extractionCard/card_0009.png" />
+      <FilePathData Path="Resources/extractionCard/card_0010.png" />
+      <FilePathData Path="Resources/extractionCard/card_0014.png" />
+      <FilePathData Path="Resources/extractionCard/card_0015.png" />
+      <FilePathData Path="Resources/extractionCard/card_0016.png" />
+      <FilePathData Path="Resources/extractionCard/CK_18.png" />
+      <FilePathData Path="Resources/extractionCard/CK_19.png" />
+      <FilePathData Path="Resources/extractionCard/JDZ_6.png" />
+      <FilePathData Path="Resources/extractionCard/title_card.png" />
+      <FilePathData Path="Resources/extractionCard/title_item.png" />
+      <FilePathData Path="Resources/extractionCard/title0.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

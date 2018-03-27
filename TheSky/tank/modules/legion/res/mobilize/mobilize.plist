@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>legion/res/mobilize/q2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{693,25},{65,23}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{65,23}</string>
+			</dict>
+			<key>legion/res/mobilize/q3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{693,1},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,23}</string>
+			</dict>
+			<key>legion/res/mobilize/shuaxin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{802,1},{67,24}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{67,24}</string>
+			</dict>
+			<key>legion/res/mobilize/title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{297,69}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{297,69}</string>
+			</dict>
+			<key>legion/res/mobilize/dongyuantishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{300,1},{147,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,46}</string>
+			</dict>
+			<key>legion/res/mobilize/jinxingzhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{584,1},{107,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,25}</string>
+			</dict>
+			<key>legion/res/mobilize/mianfeishuaxin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{449,1},{133,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{133,28}</string>
+			</dict>
+			<key>legion/res/mobilize/xiangying.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{584,28},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>legion/res/mobilize/lingqu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{449,31},{56,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{56,21}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mobilize.png</string>
+			<key>realTextureFileName</key>
+			<string>mobilize.png</string>
+			<key>size</key>
+			<string>{870,71}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>870</integer>
+			<key>height</key>
+			<integer>71</integer>
+		</dict>
+	</dict>
+</plist>

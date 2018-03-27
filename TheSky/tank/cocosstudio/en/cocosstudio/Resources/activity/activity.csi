@@ -1,0 +1,33 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="activity" ID="f182dd8b-2598-4447-9292-659dcaf44b18" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/activity/arena.png" />
+      <FilePathData Path="Resources/activity/classicBattle.png" />
+      <FilePathData Path="Resources/activity/expedition.png" />
+      <FilePathData Path="Resources/activity/gunner_train.png" />
+      <FilePathData Path="Resources/activity/inspection.png" />
+      <FilePathData Path="Resources/activity/invade.png" />
+      <FilePathData Path="Resources/activity/mine_view.png" />
+      <FilePathData Path="Resources/activity/technology.png" />
+      <FilePathData Path="Resources/activity/boss.png" />
+      <FilePathData Path="Resources/activity/gold_bunker.png" />
+      <FilePathData Path="Resources/activity/title_arena.png" />
+      <FilePathData Path="Resources/activity/title_classicBattle.png" />
+      <FilePathData Path="Resources/activity/title_expedition.png" />
+      <FilePathData Path="Resources/activity/title_gunner_train.png" />
+      <FilePathData Path="Resources/activity/title_inspection.png" />
+      <FilePathData Path="Resources/activity/title_invade.png" />
+      <FilePathData Path="Resources/activity/title_boss.png" />
+      <FilePathData Path="Resources/activity/title_gold_bunker.png" />
+      <FilePathData Path="Resources/activity/advance.png" />
+      <FilePathData Path="Resources/activity/title_legion_escort.png" />
+      <FilePathData Path="Resources/activity/legion.png" />
+      <FilePathData Path="Resources/activity/alloy.png" />
+      <FilePathData Path="Resources/activity/resolve.png" />
+      <FilePathData Path="Resources/activity/title_soul_road.png" />
+      <FilePathData Path="Resources/activity/title_single_hero.png" />
+    </ImageFiles>
+    <MaxSize Width="1000" Height="400" />
+  </Content>
+</PlistInfoProjectFile>

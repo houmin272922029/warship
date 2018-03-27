@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="bind" ID="d01e736b-c559-4238-9f6c-9463c2ed9806" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/login/bind_2.png" />
+      <FilePathData Path="Resources/login/bind_3.png" />
+      <FilePathData Path="Resources/login/bind_6.png" />
+      <FilePathData Path="Resources/login/bind_7.png" />
+    </ImageFiles>
+    <MaxSize Width="531" Height="211" />
+  </Content>
+</PlistInfoProjectFile>

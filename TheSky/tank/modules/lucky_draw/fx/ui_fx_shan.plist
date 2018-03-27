@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>ui_fx_shan1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{101,172}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{101,172}}</string>
+                <key>sourceSize</key>
+                <string>{101,172}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>ui_fx_shan.pvr.ccz</string>
+            <key>size</key>
+            <string>{105,176}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:a840d6de42b9fea5e011aa4f00d92e6e$</string>
+            <key>textureFileName</key>
+            <string>ui_fx_shan.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

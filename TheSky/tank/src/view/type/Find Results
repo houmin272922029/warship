@@ -1,0 +1,1390 @@
+Searching 7516 files for "乘员"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/AwardCommand.lua:
+   58  		elseif data[i].type == AwardType.TYPE_SOUL then --军魂
+   59  			qy.tank.model.SoulModel:addSoul(data[i].soul)
+   60: 		elseif data[i].type == AwardType.PASSENGER then --乘员
+   61  			qy.tank.model.PassengerModel:addPassenger(data[i].passenger)
+   62  		elseif data[i].type == AwardType.MEDAL then --勋章
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/MainCommand.lua:
+  449          --     self:startController(qy.tank.controller.SoulController.new(extendData))
+  450          -- end)
+  451:     elseif moduleType.PASSENGER == sType then --乘员系统
+  452          local open_level = RoleUpgradeModel:getOpenLevelByModule(sType)
+  453          if qy.tank.model.UserInfoModel.userInfoEntity.level >= open_level then
+  ...
+  460              end)
+  461          else
+  462:             qy.hint:show("乘员系统"..qy.TextUtil:substitute(70044, open_level))
+  463          end
+  464  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/RedDotCommand.lua:
+  113  	self:emitSignal(qy.RedDotType.M_BATTLE_R, model:isBattleRoomHasDot())
+  114  	self:emitSignal(qy.RedDotType.M_LEGION, model:isMLegionHasDot())
+  115: 	self:emitSignal(qy.RedDotType.M_PASSENGER, model:isPassengerHasRedDot())--可以在乘员model做处理
+  116  	model:updateServiceActivitiesRedDot()
+  117  	model:updateTimeLimitRedDot()
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/config/ResConfig.lua:
+   43  	SEARCH_TREASURE = "fx/".. qy.language .."/ui/fx_ui_baoxiang",-- 探宝光圈
+   44  	JINJIE_CHENGGONG = "fx/".. qy.language .."/ui/ui_fx_jinjiechenggong",-- 进阶成功(升星页面)
+   45: 	CHENGYUAN_UP = "fx/".. qy.language .."/ui/ui_fx_chengyuanup",-- 乘员系统(乘员升级)
+   46  	JINXIU = "fx/".. qy.language .."/ui/ui_fx_jinxiu",-- 进修
+   47  	DUOBAO1 = "fx/".. qy.language .."/ui/ui_fx_duobao1",-- 幸运夺宝
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/entity/PassengerEntity.lua:
+    1  --[[
+    2: 	乘员系统
+    3      Date: 2016-07-11
+    4  ]]
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/entity/TankEntity.lua:
+  348  	local tech_add = qy.tank.model.TechnologyModel:getTechEffertAttr().att_add
+  349  	local tech_c = qy.tank.model.TechnologyModel:getTechEffertAttr().att_c
+  350: 	local passengerAtk = qy.tank.model.PassengerModel:getAttribute(self.unique_id).atk or 0 -- 乘员
+  351: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(1) or 0  -- 乘员图鉴
+  352  	local legionSkill_add = qy.tank.model.LegionModel.finalReturn["1"] -- 军团技能
+  353  	local open_level = RoleUpgradeModel:getOpenLevelByModule(moduleType.MILITARY_RANK)
+  ...
+  395  	local tech_c = qy.tank.model.TechnologyModel:getTechEffertAttr().def_c
+  396  
+  397: 	local passengerDef = qy.tank.model.PassengerModel:getAttribute(self.unique_id).def or 0 -- 乘员
+  398: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(2) or 0  -- 乘员图鉴
+  399  	local legionSkill_add = qy.tank.model.LegionModel.finalReturn["2"] -- 军团技能
+  400  	local open_level = RoleUpgradeModel:getOpenLevelByModule(moduleType.MILITARY_RANK)
+  ...
+  441  	local anothersoul = qy.tank.model.SoulModel:getanothAttribute(self.unique_id,3)--军魂副属性
+  442  	local zongsoul  = soul / 1000 + anothersoul
+  443: 	local passengerHp = qy.tank.model.PassengerModel:getAttribute(self.unique_id).hp or 0 -- 乘员
+  444: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(3) or 0  -- 乘员图鉴
+  445  	local legionSkill_add = qy.tank.model.LegionModel.finalReturn["3"] -- 军团技能
+  446  	local open_level = RoleUpgradeModel:getOpenLevelByModule(moduleType.MILITARY_RANK)
+  ...
+  480  	print("TankEntity:getTotalCrit","basic="..self.basic_attack,"talent="..self.talent.crit_rate,"eqiup="..qy.tank.model.EquipModel:getAddSuitPropertyByTankUid(self.unique_id).crit)
+  481  	local picAdd = qy.tank.model.AchievementModel.picAttribute[6].val or 0
+  482: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(6) or 0  -- 乘员图鉴
+  483  	local advanceAdd = self.advanceData["8"] or 0
+  484  	local equip_add = qy.tank.model.EquipModel:getAddSuitPropertyByTankUid(self.unique_id)
+  ...
+  571  function TankEntity:getCritDoubleRate()
+  572  	local soulAdd = qy.tank.model.SoulModel:getAttribute(self.unique_id)["7"] or 0 -- 军魂加成
+  573: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(7) or 0  -- 乘员图鉴
+  574  	--称号加成
+  575  	local chenghaoadd = qy.tank.model.ServerExerciseModel:gettanklist(7)--
+  ...
+  584  function TankEntity:getDodgeRate()
+  585  	local picAdd = qy.tank.model.AchievementModel.picAttribute[10].val or 0
+  586: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(10) or 0  -- 乘员图鉴
+  587  	local soulAttr = qy.tank.model.SoulModel:getAttribute(self.unique_id)
+  588  	local soulAdd = soulAttr["5"] or 0-- 军魂加成
+  ...
+  616  function TankEntity:getWear()
+  617  	local picAdd = qy.tank.model.AchievementModel.picAttribute[4].val or 0
+  618: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(4) or 0  -- 乘员图鉴
+  619  
+  620  	local equip_add = qy.tank.model.EquipModel:getAddSuitPropertyByTankUid(self.unique_id)
+  ...
+  634  function TankEntity:getHit()
+  635  	local picAdd = qy.tank.model.AchievementModel.picAttribute[9].val or 0
+  636: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(9) or 0  -- 乘员图鉴
+  637  	local advanceAdd = self.advanceData["6"] or 0
+  638  
+  ...
+  659  function TankEntity:getAnti_wear()
+  660  	local picAdd = qy.tank.model.AchievementModel.picAttribute[5].val or 0
+  661: 	local passengerAdd = qy.tank.model.PassengerModel:getAddAttrSingle(5) or 0  -- 乘员图鉴
+  662  	local soulAdd = qy.tank.model.SoulModel:getAttribute(self.unique_id)["3"] or 0 -- 军魂加成
+  663  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/model/Game.lua:
+   50      end
+   51  
+   52:     -- 乘员图鉴
+   53      -- if jdata.passenger then
+   54      --     local addPic = request == "passenger.extract"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/model/PassengerModel.lua:
+   50      self.finalEnableList2 = {}
+   51      self.finalEnableList3 = {}
+   52:     self.enableUse = {}  -- 可装载的乘员(包含碎片)
+   53:     self.atPosList = {}	 -- 已装载的乘员
+   54:     self.upPassengerUse = {} -- 可用于升级乘员(不包含碎片)
+   55:     self.enableStudy = {}	 -- 可用于进修的乘员
+   56      self.list = {}
+   57      self.tankAttrs = {}
+   58      self.uptempdate = {}--晋升的临时data
+   59      self.passenger_config = qy.Config.passenger
+   60:     self.passenger_study_consume = qy.Config.passenger_study_consume--乘员进修消耗表
+   61      self.passenger_study_list = qy.Config.passenger_study_attr--进修属性表
+   62  
+   ..
+   75      self.finalEnableList2 = {}
+   76      self.finalEnableList3 = {}
+   77:     self.enableUse = {}  -- 可装载的乘员(包含碎片)
+   78:     self.atPosList = {}	 -- 已装载的乘员
+   79:     self.enableStudy = {}	 -- 可用于进修的乘员
+   80:     self.upPassengerUse = {} -- 可用于升级乘员(不包含碎片)
+   81      self.uptempdate = {}--晋升的临时data
+   82      self.list = {}
+   ..
+  533  end
+  534  
+  535: -- 获取坦克 乘员 提供的属性加成
+  536  function PassengerModel:getAttribute(unique_id)
+  537  	if not self.tankAttrs[tostring(unique_id)] then
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/model/RedDotModel.lua:
+  302  end
+  303  
+  304: ----------乘员-------------------------------------------------------------------------------
+  305  function RedDotModel:isPassengerHasRedDot()
+  306  	local model = qy.tank.model.PassengerModel
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/service/PassengerService.lua:
+    1  --[[
+    2: 	乘员系统
+    3  	Date: 2016-07-12 15:49:49
+    4  ]]
+    .
+   27  end
+   28  
+   29: -- 装载 卸载 乘员  type 100 装 200 卸 tankid 坦克id passengid 乘员id
+   30  function PassengerService:joinformation(param, callback)
+   31      qy.Http.new(qy.Http.Request.new({
+   ..
+   38  end
+   39  
+   40: -- 乘员升级
+   41  function PassengerService:uplevel(param,callback)
+   42      qy.Http.new(qy.Http.Request.new({
+   ..
+   48      end)
+   49  end
+   50: -- 乘员进修
+   51  function PassengerService:study(type,pas_id,callback)
+   52      qy.Http.new(qy.Http.Request.new({
+   ..
+   61      end)
+   62  end
+   63: -- 乘员晋升
+   64  function PassengerService:promote(pas_id,other_id,callback)
+   65      qy.Http.new(qy.Http.Request.new({
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/utils/AwardUtils.lua:
+   86  		return "Resources/common/icon/coin/24.png"
+   87  	elseif nType == 25 then
+   88: 		--乘员
+   89          return "res/passenger/" .. _id.id .. "_" .. 1 .. ".png"
+   90  
+   91  	elseif nType == 26 then
+   92: 		--乘员碎片
+   93  		return "res/passenger/" .. _id.id .. "_" .. 1 .. ".png"
+   94  	elseif nType == 27 then
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/utils/Find Results:
+ 14942   6882: Button_2:loadTextureDisabled("Resources/common/button/dinganniu02.png",1)
+ 14943   6883  Button_2:setTitleFontSize(22)
+ 14944:  6884  Button_2:setTitleText("乘员招募")
+ 14945   ....
+ 14946   6932  Button_3:ignoreContentAdaptWithSize(false)
+ .....
+ 23182  
+ 23183  /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/passenger/src/MainView.lua:
+ 23184:   393  --乘员  坦克列表
+ 23185    394  function MainView:createView()
+ 23186    395:     local tableView = cc.TableView:create(cc.size(211, 558))
+ .....
+ 24413    410              qy.tank.module.Helper:start("soul", self)
+ 24414    ...
+ 24415:   418      elseif moduleType.PASSENGER == sType then --乘员系统
+ 24416    419          local open_level = RoleUpgradeModel:getOpenLevelByModule(sType)
+ 24417    420:         if qy.tank.model.UserInfoModel.userInfoEntity.level >= open_level then
+ .....
+ 28760    110: 	self:emitSignal(qy.RedDotType.M_BATTLE_R, model:isBattleRoomHasDot())
+ 28761    111  	self:emitSignal(qy.RedDotType.M_LEGION, model:isMLegionHasDot())
+ 28762:   112  	self:emitSignal(qy.RedDotType.M_PASSENGER, model:isPassengerHasRedDot())--可以在乘员model做处理
+ 28763  
+ 28764  /Users/ZhaoLiyuan/Documents/fuqiang_work/src/config/BattleConfig.lua:
+ .....
+ 33161     30: AwardType.BATTLE_ACHIEVEMENT = 24  --巅峰对决，对决积分
+ 33162     31  
+ 33163:    32  AwardType.PASSENGER = 25  --乘员
+ 33164  
+ 33165  /Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/ModuleType.lua:
+ .....
+ 33210     18: RedDotType.M_BATTLE_R = "mv_bat_room" --主界面作战室
+ 33211     19  RedDotType.M_LEGION = "mv_legion" --主界面军团
+ 33212:    20  RedDotType.M_PASSENGER = "mv_passenger" -- 乘员
+ 33213  
+ 33214  /Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/SoundType.lua:
+ .....
+ 56366   6882: Button_2:loadTextureDisabled("Resources/common/button/dinganniu02.png",1)
+ 56367   6883  Button_2:setTitleFontSize(22)
+ 56368:  6884  Button_2:setTitleText("乘员招募")
+ 56369   ....
+ 56370   6932  Button_3:ignoreContentAdaptWithSize(false)
+ .....
+ 61571    410              qy.tank.module.Helper:start("soul", self)
+ 61572    ...
+ 61573:   418      elseif moduleType.PASSENGER == sType then --乘员系统
+ 61574    419          local open_level = RoleUpgradeModel:getOpenLevelByModule(sType)
+ 61575    420:         if qy.tank.model.UserInfoModel.userInfoEntity.level >= open_level then
+ .....
+ 71713    427              end)
+ 71714    428          else
+ 71715:   429:             qy.hint:show("乘员系统"..qy.TextUtil:substitute(70044, open_level))
+ 71716    430          end
+ 71717    431  
+ .....
+ 74193    143              self:updateTank()
+ 74194    144          else
+ 74195:   145:             qy.hint:show("没有更多乘员")
+ 74196    146          end
+ 74197    147      end,{["isScale"] = false})
+ .....
+ 74199    154              self:updateTank()
+ 74200    155          else
+ 74201:   156:             qy.hint:show("没有更多乘员")
+ 74202    157          end
+ 74203    158      end,{["isScale"] = false})
+ .....
+ 74209    165              end
+ 74210    166              if data.iscomplete == 200 then
+ 74211:   167:                 qy.hint:show("乘员碎片不可升级！")
+ 74212    168                  return
+ 74213    169              end
+ 74214    170              if data.level == 20 then
+ 74215:   171:                 qy.hint:show("乘员已满级！")
+ 74216    172                  return
+ 74217    173              end
+ .....
+ 74219    177              self:createContent(1,2)
+ 74220    178          else
+ 74221:   179:             qy.hint:show("请选择乘员！")
+ 74222    180          end
+ 74223    181      end,{["isScale"] = false})
+ .....
+ 74225    189              self:updatePassengerList2()
+ 74226    190          else
+ 74227:   191:             qy.hint:show("没有更多乘员")
+ 74228    192          end
+ 74229    193      end,{["isScale"] = false})
+ .....
+ 74231    199              self:updatePassengerList2()
+ 74232    200          else
+ 74233:   201:             qy.hint:show("没有更多乘员")
+ 74234    202          end
+ 74235    203      end,{["isScale"] = false})
+ .....
+ 74237    207              local isHasRank5 = #PassengerModel:getAutoEnablePassenger() == 0
+ 74238    208              if isHasRank5 then
+ 74239:   209:                 qy.hint:show("橙色及以上乘员请手动添加！")
+ 74240    210              else
+ 74241    211                  self:refresfPassengerCY2()
+ 74242    212              end
+ 74243    213          else
+ 74244:   214:             qy.hint:show("没有可添加乘员！")
+ 74245    215          end
+ 74246    216      end,{["isScale"] = false})
+ .....
+ 74248    243              end
+ 74249    244          else
+ 74250:   245:             qy.hint:show("请添加乘员!")
+ 74251    246          end
+ 74252    247      end,{["isScale"] = false})
+ .....
+ 74254    252          --     local data = PassengerModel.list[self.upPassengerId_2..""]
+ 74255    253          --     if not data then
+ 74256:   254:         --         qy.hint:show("没有可添加乘员！")
+ 74257    255          --         return
+ 74258    256          --     end
+ .....
+ 74262    260          --     end
+ 74263    261          --     if data.level == 20 then
+ 74264:   262:         --         qy.hint:show("该乘员已满级！")
+ 74265    263          --         return
+ 74266    264          --     end
+ .....
+ 74722    110: 	self:emitSignal(qy.RedDotType.M_BATTLE_R, model:isBattleRoomHasDot())
+ 74723    111  	self:emitSignal(qy.RedDotType.M_LEGION, model:isMLegionHasDot())
+ 74724:   112  	self:emitSignal(qy.RedDotType.M_PASSENGER, model:isPassengerHasRedDot())--可以在乘员model做处理
+ 74725    ...
+ 74726    154  	local actIndexArr = opModel:getActivityIndex()
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/utils/TipUtil.lua:
+   86          })
+   87      elseif params.type == awardType.PASSENGER or params.type == awardType.PASSENGER_FRAGMENT then
+   88:         --乘员 乘员碎片
+   89          local entity = params.entity
+   90          tip = qy.tank.view.tip.PassengerTip.new(entity, params.type)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/common/AwardItem.lua:
+  181          itemData.quality = 4
+  182      elseif data.type == awardType.PASSENGER then
+  183:         --乘员
+  184          local staticData = qy.Config.passenger
+  185          local data2 = staticData[tostring(data.id or data.passenger_id)]
+  ...
+  197          itemData.entity = data2
+  198      elseif data.type == awardType.PASSENGER_FRAGMENT then
+  199:         --乘员碎片
+  200          local staticData = qy.Config.passenger
+  201          local data2 = staticData[tostring(data.id or data.passenger_id)]
+  ...
+  503          itemData.num = data.num
+  504          itemData.name = "进修手册"
+  505:         itemData.intro = "乘员进修必备道具，可提升乘员百分比属性"
+  506          itemData.iconScale = 1
+  507          itemData.nameTextColor = qy.tank.utils.ColorMapUtil.qualityMapColor(3)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/examine/ExaminePassenger.lua:
+    1  --[[
+    2: 	乘员信息
+    3  	Date: 2016-06-21 14:00:00
+    4  ]]
+    .
+  119          -- 刷新下面选中将领
+  120          self.upTitle:setVisible(true)
+  121:         self.upTitle:setString("【"..entity.name.."】" .. "乘员总加成")
+  122      end
+  123  
+  124  
+  125:     -- 刷新中间乘员信息
+  126      if list then
+  127          self.Node_3:setVisible(true)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/main/MainView.lua:
+  590      end)
+  591  
+  592:     -- 乘员系统
+  593      self:OnClick("passengerBtn",function(sender)
+  594          local passenger = {["idx1"] = 1, ["idx2"] = 1}
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/main/MainView1.lua:
+  592      end)
+  593  
+  594:     -- 乘员系统
+  595      self:OnClick("passengerBtn",function(sender)
+  596          local passenger = {["idx1"] = 1, ["idx2"] = 1}
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/tip/PassengerTip.lua:
+    1  --[[
+    2: --乘员tip
+    3  ]]
+    4  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/AwardType.lua:
+   30  AwardType.BATTLE_ACHIEVEMENT = 24  --巅峰对决，对决积分
+   31  
+   32: AwardType.PASSENGER = 25  --乘员
+   33: AwardType.PASSENGER_FRAGMENT = 26  --乘员碎片
+   34  
+   35  AwardType.RAFFLE_TICKET = 27 -- 兑奖券
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/ModuleType.lua:
+   50  ModuleType.BLACKLIST = "blacklist" -- 黑名单
+   51  ModuleType.LEGION = "legion" -- 军团
+   52: ModuleType.PASSENGER = "passenger" -- 乘员系统
+   53  
+   54  --登录有关界面
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/RedDotType.lua:
+   18  RedDotType.M_BATTLE_R = "mv_bat_room" --主界面作战室
+   19  RedDotType.M_LEGION = "mv_legion" --主界面军团
+   20: RedDotType.M_PASSENGER = "mv_passenger" -- 乘员
+   21  RedDotType.M_CROSS_SER = "mv_cross_service" -- 跨服玩法
+   22  RedDotType.M_SER = "mv_service" -- 跨服玩法
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/outstanding/cn/cocosstudio/outstanding/ui/ItemCell.csd:
+   10              <Size X="438.0000" Y="153.0000" />
+   11              <Children>
+   12:               <AbstractNodeData Name="Text_1" ActionTag="-927925152" Tag="9" IconVisible="False" LeftMargin="15.0796" RightMargin="248.9204" TopMargin="10.1373" BottomMargin="118.8627" FontSize="21" LabelText="累计招募乘员10次" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+   13                  <Size X="174.0000" Y="24.0000" />
+   14                  <AnchorPoint ScaleY="0.5000" />
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/outstanding/src/ItemCell.lua:
+   49  
+   50      local outStandingData = model.outStandingData
+   51:     self.Text_1:setString("累计招募乘员"..data.times.."次")
+   52      self.Text_2:setString("进度："..(outStandingData.num <= data.times and outStandingData.num or data.times).."/"..data.times)
+   53  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/outstanding/ui/ItemCell.lua:
+   84  Text_1:setFontName("Resources/font/ttf/black_body.TTF")
+   85  Text_1:setFontSize(21)
+   86: Text_1:setString([[累计招募乘员10次]])
+   87  Text_1:setTextHorizontalAlignment(0)
+   88  Text_1:setTextVerticalAlignment(0)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/passenger/cn/cocosstudio/passenger/ui/MainView.csd:
+  277                                  <ShadowColor A="255" R="110" G="110" B="110" />
+  278                                </AbstractNodeData>
+  279:                               <AbstractNodeData Name="Text_des6" ActionTag="-751739532" Tag="138" IconVisible="False" LeftMargin="240.0000" RightMargin="114.0000" TopMargin="87.0000" BottomMargin="87.0000" FontSize="21" LabelText="暂无乘员" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+  280                                  <Size X="86.0000" Y="26.0000" />
+  281                                  <AnchorPoint ScaleY="0.5000" />
+  ...
+  346                              <FileData Type="MarkedSubImage" Path="Resources/common/img/b2.png" Plist="Resources/common/img/common_img.plist" />
+  347                            </AbstractNodeData>
+  348:                           <AbstractNodeData Name="upTitle" ActionTag="136713493" Tag="274" IconVisible="False" LeftMargin="143.4599" RightMargin="503.5401" TopMargin="257.4626" BottomMargin="258.5374" FontSize="22" LabelText="【百夫长】乘员加成" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+  349                              <Size X="199.0000" Y="27.0000" />
+  350                              <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+  ...
+  745                          <ColorVector ScaleY="1.0000" />
+  746                        </AbstractNodeData>
+  747:                       <AbstractNodeData Name="hasno" CanEdit="False" ActionTag="-1473874531" Tag="192" IconVisible="False" LeftMargin="249.0000" RightMargin="-445.0000" TopMargin="18.0000" BottomMargin="-52.0000" FontSize="28" LabelText="请前往乘员招募" OutlineEnabled="True" ShadowOffsetX="1.0000" ShadowOffsetY="-1.0000" ShadowEnabled="True" ctype="TextObjectData">
+  748                          <Size X="196.0000" Y="34.0000" />
+  749                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+  ...
+ 1088                              <ShadowColor A="255" R="110" G="110" B="110" />
+ 1089                            </AbstractNodeData>
+ 1090:                           <AbstractNodeData Name="Text_des" ActionTag="142602729" Tag="326" IconVisible="False" LeftMargin="86.4517" RightMargin="470.5483" TopMargin="513.1412" BottomMargin="9.8588" FontSize="18" LabelText="注：请将要合并的乘员放入左侧空栏" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1091                              <Size X="289.0000" Y="21.0000" />
+ 1092                              <AnchorPoint ScaleY="0.5000" />
+ ....
+ 1390                              <ColorVector ScaleY="1.0000" />
+ 1391                            </AbstractNodeData>
+ 1392:                           <AbstractNodeData Name="hasno_2" ActionTag="1985815785" Tag="193" IconVisible="False" LeftMargin="552.0000" RightMargin="98.0000" TopMargin="227.0000" BottomMargin="283.0000" FontSize="28" LabelText="请前往乘员招募" OutlineEnabled="True" ShadowOffsetX="1.0000" ShadowOffsetY="-1.0000" ShadowEnabled="True" ctype="TextObjectData">
+ 1393                              <Size X="196.0000" Y="34.0000" />
+ 1394                              <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1478                          <ShadowColor A="255" R="110" G="110" B="110" />
+ 1479                        </AbstractNodeData>
+ 1480:                       <AbstractNodeData Name="des1" ActionTag="84476738" Tag="349" IconVisible="False" LeftMargin="31.7300" RightMargin="31.2700" TopMargin="383.5000" BottomMargin="131.5000" FontSize="20" LabelText="可刷出&quot;白、绿、蓝、紫乘员&quot;" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1481                          <Size X="258.0000" Y="27.0000" />
+ 1482                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1631                          <ShadowColor A="255" R="110" G="110" B="110" />
+ 1632                        </AbstractNodeData>
+ 1633:                       <AbstractNodeData Name="des2" ActionTag="134752784" Tag="353" IconVisible="False" LeftMargin="55.1904" RightMargin="47.8096" TopMargin="385.0000" BottomMargin="131.0000" FontSize="20" LabelText="可刷出&quot;蓝、紫、橙乘员&quot;" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1634                          <Size X="218.0000" Y="27.0000" />
+ 1635                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1643                          <ShadowColor A="255" R="110" G="110" B="110" />
+ 1644                        </AbstractNodeData>
+ 1645:                       <AbstractNodeData Name="free2_0" ActionTag="1643310055" Tag="354" IconVisible="False" LeftMargin="59.3365" RightMargin="59.6635" TopMargin="329.7693" BottomMargin="190.2307" FontSize="20" LabelText="钻石首刷必得       乘员" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1646                          <Size X="202.0000" Y="23.0000" />
+ 1647                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1876                      <BlendFunc Src="1" Dst="771" />
+ 1877                    </AbstractNodeData>
+ 1878:                   <AbstractNodeData Name="Text_54" CanEdit="False" ActionTag="870956291" Tag="364" IconVisible="False" LeftMargin="248.7393" RightMargin="-444.7393" TopMargin="-188.5000" BottomMargin="157.5000" FontSize="24" LabelText="乘员图鉴激活属性" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1879                      <Size X="196.0000" Y="31.0000" />
+ 1880                      <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1888                      <ShadowColor A="255" R="110" G="110" B="110" />
+ 1889                    </AbstractNodeData>
+ 1890:                   <AbstractNodeData Name="Text_54_0" CanEdit="False" ActionTag="282888546" Tag="365" IconVisible="False" LeftMargin="224.3735" RightMargin="-488.3735" TopMargin="286.4614" BottomMargin="-311.4614" FontSize="22" LabelText="点击乘员图鉴查看乘员属性" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1891                      <Size X="264.0000" Y="25.0000" />
+ 1892                      <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 2027                      <ColorVector ScaleY="1.0000" />
+ 2028                    </AbstractNodeData>
+ 2029:                   <AbstractNodeData Name="hasno_jinxiu" ActionTag="-502716476" Tag="229" IconVisible="False" LeftMargin="147.4656" RightMargin="-343.4656" TopMargin="17.9998" BottomMargin="-51.9998" FontSize="28" LabelText="请前往乘员招募" OutlineEnabled="True" ShadowOffsetX="1.0000" ShadowOffsetY="-1.0000" ShadowEnabled="True" ctype="TextObjectData">
+ 2030                      <Size X="196.0000" Y="34.0000" />
+ 2031                      <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 2652              <ShadowColor A="255" R="110" G="110" B="110" />
+ 2653            </AbstractNodeData>
+ 2654:           <AbstractNodeData Name="Button_2" ActionTag="-1566816600" Tag="251" IconVisible="False" LeftMargin="210.9746" RightMargin="685.0254" TopMargin="64.8459" BottomMargin="592.1541" TouchEnable="True" FontSize="22" ButtonText="乘员招募" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="154" Scale9Height="41" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+ 2655              <Size X="184.0000" Y="63.0000" />
+ 2656              <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/passenger/en/cocosstudio/passenger/ui/MainView.csd:
+  277                                  <ShadowColor A="255" R="110" G="110" B="110" />
+  278                                </AbstractNodeData>
+  279:                               <AbstractNodeData Name="Text_des6" ActionTag="-751739532" Tag="138" IconVisible="False" LeftMargin="240.0000" RightMargin="114.0000" TopMargin="87.0000" BottomMargin="87.0000" FontSize="21" LabelText="暂无乘员" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+  280                                  <Size X="86.0000" Y="26.0000" />
+  281                                  <AnchorPoint ScaleY="0.5000" />
+  ...
+  298                              <FileData Type="MarkedSubImage" Path="Resources/common/img/b2.png" Plist="Resources/common/img/common_img.plist" />
+  299                            </AbstractNodeData>
+  300:                           <AbstractNodeData Name="upTitle" ActionTag="136713493" Tag="274" IconVisible="False" LeftMargin="143.4599" RightMargin="503.5401" TopMargin="257.4626" BottomMargin="258.5374" FontSize="22" LabelText="【百夫长】乘员加成" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+  301                              <Size X="199.0000" Y="27.0000" />
+  302                              <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+  ...
+  697                          <ColorVector ScaleY="1.0000" />
+  698                        </AbstractNodeData>
+  699:                       <AbstractNodeData Name="hasno" ActionTag="-1473874531" Tag="192" IconVisible="False" LeftMargin="249.0000" RightMargin="-445.0000" TopMargin="18.0000" BottomMargin="-52.0000" FontSize="28" LabelText="请前往乘员招募" OutlineEnabled="True" ShadowOffsetX="1.0000" ShadowOffsetY="-1.0000" ShadowEnabled="True" ctype="TextObjectData">
+  700                          <Size X="196.0000" Y="34.0000" />
+  701                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+  ...
+ 1040                              <ShadowColor A="255" R="110" G="110" B="110" />
+ 1041                            </AbstractNodeData>
+ 1042:                           <AbstractNodeData Name="Text_des" ActionTag="142602729" Tag="326" IconVisible="False" LeftMargin="86.4517" RightMargin="470.5483" TopMargin="513.1412" BottomMargin="9.8588" FontSize="18" LabelText="注：请将要合并的乘员放入左侧空栏" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1043                              <Size X="289.0000" Y="21.0000" />
+ 1044                              <AnchorPoint ScaleY="0.5000" />
+ ....
+ 1342                              <ColorVector ScaleY="1.0000" />
+ 1343                            </AbstractNodeData>
+ 1344:                           <AbstractNodeData Name="hasno_2" ActionTag="1985815785" Tag="193" IconVisible="False" LeftMargin="552.0000" RightMargin="98.0000" TopMargin="227.0000" BottomMargin="283.0000" FontSize="28" LabelText="请前往乘员招募" OutlineEnabled="True" ShadowOffsetX="1.0000" ShadowOffsetY="-1.0000" ShadowEnabled="True" ctype="TextObjectData">
+ 1345                              <Size X="196.0000" Y="34.0000" />
+ 1346                              <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1420                          <ShadowColor A="255" R="110" G="110" B="110" />
+ 1421                        </AbstractNodeData>
+ 1422:                       <AbstractNodeData Name="des1" ActionTag="84476738" Tag="349" IconVisible="False" LeftMargin="31.7300" RightMargin="31.2700" TopMargin="467.0884" BottomMargin="47.9116" FontSize="20" LabelText="可刷出&quot;白、绿、蓝、紫乘员&quot;" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1423                          <Size X="258.0000" Y="27.0000" />
+ 1424                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1486                          <ShadowColor A="255" R="110" G="110" B="110" />
+ 1487                        </AbstractNodeData>
+ 1488:                       <AbstractNodeData Name="des2" ActionTag="134752784" Tag="353" IconVisible="False" LeftMargin="55.1905" RightMargin="47.8095" TopMargin="467.5884" BottomMargin="48.4116" FontSize="20" LabelText="可刷出&quot;蓝、紫、橙乘员&quot;" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1489                          <Size X="218.0000" Y="27.0000" />
+ 1490                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1498                          <ShadowColor A="255" R="110" G="110" B="110" />
+ 1499                        </AbstractNodeData>
+ 1500:                       <AbstractNodeData Name="free2_0" ActionTag="1643310055" Tag="354" IconVisible="False" LeftMargin="59.3365" RightMargin="59.6635" TopMargin="329.7693" BottomMargin="190.2307" FontSize="20" LabelText="钻石首刷必得       乘员" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1501                          <Size X="202.0000" Y="23.0000" />
+ 1502                          <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1651                      <BlendFunc Src="1" Dst="771" />
+ 1652                    </AbstractNodeData>
+ 1653:                   <AbstractNodeData Name="Text_54" ActionTag="870956291" Tag="364" IconVisible="False" LeftMargin="248.7393" RightMargin="-444.7393" TopMargin="-188.5000" BottomMargin="157.5000" FontSize="24" LabelText="乘员图鉴激活属性" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1654                      <Size X="196.0000" Y="31.0000" />
+ 1655                      <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1663                      <ShadowColor A="255" R="110" G="110" B="110" />
+ 1664                    </AbstractNodeData>
+ 1665:                   <AbstractNodeData Name="Text_54_0" ActionTag="282888546" Tag="365" IconVisible="False" LeftMargin="224.3735" RightMargin="-488.3735" TopMargin="286.4614" BottomMargin="-311.4614" FontSize="22" LabelText="点击乘员图鉴查看乘员属性" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+ 1666                      <Size X="264.0000" Y="25.0000" />
+ 1667                      <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+ ....
+ 1708              <ShadowColor A="255" R="110" G="110" B="110" />
+ 1709            </AbstractNodeData>
+ 1710:           <AbstractNodeData Name="Button_2" ActionTag="-1566816600" Tag="251" IconVisible="False" LeftMargin="210.9746" RightMargin="685.0254" TopMargin="64.8459" BottomMargin="592.1541" TouchEnable="True" FontSize="22" ButtonText="乘员招募" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="154" Scale9Height="41" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+ 1711              <Size X="184.0000" Y="63.0000" />
+ 1712              <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/passenger/src/MainView.lua:
+   34      self:InjectView("tujian")
+   35      self:InjectView("jinxiu")
+   36:     self:InjectView("Button_upGrade") --乘员升级
+   37      self:InjectView("Button_next")
+   38      self:InjectView("Button_up")
+   ..
+  185              self:createContent(4)
+  186          else
+  187:             qy.hint:show("乘员进修"..qy.TextUtil:substitute(70044, open_level))
+  188              return
+  189          end
+  ...
+  192  
+  193  
+  194:     --乘员
+  195      self:OnClick("Button_up", function()
+  196          if PassengerModel.page > 1 then
+  ...
+  200              self:updateTank()
+  201          else
+  202:             qy.hint:show("没有更多乘员")
+  203          end
+  204      end,{["isScale"] = false})
+  ...
+  211              self:updateTank()
+  212          else
+  213:             qy.hint:show("没有更多乘员")
+  214          end
+  215      end,{["isScale"] = false})
+  ...
+  226              end
+  227              if data.iscomplete == 200 then
+  228:                 qy.hint:show("乘员碎片不可升级！")
+  229                  return
+  230              end
+  231              if data.level == 20 then
+  232:                 qy.hint:show("乘员已满级！")
+  233                  return
+  234              end
+  ...
+  238              self:createContent(1,2)
+  239          else
+  240:             qy.hint:show("请选择乘员！")
+  241          end
+  242      end,{["isScale"] = false})
+  243  
+  244      
+  245:     --乘员升级
+  246      self:OnClick("Button_up_0", function()
+  247          if PassengerModel.page2 > 1 then
+  ...
+  250              self:updatePassengerList2()
+  251          else
+  252:             qy.hint:show("没有更多乘员")
+  253          end
+  254      end,{["isScale"] = false})
+  ...
+  260              self:updatePassengerList2()
+  261          else
+  262:             qy.hint:show("没有更多乘员")
+  263          end
+  264      end,{["isScale"] = false})
+  ...
+  268              local isHasRank5 = #PassengerModel:getAutoEnablePassenger() == 0
+  269              if isHasRank5 then
+  270:                 qy.hint:show("橙色及以上乘员请手动添加！")
+  271              else
+  272                  self:refresfPassengerCY2()
+  273              end
+  274          else
+  275:             qy.hint:show("没有可添加乘员！")
+  276          end
+  277      end,{["isScale"] = false})
+  ...
+  281          if self.explist and #self.explist~= 0 then
+  282              if self.isHasRank5 then
+  283:                 qy.alert:show({qy.TextUtil:substitute(46004), {255,255,255}}, "添加的乘员里包含橙色及以上乘员，是否继续？", cc.size(450 , 220), {{qy.TextUtil:substitute(46006), 4}, {qy.TextUtil:substitute(46007) , 5}}, function(flag)
+  284                      if flag == qy.TextUtil:substitute(46007) then
+  285                          PassengerService:uplevel({
+  ...
+  304              end
+  305          else
+  306:             qy.hint:show("请添加乘员!")
+  307          end
+  308      end,{["isScale"] = false})
+  ...
+  313          --     local data = PassengerModel.list[self.upPassengerId_2..""]
+  314          --     if not data then
+  315:         --         qy.hint:show("没有可添加乘员！")
+  316          --         return
+  317          --     end
+  ...
+  321          --     end
+  322          --     if data.level == 20 then
+  323:         --         qy.hint:show("该乘员已满级！")
+  324          --         return
+  325          --     end
+  ...
+  454              end
+  455          else
+  456:             qy.hint:show("没有更多乘员")
+  457          end
+  458      end,{["isScale"] = false})
+  ...
+  472              end
+  473          else
+  474:             qy.hint:show("没有更多乘员")
+  475          end
+  476      end,{["isScale"] = false})
+  ...
+  498              end)
+  499          elseif self.jinxiubtflag == 2 then
+  500:             qy.hint:show("乘员已晋升到最高级")
+  501              return
+  502          else
+  ...
+  600  end
+  601  
+  602: -- 乘员
+  603  function MainView:refreshChengYuan1()
+  604:     -- 刷新右边乘员列表
+  605      self:createPassengerView()
+  606  end
+  607  
+  608: -- 从升级页面回到乘员
+  609  function MainView:refreshCY2()
+  610      self.TankList:removeAllChildren()
+  611      self.TankList:addChild(self:createView())
+  612  
+  613:     -- 刷新右边乘员列表
+  614      self:createPassengerView()
+  615  end
+  616  
+  617: --乘员  坦克列表
+  618  function MainView:createView()
+  619      local tableView = cc.TableView:create(cc.size(211, 558))
+  ...
+  714          -- 刷新下面选中将领
+  715          self.upTitle:setVisible(true)
+  716:         self.upTitle:setString("【"..self.selectTank.item.entity.name.."】" .. "乘员总加成")
+  717          if list and #list > 0 then
+  718:             -- 显示上阵的乘员信息
+  719              self:refreshPassengerBottomInfo(list, 1)
+  720          else
+  721:             -- 显示列表中的乘员信息
+  722              if PassengerModel:getEnableUse() and PassengerModel:getEnableUse()[PassengerModel.page] and #PassengerModel:getEnableUse()[PassengerModel.page] and #PassengerModel:getEnableUse()>0 and #PassengerModel:getEnableUse()[PassengerModel.page] > 0 then
+  723                  self:updatePassengerInfo(1) 
+  ...
+  732                  self.equip_show:setVisible(false)
+  733                  self.yizhuangbei:setVisible(false)
+  734:                 -- 要升级乘员的kid 和坦克kid
+  735                  self.upPassengerId = nil
+  736                  self.tank_unique_id = ""
+  ...
+  742          end
+  743      end
+  744:     -- 刷新中间乘员信息
+  745      if list then
+  746          local atk = 0
+  ...
+  787  end
+  788  
+  789: --乘员 坦克上的乘员
+  790  function MainView:setPassengerPotions()
+  791      for i = 1, 4 do
+  ...
+  861  end
+  862  
+  863: --乘员 列表中的乘员
+  864  function MainView:createPassengerView()
+  865      self.Panel_1:removeAllChildren()
+  ...
+  947      end
+  948  end
+  949: --进修刷新乘员逻辑
+  950  function MainView:updatePassengerList3()
+  951  
+  ...
+ 1013  
+ 1014  function MainView:refreshPassengerBottomInfo(list, type)
+ 1015:     -- type 1 坦克上的乘员  2 列表中的乘员
+ 1016      if type == 1 then
+ 1017          for i, v in pairs(list) do
+ ....
+ 1061                  self.yizhuangbei:setVisible(true)
+ 1062  
+ 1063:                 -- 要升级乘员的kid 和坦克kid
+ 1064                  self.upPassengerId = v.unique_id
+ 1065                  self.tank_unique_id = v.tank_unique_id
+ ....
+ 1138  end
+ 1139  
+ 1140: --乘员 刷新右边的list
+ 1141  function MainView:updatePassengerInfo(idx)
+ 1142      if idx and self["item" .. idx] then
+ ....
+ 1157      end
+ 1158  end
+ 1159: --乘员进修 刷新右边的list
+ 1160  function MainView:updatePassengerInfo3(idx)
+ 1161      if idx and self["item3" .. idx] then
+ ....
+ 1192  end
+ 1193  
+ 1194: -- 乘员升级
+ 1195  function MainView:clearCY2()
+ 1196      self.explist = {}
+ ....
+ 1215      end
+ 1216  end
+ 1217: -- 乘员升级
+ 1218  function MainView:refreshChengYuan2()
+ 1219      if self.upPassengerId then
+ ....
+ 1250  end
+ 1251  
+ 1252: -- 乘员经验值显示
+ 1253  function MainView:refreshProgressTextCY2()
+ 1254      
+ ....
+ 1303      return ccui.RichElementText:create(1, color or display.COLOR_WHITE, 255, text, qy.res.FONT_NAME, 18)
+ 1304  end
+ 1305: -- 乘员升级 (点击自动加载乘员)
+ 1306  function MainView:refresfPassengerCY2()
+ 1307      PassengerModel:refreshUpPassengerUse(self.upPassengerId)
+ ....
+ 1328  end
+ 1329  
+ 1330: -- 乘员升级
+ 1331  function MainView:createPassengerView2()
+ 1332      self.Panel_3:removeAllChildren()
+ ....
+ 1340      self:updatePassengerList2()
+ 1341  end
+ 1342: -- 乘员升级
+ 1343  function MainView:updatePassengerList2()
+ 1344      for i = 1, 12 do
+ ....
+ 1388      end
+ 1389  end
+ 1390: -- 乘员升级  点击回调  刷新右边的list
+ 1391  function MainView:updatePassengerInfo2(idx, unique_id)
+ 1392      for i = 1, 12 do
+ ....
+ 1701  end
+ 1702  
+ 1703: -- 给某个位置添加乘员
+ 1704  function MainView:addPos(data)
+ 1705      PassengerService:joinformation({
+ ....
+ 1754  end
+ 1755  
+ 1756: --乘员升级  给某个乘员添加升级材料
+ 1757  function MainView:checkAddPassenger()
+ 1758      local isSelected = false
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/passenger/ui/MainView.lua:
+ 1321  Text_des6:setFontName("Resources/font/ttf/black_body.TTF")
+ 1322  Text_des6:setFontSize(21)
+ 1323: Text_des6:setString([[暂无乘员]])
+ 1324  Text_des6:setTextHorizontalAlignment(0)
+ 1325  Text_des6:setTextVerticalAlignment(0)
+ ....
+ 1373  upTitle:setFontName("Resources/font/ttf/black_body.TTF")
+ 1374  upTitle:setFontSize(22)
+ 1375: upTitle:setString([[【百夫长】乘员加成]])
+ 1376  upTitle:setTextHorizontalAlignment(0)
+ 1377  upTitle:setTextVerticalAlignment(0)
+ ....
+ 2994  hasno:setFontName("Resources/font/ttf/black_body.TTF")
+ 2995  hasno:setFontSize(28)
+ 2996: hasno:setString([[请前往乘员招募]])
+ 2997  hasno:setTextHorizontalAlignment(0)
+ 2998  hasno:setTextVerticalAlignment(0)
+ ....
+ 4362  Text_des:setFontName("Resources/font/ttf/black_body_2.TTF")
+ 4363  Text_des:setFontSize(18)
+ 4364: Text_des:setString([[注：请将要合并的乘员放入左侧空栏]])
+ 4365  Text_des:setTextHorizontalAlignment(0)
+ 4366  Text_des:setTextVerticalAlignment(0)
+ ....
+ 5559  hasno_2:setFontName("Resources/font/ttf/black_body.TTF")
+ 5560  hasno_2:setFontSize(28)
+ 5561: hasno_2:setString([[请前往乘员招募]])
+ 5562  hasno_2:setTextHorizontalAlignment(0)
+ 5563  hasno_2:setTextVerticalAlignment(0)
+ ....
+ 5855  des1:setFontName("Resources/font/ttf/black_body_2.TTF")
+ 5856  des1:setFontSize(20)
+ 5857: des1:setString([[可刷出"白、绿、蓝、紫乘员"]])
+ 5858  des1:setTextHorizontalAlignment(0)
+ 5859  des1:setTextVerticalAlignment(0)
+ ....
+ 6102  des2:setFontName("Resources/font/ttf/black_body_2.TTF")
+ 6103  des2:setFontSize(20)
+ 6104: des2:setString([[可刷出"蓝、紫、橙乘员"]])
+ 6105  des2:setTextHorizontalAlignment(0)
+ 6106  des2:setTextVerticalAlignment(0)
+ ....
+ 6154  free2_0:setFontName("Resources/font/ttf/black_body.TTF")
+ 6155  free2_0:setFontSize(20)
+ 6156: free2_0:setString([[钻石首刷必得       乘员]])
+ 6157  free2_0:setTextHorizontalAlignment(0)
+ 6158  free2_0:setTextVerticalAlignment(0)
+ ....
+ 6719  Text_54:setFontName("Resources/font/ttf/black_body_2.TTF")
+ 6720  Text_54:setFontSize(24)
+ 6721: Text_54:setString([[乘员图鉴激活属性]])
+ 6722  Text_54:setTextHorizontalAlignment(0)
+ 6723  Text_54:setTextVerticalAlignment(0)
+ ....
+ 6771  Text_54_0:setFontName("Resources/font/ttf/black_body_2.TTF")
+ 6772  Text_54_0:setFontSize(22)
+ 6773: Text_54_0:setString([[点击乘员图鉴查看乘员属性]])
+ 6774  Text_54_0:setTextHorizontalAlignment(0)
+ 6775  Text_54_0:setTextVerticalAlignment(0)
+ ....
+ 6882  Button_2:loadTextureDisabled("Resources/common/button/dinganniu02.png",1)
+ 6883  Button_2:setTitleFontSize(22)
+ 6884: Button_2:setTitleText("乘员招募")
+ 6885  Button_2:setTitleColor(cc.c3b(255, 255, 255))
+ 6886  Button_2:setFlippedX(false)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/passenger/ui/Node.lua:
+ 1036  Text_des6:setFontName("Resources/font/ttf/black_body.TTF")
+ 1037  Text_des6:setFontSize(21)
+ 1038: Text_des6:setString([[暂无乘员]])
+ 1039  Text_des6:setTextHorizontalAlignment(0)
+ 1040  Text_des6:setTextVerticalAlignment(0)
+ ....
+ 1088  upTitle:setFontName("Resources/font/ttf/black_body.TTF")
+ 1089  upTitle:setFontSize(22)
+ 1090: upTitle:setString([[【百夫长】乘员加成]])
+ 1091  upTitle:setTextHorizontalAlignment(0)
+ 1092  upTitle:setTextVerticalAlignment(0)
+
+Unable to open /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/strong/tw/cocosstudio/Resources
+171 matches across 29 files
+
+
+Searching 7519 files for "qy.Event.GROUP_BATTLES"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/App.lua:
+  165                  -- end
+  166  
+  167:                 qy.Event.dispatch(qy.Event.GROUP_BATTLES2) --fq 2016年08月29日14:12:55 多人副本
+  168              end
+  169          end)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/module/chat/Model.lua:
+  176                  qy.hint:show(json.data.content.msg)
+  177              end
+  178:             qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+  179          elseif json.m == "Groupbattles.group_battles_team_info" then
+  180              local model = qy.tank.model.GroupBattlesModel
+  ...
+  193                  qy.hint:show(json.data.content.msg)
+  194              end
+  195:             qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+  196          elseif json.m == "AllServersGroupBattles.team_info" then -- 跨服多人副本
+  197              local model = qy.tank.model.AllServersGroupBattlesModel
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/service/AllServersGroupBattlesService.lua:
+   40              extendData.callBack1 = function(data)
+   41                  model:update(response.data)
+   42:                 qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+   43              end
+   44              qy.tank.command.ActivitiesCommand:showActivity("group_battles", extendData)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/service/GroupBattlesService.lua:
+   42              extendData.callBack1 = function(data)
+   43                  model:update(response.data)
+   44:                 qy.Event.dispatch(qy.Event.GROUP_BATTLES)                       
+   45              end
+   46              qy.tank.command.ActivitiesCommand:showActivity("group_battles", extendData)  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/utils/Find Results:
+ 28641    165                  -- end
+ 28642    166  
+ 28643:   167:                 qy.Event.dispatch(qy.Event.GROUP_BATTLES2) --fq 2016年08月29日14:12:55 多人副本
+ 28644    168              end
+ 28645    169          end)
+ .....
+ 30265    176                  qy.hint:show(json.data.content.msg)
+ 30266    177              end
+ 30267:   178:             qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+ 30268    179:         elseif json.m == "Groupbattles.group_battles_team_info" then
+ 30269    180:             local model = qy.tank.model.GroupBattlesModel
+ .....
+ 30280    193                  qy.hint:show(json.data.content.msg)
+ 30281    194              end
+ 30282:   195:             qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+ 30283    196          end
+ 30284    197      end
+ .....
+ 30539     42              extendData.callBack1 = function(data)
+ 30540     43                  model:update(response.data)
+ 30541:    44:                 qy.Event.dispatch(qy.Event.GROUP_BATTLES)                       
+ 30542     45              end
+ 30543     46:             qy.tank.command.ActivitiesCommand:showActivity("group_battles", extendData)  
+ .....
+ 35834    353      self:update()
+ 35835    354  
+ 35836:   355:     self.listener_1 = qy.Event.add(qy.Event.GROUP_BATTLES,function(event)
+ 35837    356          self:update()
+ 35838    357      end)
+ 35839    358  
+ 35840:   359:     self.listener_2 = qy.Event.add(qy.Event.GROUP_BATTLES2,function(event)
+ 35841    360          service:isTeam(function(data)
+ 35842    361              self:update()
+ .....
+ 71852    176:                 qy.hint:show(json.data.content.msg)
+ 71853    177              end
+ 71854:   178              qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+ 71855    ...
+ 71856    191  
+ .....
+ 71858    193:                 qy.hint:show(json.data.content.msg)
+ 71859    194              end
+ 71860:   195              qy.Event.dispatch(qy.Event.GROUP_BATTLES)
+ 71861  
+ 71862  /Users/ZhaoLiyuan/Documents/fuqiang_work/src/service/AchievementService.lua:
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/group_battles/src/GroupBattlesLayer.lua:
+  355      self:update()
+  356  
+  357:     self.listener_1 = qy.Event.add(qy.Event.GROUP_BATTLES,function(event)
+  358          self:update()
+  359      end)
+  360  
+  361:     self.listener_2 = qy.Event.add(qy.Event.GROUP_BATTLES2,function(event)
+  362          service:isTeam(function(data)
+  363              self:update()
+
+Unable to open /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/strong/tw/cocosstudio/Resources
+15 matches across 6 files
+
+
+、Searching 7519 files for "战地储备"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/ActivitiesCommand.lua:
+  277  		end)
+  278  	elseif name == aType.BATTLE_FIELD_STORE then
+  279:         --战地储备
+  280          __callFunc()
+  281  		local service = qy.tank.service.BattleFieldStoreService
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/ModuleType.lua:
+  138  
+  139  ModuleType.YURI_ENGINEER = "yuri_engineer" --尤里的工程师
+  140: ModuleType.BATTLE_FIELD_STORE = "battlefield_store" --战地储备
+  141  ModuleType.BATTLE_FIELD_SUPPLY = "battlefield_supply" --战地补给
+  142  ModuleType.LOGIN_FUND = "login_fund" --战地补给
+
+Unable to open /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/strong/tw/cocosstudio/Resources
+2 matches across 2 files
+
+
+Searching 7530 files for "登录基金"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/ActivitiesCommand.lua:
+  293  		end)
+  294  	elseif name == aType.LOGIN_FUND then
+  295:         --登录基金
+  296          __callFunc()
+  297  		local service = qy.tank.service.LoginFundService
+
+Unable to open /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/strong/tw/cocosstudio/Resources
+1 match in 1 file
+
+
+Searching 3338 files for "LoginFund"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/ActivitiesCommand.lua:
+  295          --登录基金
+  296          __callFunc()
+  297: 		local service = qy.tank.service.LoginFundService
+  298  		service:get(function(data)
+  299  		   	qy.tank.module.Helper:register("login_fund")
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/model/LoginFundModel.lua:
+    5  ]]
+    6  
+    7: local LoginFundModel = qy.class("LoginFundModel", qy.tank.model.BaseModel)
+    8  
+    9  
+   10  local userinfoModel = qy.tank.model.UserInfoModel
+   11  local NumberUtil = qy.tank.utils.NumberUtil
+   12: function LoginFundModel:init(data)
+   13  	self.award_list = {}
+   14  
+   ..
+   30  
+   31  
+   32: function LoginFundModel:update(_data)
+   33  	local data = _data
+   34  	if _data.activity_info then
+   ..
+   46  
+   47  
+   48: function LoginFundModel:getRemainTime()
+   49  	local time = self.end_time - userinfoModel.serverTime
+   50  	if time > 0 then
+   ..
+   57  
+   58  
+   59: return LoginFundModel
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/service/LoginFundService.lua:
+    5  ]]
+    6  
+    7: local LoginFundService = qy.class("LoginFundService", qy.tank.service.BaseService)
+    8  
+    9: local model = qy.tank.model.LoginFundModel
+   10  -- 获取
+   11: function LoginFundService:get(callback)
+   12      qy.Http.new(qy.Http.Request.new({
+   13          ["m"] = "Activity.getInfo",
+   ..
+   20  
+   21  
+   22: function LoginFundService:buy(callback, id, day)
+   23      qy.Http.new(qy.Http.Request.new({
+   24         ["m"] = "Activity.getaward",
+   ..
+   32  
+   33  
+   34: return LoginFundService
+   35  
+   36  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/src/Cell.lua:
+    7      Cell.super.ctor(self)
+    8  
+    9:     self.model = qy.tank.model.LoginFundModel
+   10:     self.service = qy.tank.service.LoginFundService
+   11      self.delegate = delegate
+   12  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/src/MainDialog.lua:
+    5  function MainDialog:ctor(delegate)
+    6      MainDialog.super.ctor(self)
+    7:     self.model = qy.tank.model.LoginFundModel
+    8:     self.service = qy.tank.service.LoginFundService
+    9  
+   10  	self:InjectView("Btn_close")
+
+Unable to open /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/strong/tw/cocosstudio/Resources
+17 matches across 5 files
+
+
+Searching 3338 files for "LOGIN_FUND"
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/command/ActivitiesCommand.lua:
+  292  		    qy.tank.module.Helper:start("battlefield_supply", qy.App.runningScene.controllerStack:currentView())
+  293  		end)
+  294: 	elseif name == aType.LOGIN_FUND then
+  295          --登录基金
+  296          __callFunc()
+  297  		local service = qy.tank.service.LoginFundService
+  298  		service:get(function(data)
+  299: 		   	qy.tank.module.Helper:register("login_fund")
+  300: 		    qy.tank.module.Helper:start("login_fund", qy.App.runningScene.controllerStack:currentView())
+  301  		end)
+  302  	elseif name == aType.INTRUDER_TIME then
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/model/LoginFundModel.lua:
+   14  
+   15  	
+   16: 	local staticData = qy.Config.login_fund 
+   17  
+   18  	for i, v in pairs(staticData) do
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/service/LoginFundService.lua:
+   12      qy.Http.new(qy.Http.Request.new({
+   13          ["m"] = "Activity.getInfo",
+   14:         ["p"] = {["activity_name"] = "login_fund"}
+   15      })):send(function(response, request)
+   16          model:init(response.data)
+   ..
+   23      qy.Http.new(qy.Http.Request.new({
+   24         ["m"] = "Activity.getaward",
+   25:        ["p"] = {["activity_name"] = "login_fund", ["id"] = id, ["day"] = day}
+   26      })):send(function(response, request)
+   27         model:update(response.data)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/src/view/type/ModuleType.lua:
+  140  ModuleType.BATTLE_FIELD_STORE = "battlefield_store" --战地储备
+  141  ModuleType.BATTLE_FIELD_SUPPLY = "battlefield_supply" --战地补给
+  142: ModuleType.LOGIN_FUND = "login_fund" --战地补给
+  143  ModuleType.INTRUDER_TIME = "intruder_time" --入侵者
+  144  ModuleType.DISCOUNT_SALE = "discount" --折扣贩售
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/advance/cn/cocosstudio/Resources/operatingActivities/icon/activityIcon.csi:
+   77        <FilePathData Path="Resources/operatingActivities/icon/may_pleasure.png" />
+   78        <FilePathData Path="Resources/operatingActivities/icon/battlefield_supply.png" />
+   79:       <FilePathData Path="Resources/operatingActivities/icon/login_fund.png" />
+   80      </ImageFiles>
+   81      <MaxSize Width="1024" Height="1024" />
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/cn/login_fund.ccs:
+    1  <Solution>
+    2:   <PropertyGroup Name="login_fund" Version="2.3.1.2" Type="CocosStudio" />
+    3    <SolutionFolder>
+    4      <Group ctype="ResourceGroup">
+    5        <RootFolder Name=".">
+    6:         <Folder Name="login_fund">
+    7            <Folder Name="ui">
+    8              <Project Name="Layer.csd" Type="Layer" />
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/cn/cocosstudio/login_fund/ui/Cell.csd:
+   57                      <PrePosition X="0.5030" Y="0.5400" />
+   58                      <PreSize X="0.0000" Y="0.0000" />
+   59:                     <FileData Type="Normal" Path="login_fund/res/lingqu.png" Plist="" />
+   60                      <BlendFunc Src="1" Dst="771" />
+   61                    </AbstractNodeData>
+   ..
+   92              <PrePosition />
+   93              <PreSize X="0.0000" Y="0.0000" />
+   94:             <FileData Type="Normal" Path="login_fund/res/dikuang.png" Plist="" />
+   95              <BlendFunc Src="1" Dst="771" />
+   96            </AbstractNodeData>
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/cn/cocosstudio/login_fund/ui/Layer.csd:
+   18                  <PrePosition X="-0.0056" Y="0.1518" />
+   19                  <PreSize X="0.0000" Y="0.0000" />
+   20:                 <FileData Type="Normal" Path="login_fund/res/198.png" Plist="" />
+   21                  <BlendFunc Src="1" Dst="771" />
+   22                </AbstractNodeData>
+   ..
+   29                  <PrePosition X="-0.0056" Y="0.1518" />
+   30                  <PreSize X="0.0000" Y="0.0000" />
+   31:                 <FileData Type="Normal" Path="login_fund/res/328.png" Plist="" />
+   32                  <BlendFunc Src="1" Dst="771" />
+   33                </AbstractNodeData>
+   ..
+   40                  <PrePosition X="-0.0056" Y="0.1518" />
+   41                  <PreSize X="0.0000" Y="0.0000" />
+   42:                 <FileData Type="Normal" Path="login_fund/res/648.png" Plist="" />
+   43                  <BlendFunc Src="1" Dst="771" />
+   44                </AbstractNodeData>
+   ..
+   93                      <PrePosition X="0.5000" Y="0.4697" />
+   94                      <PreSize X="0.0000" Y="0.0000" />
+   95:                     <FileData Type="Normal" Path="login_fund/res/kaiqi.png" Plist="" />
+   96                      <BlendFunc Src="1" Dst="771" />
+   97                    </AbstractNodeData>
+   ..
+  104                      <PrePosition X="0.5000" Y="0.5000" />
+  105                      <PreSize X="0.5724" Y="0.3939" />
+  106:                     <FileData Type="Normal" Path="login_fund/res/yikq.png" Plist="" />
+  107                      <BlendFunc Src="1" Dst="771" />
+  108                    </AbstractNodeData>
+  ...
+  132                      <PrePosition X="0.5000" Y="0.5000" />
+  133                      <PreSize X="0.4971" Y="0.4800" />
+  134:                     <FileData Type="Normal" Path="login_fund/res/huihuang.png" Plist="" />
+  135                      <BlendFunc Src="1" Dst="771" />
+  136                    </AbstractNodeData>
+  ...
+  143                  <PreSize X="0.1352" Y="0.1042" />
+  144                  <TextColor A="255" R="65" G="65" B="70" />
+  145:                 <DisabledFileData Type="Normal" Path="login_fund/res/yello.png" Plist="" />
+  146:                 <PressedFileData Type="Normal" Path="login_fund/res/red.png" Plist="" />
+  147:                 <NormalFileData Type="Normal" Path="login_fund/res/red.png" Plist="" />
+  148                  <OutlineColor A="255" R="255" G="0" B="0" />
+  149                  <ShadowColor A="255" R="110" G="110" B="110" />
+  ...
+  160                      <PrePosition X="0.5000" Y="0.5000" />
+  161                      <PreSize X="0.4971" Y="0.4800" />
+  162:                     <FileData Type="Normal" Path="login_fund/res/rongyao.png" Plist="" />
+  163                      <BlendFunc Src="1" Dst="771" />
+  164                    </AbstractNodeData>
+  ...
+  171                  <PreSize X="0.1352" Y="0.1042" />
+  172                  <TextColor A="255" R="65" G="65" B="70" />
+  173:                 <DisabledFileData Type="Normal" Path="login_fund/res/yello.png" Plist="" />
+  174:                 <PressedFileData Type="Normal" Path="login_fund/res/red.png" Plist="" />
+  175:                 <NormalFileData Type="Normal" Path="login_fund/res/red.png" Plist="" />
+  176                  <OutlineColor A="255" R="255" G="0" B="0" />
+  177                  <ShadowColor A="255" R="110" G="110" B="110" />
+  ...
+  188                      <PrePosition X="0.5000" Y="0.5000" />
+  189                      <PreSize X="0.4971" Y="0.4800" />
+  190:                     <FileData Type="Normal" Path="login_fund/res/chaunqi.png" Plist="" />
+  191                      <BlendFunc Src="1" Dst="771" />
+  192                    </AbstractNodeData>
+  ...
+  199                  <PreSize X="0.1352" Y="0.1042" />
+  200                  <TextColor A="255" R="65" G="65" B="70" />
+  201:                 <DisabledFileData Type="Normal" Path="login_fund/res/yello.png" Plist="" />
+  202:                 <PressedFileData Type="Normal" Path="login_fund/res/red.png" Plist="" />
+  203:                 <NormalFileData Type="Normal" Path="login_fund/res/red.png" Plist="" />
+  204                  <OutlineColor A="255" R="255" G="0" B="0" />
+  205                  <ShadowColor A="255" R="110" G="110" B="110" />
+  ...
+  212              <PrePosition X="0.5000" Y="0.5000" />
+  213              <PreSize X="0.6961" Y="0.7778" />
+  214:             <FileData Type="Normal" Path="login_fund/res/bg_jijin.jpg" Plist="" />
+  215              <BlendFunc Src="770" Dst="771" />
+  216            </AbstractNodeData>
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/src/Cell.lua:
+    1  
+    2  
+    3: local Cell = qy.class("Cell", qy.tank.view.BaseView, "login_fund/ui/Cell")
+    4  
+    5  
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/src/main.lua:
+    1  return function(command)
+    2:     local MainView = require("login_fund.src.MainDialog").new()
+    3      command:addChild(MainView)
+    4  end
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/src/MainDialog.lua:
+    1  
+    2  
+    3: local MainDialog = qy.class("MainDialog", qy.tank.view.BaseDialog, "login_fund/ui/Layer")
+    4  
+    5  function MainDialog:ctor(delegate)
+    .
+  124  		if nil == cell then
+  125  			cell = cc.TableViewCell:new()
+  126: 			item = require("login_fund.src.Cell").new()
+  127  			cell:addChild(item)
+  128  			cell.item = item
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/ui/Cell.lua:
+   40  
+   41  --Create bg
+   42: local bg = cc.Sprite:create("login_fund/res/dikuang.png")
+   43  bg:setName("bg")
+   44  bg:setLocalZOrder(0)
+   ..
+  291  
+  292  --Create lingqu1_2
+  293: local lingqu1_2 = cc.Sprite:create("login_fund/res/lingqu.png")
+  294  lingqu1_2:setName("lingqu1_2")
+  295  lingqu1_2:setLocalZOrder(0)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/login_fund/ui/Layer.lua:
+   40  
+   41  --Create bg
+   42: local bg = cc.Sprite:create("login_fund/res/bg_jijin.jpg")
+   43  bg:setName("bg")
+   44  bg:setLocalZOrder(0)
+   ..
+   79  
+   80  --Create Sprite_1
+   81: local Sprite_1 = cc.Sprite:create("login_fund/res/198.png")
+   82  Sprite_1:setName("Sprite_1")
+   83  Sprite_1:setLocalZOrder(0)
+   ..
+  118  
+  119  --Create Sprite_2
+  120: local Sprite_2 = cc.Sprite:create("login_fund/res/328.png")
+  121  Sprite_2:setName("Sprite_2")
+  122  Sprite_2:setLocalZOrder(0)
+  ...
+  157  
+  158  --Create Sprite_3
+  159: local Sprite_3 = cc.Sprite:create("login_fund/res/648.png")
+  160  Sprite_3:setName("Sprite_3")
+  161  Sprite_3:setLocalZOrder(0)
+  ...
+  408  
+  409  --Create kaiqi
+  410: local kaiqi = cc.Sprite:create("login_fund/res/kaiqi.png")
+  411  kaiqi:setName("kaiqi")
+  412  kaiqi:setLocalZOrder(0)
+  ...
+  447  
+  448  --Create yikaiqi
+  449: local yikaiqi = cc.Sprite:create("login_fund/res/yikq.png")
+  450  yikaiqi:setName("yikaiqi")
+  451  yikaiqi:setLocalZOrder(0)
+  ...
+  488  local Btn_3 = ccui.Button:create()
+  489  Btn_3:ignoreContentAdaptWithSize(false)
+  490: Btn_3:loadTextureNormal("login_fund/res/red.png",0)
+  491: Btn_3:loadTexturePressed("login_fund/res/red.png",0)
+  492: Btn_3:loadTextureDisabled("login_fund/res/yello.png",0)
+  493  Btn_3:setTitleFontSize(14)
+  494  Btn_3:setTitleText("")
+  ...
+  539  
+  540  --Create chaunqi_3
+  541: local chaunqi_3 = cc.Sprite:create("login_fund/res/huihuang.png")
+  542  chaunqi_3:setName("chaunqi_3")
+  543  chaunqi_3:setLocalZOrder(0)
+  ...
+  580  local Btn_2 = ccui.Button:create()
+  581  Btn_2:ignoreContentAdaptWithSize(false)
+  582: Btn_2:loadTextureNormal("login_fund/res/red.png",0)
+  583: Btn_2:loadTexturePressed("login_fund/res/red.png",0)
+  584: Btn_2:loadTextureDisabled("login_fund/res/yello.png",0)
+  585  Btn_2:setTitleFontSize(14)
+  586  Btn_2:setTitleText("")
+  ...
+  631  
+  632  --Create chaunqi_3
+  633: local chaunqi_3 = cc.Sprite:create("login_fund/res/rongyao.png")
+  634  chaunqi_3:setName("chaunqi_3")
+  635  chaunqi_3:setLocalZOrder(0)
+  ...
+  672  local Btn_1 = ccui.Button:create()
+  673  Btn_1:ignoreContentAdaptWithSize(false)
+  674: Btn_1:loadTextureNormal("login_fund/res/red.png",0)
+  675: Btn_1:loadTexturePressed("login_fund/res/red.png",0)
+  676: Btn_1:loadTextureDisabled("login_fund/res/yello.png",0)
+  677  Btn_1:setTitleFontSize(14)
+  678  Btn_1:setTitleText("")
+  ...
+  723  
+  724  --Create chaunqi_3
+  725: local chaunqi_3 = cc.Sprite:create("login_fund/res/chaunqi.png")
+  726  chaunqi_3:setName("chaunqi_3")
+  727  chaunqi_3:setLocalZOrder(0)
+
+/Users/ZhaoLiyuan/Documents/fuqiang_work/modules/recharge_duty/cn/recharge_duty.ccs:
+ 1421                <Image Name="limit_time_sale.png" />
+ 1422                <Image Name="login_combat.png" />
+ 1423:               <Image Name="login_fund.png" />
+ 1424                <Image Name="lucky_cat.png" />
+ 1425                <Image Name="lucky_indiana.png" />
+
+Unable to open /Users/ZhaoLiyuan/Documents/fuqiang_work/modules/strong/tw/cocosstudio/Resources
+56 matches across 14 files

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>christmas_sevendays/res/di.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{281,86},{199,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{199,31}</string>
+			</dict>
+			<key>christmas_sevendays/res/mubiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{367,0},{119,90}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{119,90}</string>
+			</dict>
+			<key>christmas_sevendays/res/suo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{185,166},{32,40}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{32,40}</string>
+			</dict>
+			<key>christmas_sevendays/res/wazi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{188,86},{80,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{80,93}</string>
+			</dict>
+			<key>christmas_sevendays/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{312,86},{95,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{95,30}</string>
+			</dict>
+			<key>christmas_sevendays/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,93},{95,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{95,30}</string>
+			</dict>
+			<key>christmas_sevendays/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{95,93},{95,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{95,30}</string>
+			</dict>
+			<key>christmas_sevendays/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{125,93},{95,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{95,30}</string>
+			</dict>
+			<key>christmas_sevendays/res/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{155,93},{95,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{95,30}</string>
+			</dict>
+			<key>christmas_sevendays/res/anniu1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{188,0},{179,86}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{179,86}</string>
+			</dict>
+			<key>christmas_sevendays/res/anniu2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{188,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{188,93}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>christmas.png</string>
+			<key>realTextureFileName</key>
+			<string>christmas.png</string>
+			<key>size</key>
+			<string>{486,285}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>486</integer>
+			<key>height</key>
+			<integer>285</integer>
+		</dict>
+	</dict>
+</plist>

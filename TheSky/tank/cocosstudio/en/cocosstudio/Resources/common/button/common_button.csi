@@ -1,0 +1,31 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="common_button" ID="3e901f9e-7024-4dec-b77f-8a24409c3ae5" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/button/BUT_11.png" />
+      <FilePathData Path="Resources/common/button/BUT_12.png" />
+      <FilePathData Path="Resources/common/button/anniu03_1.png" />
+      <FilePathData Path="Resources/common/button/anniu04.png" />
+      <FilePathData Path="Resources/common/button/anniu04-1.png" />
+      <FilePathData Path="Resources/common/button/anniu03.png" />
+      <FilePathData Path="Resources/common/button/anniu01.png" />
+      <FilePathData Path="Resources/common/button/anniu01_1.png" />
+      <FilePathData Path="Resources/common/button/card_0004.png" />
+      <FilePathData Path="Resources/common/button/card_0005.png" />
+      <FilePathData Path="Resources/common/button/anniuhong02.png" />
+      <FilePathData Path="Resources/common/button/anniuhui.png" />
+      <FilePathData Path="Resources/common/button/anniulan02.png" />
+      <FilePathData Path="Resources/common/button/btn_19.png" />
+      <FilePathData Path="Resources/common/button/btn_3.png" />
+      <FilePathData Path="Resources/common/button/btn_4.png" />
+      <FilePathData Path="Resources/common/button/btn_5.png" />
+      <FilePathData Path="Resources/common/button/btn_6.png" />
+      <FilePathData Path="Resources/common/button/biaoti3.png" />
+      <FilePathData Path="Resources/common/button/btn_8.png" />
+      <FilePathData Path="Resources/common/button/btn_7.png" />
+      <FilePathData Path="Resources/common/button/btn_13.png" />
+      <FilePathData Path="Resources/common/button/btn_14.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="800" />
+  </Content>
+</PlistInfoProjectFile>

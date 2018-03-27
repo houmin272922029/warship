@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>singlehero/res/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{641,90},{93,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{93,93}</string>
+			</dict>
+			<key>singlehero/res/18.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{736,90},{52,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{54,69}</string>
+			</dict>
+			<key>singlehero/res/1s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,893},{710,127}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,128}</string>
+			</dict>
+			<key>singlehero/res/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,297},{138,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{138,27}</string>
+			</dict>
+			<key>singlehero/res/2s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,499},{712,130}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,130}</string>
+			</dict>
+			<key>singlehero/res/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1022},{297,69}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{297,69}</string>
+			</dict>
+			<key>singlehero/res/3s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,631},{712,130}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,131}</string>
+			</dict>
+			<key>singlehero/res/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,1},{116,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{116,116}</string>
+			</dict>
+			<key>singlehero/res/4s.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,763},{712,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{712,128}</string>
+			</dict>
+			<key>singlehero/res/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{520,336}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{520,337}</string>
+			</dict>
+			<key>singlehero/res/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,119},{107,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{107,22}</string>
+			</dict>
+			<key>singlehero/res/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{559,143},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>singlehero/res/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{559,167},{62,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{62,22}</string>
+			</dict>
+			<key>singlehero/res/d.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{736,160},{53,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{53,46}</string>
+			</dict>
+			<key>singlehero/res/jiantou1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,143},{34,52}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{34,52}</string>
+			</dict>
+			<key>singlehero/res/rank.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{559,191},{159,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{159,56}</string>
+			</dict>
+			<key>singlehero/res/xiaofei.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,249},{146,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{146,46}</string>
+			</dict>
+			<key>singlehero/res/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{641,1},{130,87}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{130,88}</string>
+			</dict>
+			<key>singlehero/res/aa11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,339},{770,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{770,158}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>res.png</string>
+			<key>realTextureFileName</key>
+			<string>res.png</string>
+			<key>size</key>
+			<string>{790,1092}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>790</integer>
+			<key>height</key>
+			<integer>1092</integer>
+		</dict>
+	</dict>
+</plist>

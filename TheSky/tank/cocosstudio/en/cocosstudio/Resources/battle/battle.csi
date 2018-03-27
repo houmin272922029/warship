@@ -1,0 +1,50 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="battle" ID="14d5f724-ba14-4ede-83f9-d4a93bd2f738" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/battle/fight_0001.png" />
+      <FilePathData Path="Resources/battle/fight_0003.png" />
+      <FilePathData Path="Resources/battle/fight_0004.png" />
+      <FilePathData Path="Resources/battle/fight_0005.png" />
+      <FilePathData Path="Resources/battle/fight_0007.png" />
+      <FilePathData Path="Resources/battle/fight_0008.png" />
+      <FilePathData Path="Resources/battle/fight_0009.png" />
+      <FilePathData Path="Resources/battle/fight_0010.png" />
+      <FilePathData Path="Resources/battle/fight_0011.png" />
+      <FilePathData Path="Resources/battle/fight_0012.png" />
+      <FilePathData Path="Resources/battle/fight_0014.png" />
+      <FilePathData Path="Resources/battle/fight_0015.png" />
+      <FilePathData Path="Resources/battle/yishuz_25.png" />
+      <FilePathData Path="Resources/battle/yishuz_26.png" />
+      <FilePathData Path="Resources/battle/yishuz_27.png" />
+      <FilePathData Path="Resources/battle/yishuz_28.png" />
+      <FilePathData Path="Resources/battle/yishuz_29.png" />
+      <FilePathData Path="Resources/battle/yishuz_29_1.png" />
+      <FilePathData Path="Resources/battle/yishuz_30.png" />
+      <FilePathData Path="Resources/battle/yishuz_31.png" />
+      <FilePathData Path="Resources/battle/yishuz_32.png" />
+      <FilePathData Path="Resources/battle/yishuz_34_1.png" />
+      <FilePathData Path="Resources/battle/btn_skip.png" />
+      <FilePathData Path="Resources/battle/btn_speed1.png" />
+      <FilePathData Path="Resources/battle/btn_speed2.png" />
+      <FilePathData Path="Resources/battle/btn_speed3.png" />
+      <FilePathData Path="Resources/battle/fight_0006.png" />
+      <FilePathData Path="Resources/battle/fight_0013.png" />
+      <FilePathData Path="Resources/battle/jx_0001.png" />
+      <FilePathData Path="Resources/battle/jx_0002.png" />
+      <FilePathData Path="Resources/battle/shanghai.png" />
+      <FilePathData Path="Resources/battle/t_baoji.png" />
+      <FilePathData Path="Resources/battle/t_shanbi_blue.png" />
+      <FilePathData Path="Resources/battle/t_shiqi_down.png" />
+      <FilePathData Path="Resources/battle/t_shiqi_up.png" />
+      <FilePathData Path="Resources/battle/t_tiaoguo.png" />
+      <FilePathData Path="Resources/battle/t_x1.png" />
+      <FilePathData Path="Resources/battle/t_x2.png" />
+      <FilePathData Path="Resources/battle/chat_share_btn.png" />
+      <FilePathData Path="Resources/battle/fb_share_btn.png" />
+      <FilePathData Path="Resources/battle/share_bg.png" />
+      <FilePathData Path="Resources/battle/share_title.png" />
+    </ImageFiles>
+    <MaxSize Width="1600" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,13 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="storage" ID="b6b92965-f25d-4212-bd27-46e0da4865d8" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/storage/z1.png" />
+      <FilePathData Path="Resources/storage/z2.png" />
+      <FilePathData Path="Resources/storage/title_use.png" />
+      <FilePathData Path="Resources/storage/xian.png" />
+      <FilePathData Path="Resources/storage/title_sale.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="128" />
+  </Content>
+</PlistInfoProjectFile>

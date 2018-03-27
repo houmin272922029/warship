@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>ui_fx_kuangmailan_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{45,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{45,44}}</string>
+                <key>sourceSize</key>
+                <string>{45,44}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>ui_fx_kuangmailan.pvr.ccz</string>
+            <key>size</key>
+            <string>{48,49}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:7e75c03d9b30a724784ef7b55285dee5$</string>
+            <key>textureFileName</key>
+            <string>ui_fx_kuangmailan.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

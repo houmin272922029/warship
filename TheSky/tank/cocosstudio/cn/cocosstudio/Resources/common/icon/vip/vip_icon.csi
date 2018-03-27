@@ -1,0 +1,20 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Type="Plist" Name="vip_icon" ID="b6b6abdf-3805-44f8-b88c-fcb896fa82dc" Version="2.3.1.2" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Resources/common/icon/vip/1.png" />
+      <FilePathData Path="Resources/common/icon/vip/10.png" />
+      <FilePathData Path="Resources/common/icon/vip/11.png" />
+      <FilePathData Path="Resources/common/icon/vip/12.png" />
+      <FilePathData Path="Resources/common/icon/vip/2.png" />
+      <FilePathData Path="Resources/common/icon/vip/3.png" />
+      <FilePathData Path="Resources/common/icon/vip/4.png" />
+      <FilePathData Path="Resources/common/icon/vip/5.png" />
+      <FilePathData Path="Resources/common/icon/vip/6.png" />
+      <FilePathData Path="Resources/common/icon/vip/7.png" />
+      <FilePathData Path="Resources/common/icon/vip/8.png" />
+      <FilePathData Path="Resources/common/icon/vip/9.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>
